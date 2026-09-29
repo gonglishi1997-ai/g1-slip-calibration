@@ -1,31 +1,34 @@
 # G1 slip calibration benchmark
 
-A synthetic dual-arm visual calibration task driven by real G1 joint-state recordings. Given multiple records of unlabeled optical detections, a solver estimates shared rig parameters and record-specific clocks, associates detections with markers, rejects clutter, and detects target-mount slips. The supplied modules define the forward model; this project does not claim physical G1 camera validation or manufacturer-accurate geometry.
+Given unlabeled optical detections across multiple robot-motion records, recover a shared dual-arm calibration, align local clocks, identify markers, reject clutter, and detect target-mount slips.
+
+Real G1 joint-state recordings drive this synthetic benchmark. Optical observations, measurement geometry, clocks, clutter, and mount changes are synthetic. The benchmark has not been validated with physical G1 cameras and does not claim manufacturer-accurate geometry.
 
 Developed by **lishigong** ([gonglishi1997-ai](https://github.com/gonglishi1997-ai)). Contact: gonglishi1997@gmail.com.
 
 ## Start here
 
-- [Task specification, implementation notes, and author/AI contribution disclosure](tasks/g1-slip-calibration/README.md)
-- [Evaluation results, version history, and limitations](reports/RESULTS.md)
-- [Chinese failure and fairness audit](evidence/fairness-REPORT_中文.md)
-- [Exact task-file changes since the evaluated version](evidence/FINAL_VS_EVALUATED.json)
-- [Final verifier repair](evidence/verifier-fix.patch)
-- [Quality-review verdicts](evidence/quality-verdicts.json)
+- [Task design, implementation, and author contributions](tasks/g1-slip-calibration/README.md)
+- [Evaluation results and limitations](reports/RESULTS.md)
+- [Latest release and downloads](https://github.com/gonglishi1997-ai/g1-slip-calibration/releases/tag/submission-20260929-v3)
 
 The runnable Harbor task is in `tasks/g1-slip-calibration`.
 
-## What the results establish
+## Results at a glance
 
-| Evidence | Result and version |
+The current reference passed **8/8 checks**. Six historical model submissions remained overall failures in offline replay; the six independent model trials were not rerun on the final task.
+
+| Evidence | Result |
 | --- | --- |
-| Historical model evaluation | Three GPT-6 Sol/xhigh and three DeepSeek standard trials completed normally with reward 0 on an earlier frozen task. Those six trials were **not rerun on the final task**. |
-| Final verifier checks | The reference passed 8/8 checks after the verifier repair. Nine positive/negative mutation checks passed; the six saved submissions remained overall failures when replayed offline. Replay is not new model inference. |
-| Quality review | 33 pass, 0 fail, 2 not applicable under a recruiter-approved exception to the few-hours workload criterion. The review preceded the final verifier-only repair and is not an unmodified upstream approval. |
+| Historical independent standard trials | GPT-6 Sol/xhigh ×3 and DeepSeek ×3: all completed normally with reward 0. |
+| Offline validation | Reference 8/8; saved submissions remain unsuccessful; repair-specific controls are documented in the results report. |
+| Adapted quality review | 33 pass, 0 fail, 2 not applicable, with the recruiter-approved workload exception. |
 
-The final task also has model-visible documentation changes relative to the historical trials. See the [detailed change record](reports/RESULTS.md) for the scope of each result. These observations do not establish a general model failure rate or prove that the task has no ambiguity.
+The quality review preceded subsequent verifier repairs, and model-visible documentation changed after the historical trials. These results do not establish a general model failure rate. [Review scope and changes](reports/RESULTS.md) explain each result.
 
-Raw traces are in the [submission release](https://github.com/gonglishi1997-ai/g1-slip-calibration/releases/tag/submission-20260929-v2); [archive names and checksums](reports/ARCHIVES.json) are listed separately. Large logs are excluded from Git history.
+## Evidence and audits
+
+The [evidence guide](evidence/README.md) explains the review, repair experiments, version manifests, and raw-log indexes. For a short discussion of failure causes, read the [English fairness summary](reports/RESULTS.md#fairness-audit-summary). Large raw logs are distributed separately through the release; [archive names and checksums](reports/ARCHIVES.json) identify them.
 
 ## Reproduce the packaged controls
 

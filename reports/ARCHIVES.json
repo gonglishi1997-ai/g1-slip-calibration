@@ -1,17 +1,17 @@
 {
-  "delivery": "https://github.com/gonglishi1997-ai/g1-slip-calibration/releases/tag/submission-20260929-v2",
+  "delivery": "https://github.com/gonglishi1997-ai/g1-slip-calibration/releases/tag/submission-20260929-v3",
   "archives": [
     {
       "file": "g1-latest-audit-evidence.zip",
       "bytes": 23849805,
       "sha256": "780d78d0214a577e96a8ecf88b022d20889041214261de25de3a805155c0cbf7",
-      "download_url": "https://github.com/gonglishi1997-ai/g1-slip-calibration/releases/download/submission-20260929-v2/g1-latest-audit-evidence.zip"
+      "download_url": "https://github.com/gonglishi1997-ai/g1-slip-calibration/releases/download/submission-20260929-v3/g1-latest-audit-evidence.zip"
     },
     {
       "file": "g1-historical-log-evidence.zip",
       "bytes": 225393436,
       "sha256": "c900434a06cfa6c1573e6858b97500e670e9466094c38d8e26bc3aacd9ea082a",
-      "download_url": "https://github.com/gonglishi1997-ai/g1-slip-calibration/releases/download/submission-20260929-v2/g1-historical-log-evidence.zip"
+      "download_url": "https://github.com/gonglishi1997-ai/g1-slip-calibration/releases/download/submission-20260929-v3/g1-historical-log-evidence.zip"
     }
   ]
 }

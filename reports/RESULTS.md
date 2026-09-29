@@ -1,5 +1,15 @@
 # Evaluation and change record
 
+## Summary
+
+The current reference passes **8/8 checks**. All six historical model submissions remain overall failures on offline replay. The six independent model trials were not rerun on the final task; the adapted quality review also predates later verifier repairs. The sections below distinguish these results and their scope.
+
+## Fairness audit summary
+
+The observed failures involve geometry, event counts, physical parameter bounds, and malformed-input handling. Six limited output-convention transformations did not rescue a failed campaign, so the available evidence does not support one shared sign convention as the sole explanation. This is not an exhaustive ambiguity audit or proof of each solver's internal failure mechanism.
+
+The audit found an overly permissive unchanged-arm check, which was repaired and validated with positive/negative controls. Later time-domain and stale-output checks improved coverage of the stated contract. Reference regressions passed; historical output regrading is distinct from fresh model inference. See the [full Chinese audit](../evidence/fairness-REPORT_中文.md) and [evidence guide](../evidence/README.md) for the supporting records.
+
 ## Historical frozen evaluation
 
 These are standard trials on the earlier frozen task, before the final model-visible documentation changes. Each listed run completed normally and received reward 0. The table reports the verifier's first or principal failure, not every underlying cause.
@@ -50,3 +60,5 @@ Truth regeneration first verifies the frozen fixtures against their strict hash 
 The new `submission-20260929-v2` release is pinned to its final repository commit; its uploaded task archive and GitHub-generated source archives describe the same source version. The earlier release remains as historical delivery evidence.
 
 The follow-up offline Docker regression passed **8/8** checks, including both fresh and stale-output invocations for all five malformed-input categories. [Evidence and comparison controls](../evidence/delivery-fixes/README.md) are included.
+
+The subsequent `submission-20260929-v3` release reorganizes documentation and adds an evidence guide. It preserves all prior evidence paths and makes no changes to the solver, verifier, input fixtures, or agent-facing specification.
