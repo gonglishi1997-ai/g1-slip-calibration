@@ -1,0 +1,65 @@
+[
+  {
+    "case": "held_a",
+    "record": "capture_84",
+    "true_points": 813,
+    "minimum_nominal_projection_separation_px": 5.347939173789082,
+    "below_promised_3px": 0
+  },
+  {
+    "case": "held_a",
+    "record": "capture_12",
+    "true_points": 519,
+    "minimum_nominal_projection_separation_px": 4.281573529412478,
+    "below_promised_3px": 0
+  },
+  {
+    "case": "held_a",
+    "record": "capture_37",
+    "true_points": 615,
+    "minimum_nominal_projection_separation_px": 5.973414989234227,
+    "below_promised_3px": 0
+  },
+  {
+    "case": "held_b",
+    "record": "capture_84",
+    "true_points": 705,
+    "minimum_nominal_projection_separation_px": 5.072134123858037,
+    "below_promised_3px": 0
+  },
+  {
+    "case": "held_b",
+    "record": "capture_12",
+    "true_points": 570,
+    "minimum_nominal_projection_separation_px": 4.408376399862604,
+    "below_promised_3px": 0
+  },
+  {
+    "case": "held_b",
+    "record": "capture_37",
+    "true_points": 645,
+    "minimum_nominal_projection_separation_px": 24.694799773319808,
+    "below_promised_3px": 0
+  },
+  {
+    "case": "held_no_slip",
+    "record": "capture_84",
+    "true_points": 705,
+    "minimum_nominal_projection_separation_px": 5.072134123858037,
+    "below_promised_3px": 0
+  },
+  {
+    "case": "held_no_slip",
+    "record": "capture_12",
+    "true_points": 570,
+    "minimum_nominal_projection_separation_px": 4.483748882447969,
+    "below_promised_3px": 0
+  },
+  {
+    "case": "held_no_slip",
+    "record": "capture_37",
+    "true_points": 645,
+    "minimum_nominal_projection_separation_px": 24.694799773319808,
+    "below_promised_3px": 0
+  }
+]

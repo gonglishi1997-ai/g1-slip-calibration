@@ -1,0 +1,700 @@
+[
+  {
+    "agent": "gpt6-sol-1",
+    "case": "held_a",
+    "exit_code": 0,
+    "elapsed": 132.655189687,
+    "output_exists": true,
+    "original": {
+      "passed": false,
+      "error": "AssertionError: capture_84: regime 0 left projection error 165.225px"
+    },
+    "simple_convention_variants": {
+      "negate_zeros": {
+        "passed": false,
+        "error": "AssertionError: capture_84: regime 0 left projection error 175.523px"
+      },
+      "swap_arm_zeros": {
+        "passed": false,
+        "error": "AssertionError: capture_84: regime 0 left projection error 153.067px"
+      },
+      "inverse_Y": {
+        "passed": false,
+        "error": "AssertionError: capture_84: regime 0 left projection error 1507212662.718px"
+      },
+      "transpose_Y_rotation": {
+        "passed": false,
+        "error": "AssertionError: capture_84: regime 0 left projection error 244.404px"
+      },
+      "inverse_mounts": {
+        "passed": false,
+        "error": "AssertionError: capture_84: regime 0 left projection error 225.144px"
+      },
+      "transpose_mount_rotations": {
+        "passed": false,
+        "error": "AssertionError: capture_84: regime 0 left projection error 146.290px"
+      }
+    }
+  },
+  {
+    "agent": "gpt6-sol-1",
+    "case": "held_b",
+    "exit_code": 0,
+    "elapsed": 135.589218896,
+    "output_exists": true,
+    "original": {
+      "passed": false,
+      "error": "AssertionError: capture_84: regime 0 left projection error 146.516px"
+    },
+    "simple_convention_variants": {
+      "negate_zeros": {
+        "passed": false,
+        "error": "AssertionError: capture_84: regime 0 left projection error 161.221px"
+      },
+      "swap_arm_zeros": {
+        "passed": false,
+        "error": "AssertionError: capture_84: regime 0 left projection error 116.569px"
+      },
+      "inverse_Y": {
+        "passed": false,
+        "error": "AssertionError: capture_84: regime 0 left projection error 671.021px"
+      },
+      "transpose_Y_rotation": {
+        "passed": false,
+        "error": "AssertionError: capture_84: regime 0 left projection error 349.249px"
+      },
+      "inverse_mounts": {
+        "passed": false,
+        "error": "AssertionError: capture_84: regime 0 left projection error 138.119px"
+      },
+      "transpose_mount_rotations": {
+        "passed": false,
+        "error": "AssertionError: capture_84: regime 0 left projection error 138.237px"
+      }
+    }
+  },
+  {
+    "agent": "gpt6-sol-1",
+    "case": "held_no_slip",
+    "exit_code": 0,
+    "elapsed": 75.72093570100003,
+    "output_exists": true,
+    "original": {
+      "passed": true,
+      "metrics": {
+        "capture_84": {
+          "accuracy": 1.0,
+          "regimes": 1,
+          "dynamic_p95_px": 0.061127309474686
+        },
+        "capture_12": {
+          "accuracy": 0.9976905311778291,
+          "regimes": 1,
+          "dynamic_p95_px": 0.04945645473625956
+        },
+        "capture_37": {
+          "accuracy": 0.9836734693877551,
+          "regimes": 1,
+          "dynamic_p95_px": 0.04194812538018254
+        }
+      }
+    },
+    "simple_convention_variants": {
+      "negate_zeros": {
+        "passed": false,
+        "error": "AssertionError: capture_84: regime 0 left projection error 16.523px"
+      },
+      "swap_arm_zeros": {
+        "passed": false,
+        "error": "AssertionError: capture_84: regime 0 left projection error 15.983px"
+      },
+      "inverse_Y": {
+        "passed": false,
+        "error": "AssertionError: capture_84: regime 0 left projection error 4719.866px"
+      },
+      "transpose_Y_rotation": {
+        "passed": false,
+        "error": "AssertionError: capture_84: regime 0 left projection error 358.682px"
+      },
+      "inverse_mounts": {
+        "passed": false,
+        "error": "AssertionError: capture_84: regime 0 left projection error 132.507px"
+      },
+      "transpose_mount_rotations": {
+        "passed": false,
+        "error": "AssertionError: capture_84: regime 0 left projection error 130.947px"
+      }
+    }
+  },
+  {
+    "agent": "gpt6-sol-2-repaired",
+    "case": "held_a",
+    "exit_code": 0,
+    "elapsed": 69.338349865,
+    "output_exists": true,
+    "original": {
+      "passed": false,
+      "error": "AssertionError: capture_84: regime 0 left projection error 119.254px"
+    },
+    "simple_convention_variants": {
+      "negate_zeros": {
+        "passed": false,
+        "error": "AssertionError: capture_84: regime 0 left projection error 128.670px"
+      },
+      "swap_arm_zeros": {
+        "passed": false,
+        "error": "AssertionError: capture_84: regime 0 left projection error 134.677px"
+      },
+      "inverse_Y": {
+        "passed": false,
+        "error": "ValueError: negative camera depth"
+      },
+      "transpose_Y_rotation": {
+        "passed": false,
+        "error": "AssertionError: capture_84: regime 0 left projection error 324.402px"
+      },
+      "inverse_mounts": {
+        "passed": false,
+        "error": "AssertionError: capture_84: regime 0 left projection error 197.912px"
+      },
+      "transpose_mount_rotations": {
+        "passed": false,
+        "error": "AssertionError: capture_84: regime 0 left projection error 117.351px"
+      }
+    }
+  },
+  {
+    "agent": "gpt6-sol-2-repaired",
+    "case": "held_b",
+    "exit_code": 0,
+    "elapsed": 71.65304390699998,
+    "output_exists": true,
+    "original": {
+      "passed": false,
+      "error": "AssertionError: capture_84: regime 0 left projection error 116.421px"
+    },
+    "simple_convention_variants": {
+      "negate_zeros": {
+        "passed": false,
+        "error": "AssertionError: capture_84: regime 0 left projection error 130.353px"
+      },
+      "swap_arm_zeros": {
+        "passed": false,
+        "error": "AssertionError: capture_84: regime 0 left projection error 139.822px"
+      },
+      "inverse_Y": {
+        "passed": false,
+        "error": "AssertionError: capture_84: regime 0 left projection error 1080.944px"
+      },
+      "transpose_Y_rotation": {
+        "passed": false,
+        "error": "AssertionError: capture_84: regime 0 left projection error 373.841px"
+      },
+      "inverse_mounts": {
+        "passed": false,
+        "error": "AssertionError: capture_84: regime 0 left projection error 127.819px"
+      },
+      "transpose_mount_rotations": {
+        "passed": false,
+        "error": "AssertionError: capture_84: regime 0 left projection error 112.939px"
+      }
+    }
+  },
+  {
+    "agent": "gpt6-sol-2-repaired",
+    "case": "held_no_slip",
+    "exit_code": 0,
+    "elapsed": 70.83326532299998,
+    "output_exists": true,
+    "original": {
+      "passed": false,
+      "error": "AssertionError: capture_84: regime 0 left projection error 134.980px"
+    },
+    "simple_convention_variants": {
+      "negate_zeros": {
+        "passed": false,
+        "error": "AssertionError: capture_84: regime 0 left projection error 140.442px"
+      },
+      "swap_arm_zeros": {
+        "passed": false,
+        "error": "AssertionError: capture_84: regime 0 left projection error 129.329px"
+      },
+      "inverse_Y": {
+        "passed": false,
+        "error": "AssertionError: capture_84: regime 0 left projection error 2158.211px"
+      },
+      "transpose_Y_rotation": {
+        "passed": false,
+        "error": "AssertionError: capture_84: regime 0 left projection error 402.397px"
+      },
+      "inverse_mounts": {
+        "passed": false,
+        "error": "AssertionError: capture_84: regime 0 left projection error 129.594px"
+      },
+      "transpose_mount_rotations": {
+        "passed": false,
+        "error": "AssertionError: capture_84: regime 0 left projection error 133.979px"
+      }
+    }
+  },
+  {
+    "agent": "gpt6-sol-3-repaired",
+    "case": "held_a",
+    "exit_code": 0,
+    "elapsed": 79.53352103599991,
+    "output_exists": true,
+    "original": {
+      "passed": false,
+      "error": "AssertionError: capture_84: incorrect number of mount regimes"
+    },
+    "simple_convention_variants": {
+      "negate_zeros": {
+        "passed": false,
+        "error": "AssertionError: capture_84: incorrect number of mount regimes"
+      },
+      "swap_arm_zeros": {
+        "passed": false,
+        "error": "AssertionError: capture_84: incorrect number of mount regimes"
+      },
+      "inverse_Y": {
+        "passed": false,
+        "error": "AssertionError: capture_84: incorrect number of mount regimes"
+      },
+      "transpose_Y_rotation": {
+        "passed": false,
+        "error": "AssertionError: capture_84: incorrect number of mount regimes"
+      },
+      "inverse_mounts": {
+        "passed": false,
+        "error": "AssertionError: capture_84: incorrect number of mount regimes"
+      },
+      "transpose_mount_rotations": {
+        "passed": false,
+        "error": "AssertionError: capture_84: incorrect number of mount regimes"
+      }
+    }
+  },
+  {
+    "agent": "gpt6-sol-3-repaired",
+    "case": "held_b",
+    "exit_code": 0,
+    "elapsed": 111.97092838499998,
+    "output_exists": true,
+    "original": {
+      "passed": false,
+      "error": "AssertionError: capture_84: regime 0 left projection error 118.030px"
+    },
+    "simple_convention_variants": {
+      "negate_zeros": {
+        "passed": false,
+        "error": "AssertionError: capture_84: regime 0 left projection error 118.972px"
+      },
+      "swap_arm_zeros": {
+        "passed": false,
+        "error": "AssertionError: capture_84: regime 0 left projection error 126.426px"
+      },
+      "inverse_Y": {
+        "passed": false,
+        "error": "AssertionError: capture_84: regime 0 left projection error 5537.276px"
+      },
+      "transpose_Y_rotation": {
+        "passed": false,
+        "error": "AssertionError: capture_84: regime 0 left projection error 417.104px"
+      },
+      "inverse_mounts": {
+        "passed": false,
+        "error": "AssertionError: capture_84: regime 0 left projection error 152.241px"
+      },
+      "transpose_mount_rotations": {
+        "passed": false,
+        "error": "AssertionError: capture_84: regime 0 left projection error 124.636px"
+      }
+    }
+  },
+  {
+    "agent": "gpt6-sol-3-repaired",
+    "case": "held_no_slip",
+    "exit_code": 0,
+    "elapsed": 86.81116778900002,
+    "output_exists": true,
+    "original": {
+      "passed": true,
+      "metrics": {
+        "capture_84": {
+          "accuracy": 1.0,
+          "regimes": 1,
+          "dynamic_p95_px": 0.07168880445909284
+        },
+        "capture_12": {
+          "accuracy": 1.0,
+          "regimes": 1,
+          "dynamic_p95_px": 0.06386553423731836
+        },
+        "capture_37": {
+          "accuracy": 1.0,
+          "regimes": 1,
+          "dynamic_p95_px": 0.049878287417918096
+        }
+      }
+    },
+    "simple_convention_variants": {
+      "negate_zeros": {
+        "passed": false,
+        "error": "AssertionError: capture_84: regime 0 left projection error 16.250px"
+      },
+      "swap_arm_zeros": {
+        "passed": false,
+        "error": "AssertionError: capture_84: regime 0 left projection error 15.931px"
+      },
+      "inverse_Y": {
+        "passed": false,
+        "error": "AssertionError: capture_84: regime 0 left projection error 4199.469px"
+      },
+      "transpose_Y_rotation": {
+        "passed": false,
+        "error": "AssertionError: capture_84: regime 0 left projection error 358.250px"
+      },
+      "inverse_mounts": {
+        "passed": false,
+        "error": "AssertionError: capture_84: regime 0 left projection error 132.476px"
+      },
+      "transpose_mount_rotations": {
+        "passed": false,
+        "error": "AssertionError: capture_84: regime 0 left projection error 130.915px"
+      }
+    }
+  },
+  {
+    "agent": "deepseek-1",
+    "case": "held_a",
+    "exit_code": 0,
+    "elapsed": 0.43831904199998917,
+    "output_exists": true,
+    "original": {
+      "passed": false,
+      "error": "ValueError: negative camera depth"
+    },
+    "simple_convention_variants": {
+      "negate_zeros": {
+        "passed": false,
+        "error": "ValueError: negative camera depth"
+      },
+      "swap_arm_zeros": {
+        "passed": false,
+        "error": "ValueError: negative camera depth"
+      },
+      "inverse_Y": {
+        "passed": false,
+        "error": "AssertionError: capture_84: regime 0 left projection error 2553.686px"
+      },
+      "transpose_Y_rotation": {
+        "passed": false,
+        "error": "AssertionError: capture_84: regime 0 left projection error 1165.903px"
+      },
+      "inverse_mounts": {
+        "passed": false,
+        "error": "ValueError: negative camera depth"
+      },
+      "transpose_mount_rotations": {
+        "passed": false,
+        "error": "ValueError: negative camera depth"
+      }
+    }
+  },
+  {
+    "agent": "deepseek-1",
+    "case": "held_b",
+    "exit_code": 0,
+    "elapsed": 0.3810478340000145,
+    "output_exists": true,
+    "original": {
+      "passed": false,
+      "error": "ValueError: negative camera depth"
+    },
+    "simple_convention_variants": {
+      "negate_zeros": {
+        "passed": false,
+        "error": "ValueError: negative camera depth"
+      },
+      "swap_arm_zeros": {
+        "passed": false,
+        "error": "ValueError: negative camera depth"
+      },
+      "inverse_Y": {
+        "passed": false,
+        "error": "AssertionError: capture_84: regime 0 left projection error 2157.073px"
+      },
+      "transpose_Y_rotation": {
+        "passed": false,
+        "error": "AssertionError: capture_84: regime 0 left projection error 975.677px"
+      },
+      "inverse_mounts": {
+        "passed": false,
+        "error": "ValueError: negative camera depth"
+      },
+      "transpose_mount_rotations": {
+        "passed": false,
+        "error": "ValueError: negative camera depth"
+      }
+    }
+  },
+  {
+    "agent": "deepseek-1",
+    "case": "held_no_slip",
+    "exit_code": 0,
+    "elapsed": 0.43694008300008136,
+    "output_exists": true,
+    "original": {
+      "passed": false,
+      "error": "ValueError: negative camera depth"
+    },
+    "simple_convention_variants": {
+      "negate_zeros": {
+        "passed": false,
+        "error": "ValueError: negative camera depth"
+      },
+      "swap_arm_zeros": {
+        "passed": false,
+        "error": "ValueError: negative camera depth"
+      },
+      "inverse_Y": {
+        "passed": false,
+        "error": "AssertionError: capture_84: regime 0 left projection error 2305.326px"
+      },
+      "transpose_Y_rotation": {
+        "passed": false,
+        "error": "AssertionError: capture_84: regime 0 left projection error 1026.301px"
+      },
+      "inverse_mounts": {
+        "passed": false,
+        "error": "ValueError: negative camera depth"
+      },
+      "transpose_mount_rotations": {
+        "passed": false,
+        "error": "ValueError: negative camera depth"
+      }
+    }
+  },
+  {
+    "agent": "deepseek-2-replacement-1",
+    "case": "held_a",
+    "exit_code": 0,
+    "elapsed": 81.43680020300008,
+    "output_exists": true,
+    "original": {
+      "passed": false,
+      "error": "AssertionError: capture_84: regime 0 left projection error 238.871px"
+    },
+    "simple_convention_variants": {
+      "negate_zeros": {
+        "passed": false,
+        "error": "AssertionError: capture_84: regime 0 left projection error 238.871px"
+      },
+      "swap_arm_zeros": {
+        "passed": false,
+        "error": "AssertionError: capture_84: regime 0 left projection error 238.871px"
+      },
+      "inverse_Y": {
+        "passed": false,
+        "error": "AssertionError: capture_84: regime 0 left projection error 238.871px"
+      },
+      "transpose_Y_rotation": {
+        "passed": false,
+        "error": "AssertionError: capture_84: regime 0 left projection error 238.871px"
+      },
+      "inverse_mounts": {
+        "passed": false,
+        "error": "AssertionError: capture_84: regime 0 left projection error 238.871px"
+      },
+      "transpose_mount_rotations": {
+        "passed": false,
+        "error": "AssertionError: capture_84: regime 0 left projection error 238.871px"
+      }
+    }
+  },
+  {
+    "agent": "deepseek-2-replacement-1",
+    "case": "held_b",
+    "exit_code": 0,
+    "elapsed": 49.82203406399992,
+    "output_exists": true,
+    "original": {
+      "passed": false,
+      "error": "AssertionError: capture_84: regime 0 left projection error 383.069px"
+    },
+    "simple_convention_variants": {
+      "negate_zeros": {
+        "passed": false,
+        "error": "AssertionError: capture_84: regime 0 left projection error 383.069px"
+      },
+      "swap_arm_zeros": {
+        "passed": false,
+        "error": "AssertionError: capture_84: regime 0 left projection error 383.069px"
+      },
+      "inverse_Y": {
+        "passed": false,
+        "error": "AssertionError: capture_84: regime 0 left projection error 383.069px"
+      },
+      "transpose_Y_rotation": {
+        "passed": false,
+        "error": "AssertionError: capture_84: regime 0 left projection error 383.069px"
+      },
+      "inverse_mounts": {
+        "passed": false,
+        "error": "AssertionError: capture_84: regime 0 left projection error 383.069px"
+      },
+      "transpose_mount_rotations": {
+        "passed": false,
+        "error": "AssertionError: capture_84: regime 0 left projection error 383.069px"
+      }
+    }
+  },
+  {
+    "agent": "deepseek-2-replacement-1",
+    "case": "held_no_slip",
+    "exit_code": 0,
+    "elapsed": 51.89208273199995,
+    "output_exists": true,
+    "original": {
+      "passed": false,
+      "error": "AssertionError: capture_84: regime 0 left projection error 401.222px"
+    },
+    "simple_convention_variants": {
+      "negate_zeros": {
+        "passed": false,
+        "error": "AssertionError: capture_84: regime 0 left projection error 401.222px"
+      },
+      "swap_arm_zeros": {
+        "passed": false,
+        "error": "AssertionError: capture_84: regime 0 left projection error 401.222px"
+      },
+      "inverse_Y": {
+        "passed": false,
+        "error": "AssertionError: capture_84: regime 0 left projection error 401.222px"
+      },
+      "transpose_Y_rotation": {
+        "passed": false,
+        "error": "AssertionError: capture_84: regime 0 left projection error 401.222px"
+      },
+      "inverse_mounts": {
+        "passed": false,
+        "error": "AssertionError: capture_84: regime 0 left projection error 401.222px"
+      },
+      "transpose_mount_rotations": {
+        "passed": false,
+        "error": "AssertionError: capture_84: regime 0 left projection error 401.222px"
+      }
+    }
+  },
+  {
+    "agent": "deepseek-3-replacement-1",
+    "case": "held_a",
+    "exit_code": 0,
+    "elapsed": 3.8228257519999715,
+    "output_exists": true,
+    "original": {
+      "passed": false,
+      "error": "AssertionError: "
+    },
+    "simple_convention_variants": {
+      "negate_zeros": {
+        "passed": false,
+        "error": "AssertionError: "
+      },
+      "swap_arm_zeros": {
+        "passed": false,
+        "error": "AssertionError: "
+      },
+      "inverse_Y": {
+        "passed": false,
+        "error": "AssertionError: "
+      },
+      "transpose_Y_rotation": {
+        "passed": false,
+        "error": "AssertionError: "
+      },
+      "inverse_mounts": {
+        "passed": false,
+        "error": "AssertionError: "
+      },
+      "transpose_mount_rotations": {
+        "passed": false,
+        "error": "AssertionError: "
+      }
+    }
+  },
+  {
+    "agent": "deepseek-3-replacement-1",
+    "case": "held_b",
+    "exit_code": 0,
+    "elapsed": 4.274925794000183,
+    "output_exists": true,
+    "original": {
+      "passed": false,
+      "error": "AssertionError: "
+    },
+    "simple_convention_variants": {
+      "negate_zeros": {
+        "passed": false,
+        "error": "AssertionError: "
+      },
+      "swap_arm_zeros": {
+        "passed": false,
+        "error": "AssertionError: "
+      },
+      "inverse_Y": {
+        "passed": false,
+        "error": "AssertionError: "
+      },
+      "transpose_Y_rotation": {
+        "passed": false,
+        "error": "AssertionError: "
+      },
+      "inverse_mounts": {
+        "passed": false,
+        "error": "AssertionError: "
+      },
+      "transpose_mount_rotations": {
+        "passed": false,
+        "error": "AssertionError: "
+      }
+    }
+  },
+  {
+    "agent": "deepseek-3-replacement-1",
+    "case": "held_no_slip",
+    "exit_code": 0,
+    "elapsed": 4.166064918999837,
+    "output_exists": true,
+    "original": {
+      "passed": false,
+      "error": "AssertionError: capture_84: regime 0 left projection error 188.613px"
+    },
+    "simple_convention_variants": {
+      "negate_zeros": {
+        "passed": false,
+        "error": "AssertionError: capture_84: regime 0 left projection error 188.613px"
+      },
+      "swap_arm_zeros": {
+        "passed": false,
+        "error": "AssertionError: capture_84: regime 0 left projection error 188.613px"
+      },
+      "inverse_Y": {
+        "passed": false,
+        "error": "AssertionError: capture_84: regime 0 left projection error 2433.953px"
+      },
+      "transpose_Y_rotation": {
+        "passed": false,
+        "error": "AssertionError: capture_84: regime 0 left projection error 463.029px"
+      },
+      "inverse_mounts": {
+        "passed": false,
+        "error": "AssertionError: capture_84: regime 0 left projection error 138.138px"
+      },
+      "transpose_mount_rotations": {
+        "passed": false,
+        "error": "AssertionError: capture_84: regime 0 left projection error 197.315px"
+      }
+    }
+  }
+]

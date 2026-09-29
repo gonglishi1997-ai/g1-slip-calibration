@@ -1,0 +1,97 @@
+[
+  {
+    "path": "DATA_PROVENANCE.json",
+    "evaluated_sha256": null,
+    "submission_sha256": "f4d999615308798633386111049c9432db72246f3108f36fc6344035b0c8655a"
+  },
+  {
+    "path": "README.md",
+    "evaluated_sha256": "8819b976a2f764365d386dd56d11ea52fab70b18ded0d43a886731503a389a67",
+    "submission_sha256": "d5946b6bf1f7b873d172f0beb2448431eac81c680c4dc1aa13c475e544348971"
+  },
+  {
+    "path": "docs/evaluation-summary.md",
+    "evaluated_sha256": null,
+    "submission_sha256": "7132b81a9c4836823e311fc6781c3f1cab6748c0e92842d01c7a1cc279ee076a"
+  },
+  {
+    "path": "docs/reference-audit.json",
+    "evaluated_sha256": null,
+    "submission_sha256": "6ebb8951c9898b1fbd23bf0fc62dc8021a805c6066d8de6d67588ced546c7042"
+  },
+  {
+    "path": "docs/reference-audit.md",
+    "evaluated_sha256": null,
+    "submission_sha256": "6b766764cd7e0841039b672abd988f3ccbfbbf2c7a9015aab91ce78256f6d48f"
+  },
+  {
+    "path": "docs/submission-changes.md",
+    "evaluated_sha256": null,
+    "submission_sha256": "dba1c586cc8285af986b141f5034bfc537db4c797314b565bca3bf552103085d"
+  },
+  {
+    "path": "environment/FORMAT.md",
+    "evaluated_sha256": "131180e8637a179b1b1fcf73f74378df4705f29f0618d7e4b186b0a531803778",
+    "submission_sha256": "b72954fff9541fc7b4c90848b0129c8765aeacb8cfc21986fdeac3b004110aba"
+  },
+  {
+    "path": "instruction.md",
+    "evaluated_sha256": "4e4cebcd7c4416f96e8bb196b8a93f1071c65f33add3a4be60995e0cc5e52e69",
+    "submission_sha256": "5444c3cdfa45ebeaaebbc2f1c7aebcbede6d9164caff87cdd4a9bdcb3921d0ef"
+  },
+  {
+    "path": "task.toml",
+    "evaluated_sha256": "b6f9035f8991b49e1af7f92200f6b024fc13086b3c9dfd7da32c4b4809ee809d",
+    "submission_sha256": "1c512527de0c2087c75dd9c909dd485b264a68a9fb07fe2354911ac792780a3a"
+  },
+  {
+    "path": "tests/check.py",
+    "evaluated_sha256": "cce6fd0814615c37be30f288de241fb1c0600296a39c7482c3cb13d6153060ce",
+    "submission_sha256": "9529f81920e2cfc57d0ab9d729ff853b1cb234c111260101c3389aa20aa28db1"
+  },
+  {
+    "path": "tests/single_grade.py",
+    "evaluated_sha256": "5e2aad806c659ecd314fc57190d11702683d38b54aa15e5f512ce032c5ab16ce",
+    "submission_sha256": "480aa22ce18938957ba002fc6cb57d3904a28f844bc93f78076f2eeb702bdab4"
+  },
+  {
+    "path": "tools/truth-audit/README.md",
+    "evaluated_sha256": null,
+    "submission_sha256": "c9741684a36a09d0728f06c006a6cd4b2040d1b672e74fa8ef5e45907fa2f0bb"
+  },
+  {
+    "path": "tools/truth-audit/build.py",
+    "evaluated_sha256": null,
+    "submission_sha256": "7f12eb908241747303461b41af92ce0e54eae41b809e66470b3867cfa664a892"
+  },
+  {
+    "path": "tools/truth-audit/reproduce.py",
+    "evaluated_sha256": null,
+    "submission_sha256": "fa096d818c4e768a2b81b1a5ba812c914f25adffcd211ad1f46587835718dec6"
+  },
+  {
+    "path": "tools/truth-audit/source_v5_build.py",
+    "evaluated_sha256": null,
+    "submission_sha256": "36b697358802fd64c0c65c35239539f41a78d14982fbb131a097a6ccf568a213"
+  },
+  {
+    "path": "tools/truth-audit/sources/episode_0.json",
+    "evaluated_sha256": null,
+    "submission_sha256": "17fe0a322333df58b87666be08e76e456b2135c5b046b6e1d00387cded03ebc7"
+  },
+  {
+    "path": "tools/truth-audit/sources/episode_1.json",
+    "evaluated_sha256": null,
+    "submission_sha256": "a107a8d78a683d8dfa19dfbacbb902a94d40dac4c298646c8f563388ed1d267e"
+  },
+  {
+    "path": "tools/truth-audit/sources/episode_2.json",
+    "evaluated_sha256": null,
+    "submission_sha256": "d3688e79042614aa7954a8bf22223951c3e24672ce8979f279a54d776a487145"
+  },
+  {
+    "path": "tools/truth-audit/sources/episode_3.json",
+    "evaluated_sha256": null,
+    "submission_sha256": "068ae0614a6e766b6f51fc61031706050c3c2c4ea2479fc1d39dbbca52a0f374"
+  }
+]

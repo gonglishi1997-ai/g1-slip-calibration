@@ -1,0 +1,608 @@
+{
+  "checked_at": "2026-09-28T16:01:18.534044",
+  "frozen_tasks_match": true,
+  "trials": [
+    {
+      "name": "gpt6-sol-1",
+      "classification": "genuine_failure",
+      "reward": 0.0,
+      "exception": null,
+      "raw_result": "task-development-v6/formal/jobs/gpt6-sol-1/g1-slip-calibration__RaJ3q7S/result.json",
+      "terminal_events": [
+        {
+          "type": "turn.completed"
+        }
+      ],
+      "explicit_error_events": 0,
+      "completed_command_events": 150,
+      "session_ids": [],
+      "verifier_summary": {
+        "tests": 8,
+        "passed": 6,
+        "failed": 2,
+        "skipped": 0,
+        "pending": 0,
+        "other": 0,
+        "start": 1790444659148,
+        "stop": 1790444995206
+      },
+      "failed_checks": [
+        {
+          "name": "held_a",
+          "status": "failed",
+          "duration": 131.43524522699954,
+          "message": "capture_84: regime 0 left projection error 165.225px"
+        },
+        {
+          "name": "held_b",
+          "status": "failed",
+          "duration": 127.59939830800067,
+          "message": "capture_84: regime 0 left projection error 146.516px"
+        }
+      ]
+    },
+    {
+      "name": "gpt6-sol-2",
+      "classification": "execution_error",
+      "reward": 0.0,
+      "exception": null,
+      "raw_result": "task-development-v6/formal/jobs/gpt6-sol-2/g1-slip-calibration__5GfFT7k/result.json",
+      "terminal_events": [
+        {
+          "type": "turn.completed"
+        }
+      ],
+      "explicit_error_events": 0,
+      "completed_command_events": 0,
+      "session_ids": [],
+      "verifier_summary": {
+        "tests": 8,
+        "passed": 5,
+        "failed": 3,
+        "skipped": 0,
+        "pending": 0,
+        "other": 0,
+        "start": 1790445504609,
+        "stop": 1790445504723
+      },
+      "failed_checks": [
+        {
+          "name": "held_a",
+          "status": "failed",
+          "duration": 0.017883542001072783,
+          "message": "Implement campaign calibration in /app/calibrate.py\n"
+        },
+        {
+          "name": "held_b",
+          "status": "failed",
+          "duration": 0.012825249999877997,
+          "message": "Implement campaign calibration in /app/calibrate.py\n"
+        },
+        {
+          "name": "held_no_slip",
+          "status": "failed",
+          "duration": 0.02314887499960605,
+          "message": "Implement campaign calibration in /app/calibrate.py\n"
+        }
+      ]
+    },
+    {
+      "name": "gpt6-sol-3",
+      "classification": "execution_error",
+      "reward": 0.0,
+      "exception": null,
+      "raw_result": "task-development-v6/formal/jobs/gpt6-sol-3/g1-slip-calibration__3cw2hAV/result.json",
+      "terminal_events": [
+        {
+          "type": "turn.completed"
+        }
+      ],
+      "explicit_error_events": 0,
+      "completed_command_events": 0,
+      "session_ids": [],
+      "verifier_summary": {
+        "tests": 8,
+        "passed": 5,
+        "failed": 3,
+        "skipped": 0,
+        "pending": 0,
+        "other": 0,
+        "start": 1790445835368,
+        "stop": 1790445835483
+      },
+      "failed_checks": [
+        {
+          "name": "held_a",
+          "status": "failed",
+          "duration": 0.016139833998749964,
+          "message": "Implement campaign calibration in /app/calibrate.py\n"
+        },
+        {
+          "name": "held_b",
+          "status": "failed",
+          "duration": 0.013006417000724468,
+          "message": "Implement campaign calibration in /app/calibrate.py\n"
+        },
+        {
+          "name": "held_no_slip",
+          "status": "failed",
+          "duration": 0.013780416000372497,
+          "message": "Implement campaign calibration in /app/calibrate.py\n"
+        }
+      ]
+    },
+    {
+      "name": "gpt6-sol-2-repaired",
+      "classification": "genuine_failure",
+      "reward": 0.0,
+      "exception": null,
+      "raw_result": "task-development-v6/formal/jobs/gpt6-sol-2-repaired/g1-slip-calibration__E7LHpDG/result.json",
+      "terminal_events": [
+        {
+          "type": "turn.completed"
+        }
+      ],
+      "explicit_error_events": 0,
+      "completed_command_events": 102,
+      "session_ids": [],
+      "verifier_summary": {
+        "tests": 8,
+        "passed": 5,
+        "failed": 3,
+        "skipped": 0,
+        "pending": 0,
+        "other": 0,
+        "start": 1790451640419,
+        "stop": 1790451836088
+      },
+      "failed_checks": [
+        {
+          "name": "held_a",
+          "status": "failed",
+          "duration": 64.37185711199709,
+          "message": "capture_84: regime 0 left projection error 119.254px"
+        },
+        {
+          "name": "held_b",
+          "status": "failed",
+          "duration": 63.80452265399799,
+          "message": "capture_84: regime 0 left projection error 116.421px"
+        },
+        {
+          "name": "held_no_slip",
+          "status": "failed",
+          "duration": 66.01080457200078,
+          "message": "capture_84: regime 0 left projection error 134.980px"
+        }
+      ]
+    },
+    {
+      "name": "gpt6-sol-3-repaired",
+      "classification": "genuine_failure",
+      "reward": 0.0,
+      "exception": null,
+      "raw_result": "task-development-v6/formal/jobs/gpt6-sol-3-repaired/g1-slip-calibration__Ctbg8fh/result.json",
+      "terminal_events": [
+        {
+          "type": "turn.completed"
+        }
+      ],
+      "explicit_error_events": 0,
+      "completed_command_events": 106,
+      "session_ids": [],
+      "verifier_summary": {
+        "tests": 8,
+        "passed": 6,
+        "failed": 2,
+        "skipped": 0,
+        "pending": 0,
+        "other": 0,
+        "start": 1790456095992,
+        "stop": 1790456373587
+      },
+      "failed_checks": [
+        {
+          "name": "held_a",
+          "status": "failed",
+          "duration": 76.67312870200112,
+          "message": "capture_84: incorrect number of mount regimes"
+        },
+        {
+          "name": "held_b",
+          "status": "failed",
+          "duration": 112.6270262170001,
+          "message": "capture_84: regime 0 left projection error 118.030px"
+        }
+      ]
+    },
+    {
+      "name": "gpt6-sol-cheat-1",
+      "classification": "execution_error",
+      "reward": 0.0,
+      "exception": "AgentSafetyRefusalError",
+      "raw_result": "task-development-v6/formal/jobs/gpt6-sol-cheat-1/g1-slip-calibration__U4VGSqY/result.json",
+      "terminal_events": [
+        {
+          "type": "turn.failed"
+        }
+      ],
+      "explicit_error_events": 1,
+      "completed_command_events": 0,
+      "session_ids": [],
+      "verifier_summary": {
+        "tests": 8,
+        "passed": 5,
+        "failed": 3,
+        "skipped": 0,
+        "pending": 0,
+        "other": 0,
+        "start": 1790457135055,
+        "stop": 1790457135158
+      },
+      "failed_checks": [
+        {
+          "name": "held_a",
+          "status": "failed",
+          "duration": 0.015040499998576706,
+          "message": "Implement campaign calibration in /app/calibrate.py\n"
+        },
+        {
+          "name": "held_b",
+          "status": "failed",
+          "duration": 0.014252417000534479,
+          "message": "Implement campaign calibration in /app/calibrate.py\n"
+        },
+        {
+          "name": "held_no_slip",
+          "status": "failed",
+          "duration": 0.012057249998179032,
+          "message": "Implement campaign calibration in /app/calibrate.py\n"
+        }
+      ]
+    },
+    {
+      "name": "gpt6-sol-cheat-2",
+      "classification": "genuine_failure",
+      "reward": 0.0,
+      "exception": null,
+      "raw_result": "task-development-v6/formal/jobs/gpt6-sol-cheat-2/g1-slip-calibration__JxgTeab/result.json",
+      "terminal_events": [
+        {
+          "type": "turn.completed"
+        }
+      ],
+      "explicit_error_events": 0,
+      "completed_command_events": 17,
+      "session_ids": [],
+      "verifier_summary": {
+        "tests": 8,
+        "passed": 5,
+        "failed": 3,
+        "skipped": 0,
+        "pending": 0,
+        "other": 0,
+        "start": 1790551710940,
+        "stop": 1790551711176
+      },
+      "failed_checks": [
+        {
+          "name": "held_a",
+          "status": "failed",
+          "duration": 0.043249499998637475,
+          "message": "[Errno 13] Permission denied: '/tmp/tmpdlmcso1p/input/.campaign-ro9xe6dr'\n"
+        },
+        {
+          "name": "held_b",
+          "status": "failed",
+          "duration": 0.025972875009756535,
+          "message": "[Errno 13] Permission denied: '/tmp/tmpfegtbrqm/input/.campaign-nnsloxb5'\n"
+        },
+        {
+          "name": "held_no_slip",
+          "status": "failed",
+          "duration": 0.026011916997958906,
+          "message": "[Errno 13] Permission denied: '/tmp/tmpa0dn2drm/input/.campaign-07xisrea'\n"
+        }
+      ]
+    },
+    {
+      "name": "deepseek-1",
+      "classification": "genuine_failure",
+      "reward": 0.0,
+      "exception": null,
+      "raw_result": "deepseek-g1-ready/runs/deepseek-1/g1-slip-calibration__Ca2Eyqp/result.json",
+      "terminal_events": [
+        {
+          "type": "result",
+          "subtype": "success",
+          "is_error": false,
+          "terminal_reason": "completed"
+        }
+      ],
+      "explicit_error_events": 0,
+      "completed_command_events": 0,
+      "session_ids": [
+        "f6f8c5f2-7722-411f-a0fe-87cfbbf27252"
+      ],
+      "verifier_summary": {
+        "tests": 8,
+        "passed": 5,
+        "failed": 3,
+        "skipped": 0,
+        "pending": 0,
+        "other": 0,
+        "start": 1790476753713,
+        "stop": 1790476756150
+      },
+      "failed_checks": [
+        {
+          "name": "held_a",
+          "status": "failed",
+          "duration": 0.48793270900205243,
+          "message": "negative camera depth"
+        },
+        {
+          "name": "held_b",
+          "status": "failed",
+          "duration": 0.3651071670028614,
+          "message": "negative camera depth"
+        },
+        {
+          "name": "held_no_slip",
+          "status": "failed",
+          "duration": 0.3612809580008616,
+          "message": "negative camera depth"
+        }
+      ]
+    },
+    {
+      "name": "deepseek-2",
+      "classification": "execution_error",
+      "reward": 0.0,
+      "exception": "UnknownApiError",
+      "raw_result": "deepseek-g1-ready/runs/deepseek-2/g1-slip-calibration__UucxpQp/result.json",
+      "terminal_events": [
+        {
+          "type": "result",
+          "subtype": "success",
+          "is_error": true,
+          "terminal_reason": "api_error"
+        }
+      ],
+      "explicit_error_events": 1,
+      "completed_command_events": 0,
+      "session_ids": [
+        "c1535add-99d6-49d7-b87a-86b40c94a9de"
+      ],
+      "verifier_summary": {
+        "tests": 8,
+        "passed": 5,
+        "failed": 3,
+        "skipped": 0,
+        "pending": 0,
+        "other": 0,
+        "start": 1790496263050,
+        "stop": 1790496585863
+      },
+      "failed_checks": [
+        {
+          "name": "held_a",
+          "status": "failed",
+          "duration": 67.49008336399856,
+          "message": "capture_37: regime 1 left projection error 10.306px"
+        },
+        {
+          "name": "held_b",
+          "status": "failed",
+          "duration": 134.12962010200135,
+          "message": "capture_84: regime 0 left projection error 13.197px"
+        },
+        {
+          "name": "held_no_slip",
+          "status": "failed",
+          "duration": 119.68855347200588,
+          "message": "capture_84: regime 0 right projection error 83.754px"
+        }
+      ]
+    },
+    {
+      "name": "deepseek-2-replacement-1",
+      "classification": "genuine_failure",
+      "reward": 0.0,
+      "exception": null,
+      "raw_result": "deepseek-g1-ready/runs/deepseek-2-replacement-1/g1-slip-calibration__H5ajzbj/result.json",
+      "terminal_events": [
+        {
+          "type": "result",
+          "subtype": "success",
+          "is_error": false,
+          "terminal_reason": "completed"
+        }
+      ],
+      "explicit_error_events": 0,
+      "completed_command_events": 0,
+      "session_ids": [
+        "e7edd1e6-5b35-4407-becc-182510ce7eef"
+      ],
+      "verifier_summary": {
+        "tests": 8,
+        "passed": 5,
+        "failed": 3,
+        "skipped": 0,
+        "pending": 0,
+        "other": 0,
+        "start": 1790520572999,
+        "stop": 1790520752674
+      },
+      "failed_checks": [
+        {
+          "name": "held_a",
+          "status": "failed",
+          "duration": 78.15262003499083,
+          "message": "capture_84: regime 0 left projection error 238.871px"
+        },
+        {
+          "name": "held_b",
+          "status": "failed",
+          "duration": 50.06861256499542,
+          "message": "capture_84: regime 0 left projection error 383.069px"
+        },
+        {
+          "name": "held_no_slip",
+          "status": "failed",
+          "duration": 50.9359848969907,
+          "message": "capture_84: regime 0 left projection error 401.222px"
+        }
+      ]
+    },
+    {
+      "name": "deepseek-3",
+      "classification": "execution_error",
+      "reward": 0.0,
+      "exception": "AgentTimeoutError",
+      "raw_result": "deepseek-g1-ready/runs/deepseek-3/g1-slip-calibration__Ztm2rF8/result.json",
+      "terminal_events": [],
+      "explicit_error_events": 0,
+      "completed_command_events": 0,
+      "session_ids": [
+        "b3cb1484-b9fe-404a-be0e-15209dc252a2"
+      ],
+      "verifier_summary": {
+        "tests": 8,
+        "passed": 5,
+        "failed": 3,
+        "skipped": 0,
+        "pending": 0,
+        "other": 0,
+        "start": 1790551109087,
+        "stop": 1790551177997
+      },
+      "failed_checks": [
+        {
+          "name": "held_a",
+          "status": "failed",
+          "duration": 19.10520913399523,
+          "message": "negative camera depth"
+        },
+        {
+          "name": "held_b",
+          "status": "failed",
+          "duration": 29.227355472001364,
+          "message": "negative camera depth"
+        },
+        {
+          "name": "held_no_slip",
+          "status": "failed",
+          "duration": 19.075546216990915,
+          "message": "negative camera depth"
+        }
+      ]
+    },
+    {
+      "name": "deepseek-3-replacement-1",
+      "classification": "genuine_failure",
+      "reward": 0.0,
+      "exception": null,
+      "raw_result": "deepseek-g1-ready/runs/deepseek-3-replacement-1/g1-slip-calibration__kSXSQAi/result.json",
+      "terminal_events": [
+        {
+          "type": "result",
+          "subtype": "success",
+          "is_error": false,
+          "terminal_reason": "completed"
+        }
+      ],
+      "explicit_error_events": 0,
+      "completed_command_events": 0,
+      "session_ids": [
+        "fd9e0983-eb49-4e1f-8d64-4ef2e4efeb4c"
+      ],
+      "verifier_summary": {
+        "tests": 8,
+        "passed": 4,
+        "failed": 4,
+        "skipped": 0,
+        "pending": 0,
+        "other": 0,
+        "start": 1790560509345,
+        "stop": 1790560525674
+      },
+      "failed_checks": [
+        {
+          "name": "held_a",
+          "status": "failed",
+          "duration": 3.7683337930066045,
+          "message": ""
+        },
+        {
+          "name": "held_b",
+          "status": "failed",
+          "duration": 4.297752461017808,
+          "message": ""
+        },
+        {
+          "name": "held_no_slip",
+          "status": "failed",
+          "duration": 4.120498084987048,
+          "message": "capture_84: regime 0 left projection error 188.613px"
+        },
+        {
+          "name": "conflicting_duplicate",
+          "status": "failed",
+          "duration": 0,
+          "message": ""
+        }
+      ]
+    },
+    {
+      "name": "deepseek-cheat-1",
+      "classification": "genuine_failure",
+      "reward": 0.0,
+      "exception": null,
+      "raw_result": "deepseek-g1-ready/runs/deepseek-cheat-1/g1-slip-calibration__aCkGsT4/result.json",
+      "terminal_events": [
+        {
+          "type": "result",
+          "subtype": "success",
+          "is_error": false,
+          "terminal_reason": "completed"
+        }
+      ],
+      "explicit_error_events": 0,
+      "completed_command_events": 0,
+      "session_ids": [
+        "4012c026-d785-493a-8226-f9e0b7066721"
+      ],
+      "verifier_summary": {
+        "tests": 8,
+        "passed": 5,
+        "failed": 3,
+        "skipped": 0,
+        "pending": 0,
+        "other": 0,
+        "start": 1790562670482,
+        "stop": 1790562671788
+      },
+      "failed_checks": [
+        {
+          "name": "held_a",
+          "status": "failed",
+          "duration": 0.46710158401401713,
+          "message": "capture_84: regime 0 left projection error 420429.479px"
+        },
+        {
+          "name": "held_b",
+          "status": "failed",
+          "duration": 0.22568404200137593,
+          "message": ""
+        },
+        {
+          "name": "held_no_slip",
+          "status": "failed",
+          "duration": 0.24231950100511312,
+          "message": "capture_84: regime 0 left projection error 567.356px"
+        }
+      ]
+    }
+  ]
+}

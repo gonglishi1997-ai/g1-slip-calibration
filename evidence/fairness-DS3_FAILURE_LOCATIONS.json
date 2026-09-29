@@ -1,0 +1,14 @@
+[
+  {
+    "case": "held_b",
+    "traceback": "Traceback (most recent call last):\n  File \"/audit/trace_failures.py\", line 7, in <module>\n    try:grade_campaign(Path('/task/tests/cases')/f.parent.name,json.loads(f.read_text()))\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/task/tests/check.py\", line 28, in grade_campaign\n    for side in ['left','right']:assert np.linalg.norm(matrix(shared['X_'+side])[:3,3])<=.250001\n                                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError\n"
+  },
+  {
+    "case": "held_no_slip",
+    "traceback": "Traceback (most recent call last):\n  File \"/audit/trace_failures.py\", line 7, in <module>\n    try:grade_campaign(Path('/task/tests/cases')/f.parent.name,json.loads(f.read_text()))\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/task/tests/check.py\", line 43, in grade_campaign\n    err=float(np.quantile(np.linalg.norm(uv-np.asarray(probe['pixels']),axis=1),.95));assert err<=2,f'{name}: regime {i} {side} projection error {err:.3f}px'\n                                                                                             ^^^^^^\nAssertionError: capture_84: regime 0 left projection error 188.613px\n"
+  },
+  {
+    "case": "held_a",
+    "traceback": "Traceback (most recent call last):\n  File \"/audit/trace_failures.py\", line 7, in <module>\n    try:grade_campaign(Path('/task/tests/cases')/f.parent.name,json.loads(f.read_text()))\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/task/tests/check.py\", line 28, in grade_campaign\n    for side in ['left','right']:assert np.linalg.norm(matrix(shared['X_'+side])[:3,3])<=.250001\n                                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError\n"
+  }
+]

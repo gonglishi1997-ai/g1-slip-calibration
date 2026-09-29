@@ -1,0 +1,13 @@
+# Offline ground-truth derivation
+
+These author-side tools are not copied into the agent image or the verifier image. They explain and reproduce the frozen fixtures, including private labels and scoring probes. Do not expose them to a solving agent.
+
+Run `python tools/truth-audit/reproduce.py --report /tmp/truth-audit.json` from any directory with Python 3.12, NumPy 2.3.5 and SciPy 1.17.0. The script creates a temporary tree, checks the four bundled source episode SHA256 values against DATA_PROVENANCE.json, and compares every shipped public and private fixture byte for byte. It never modifies the evaluated fixtures. No download is needed.
+
+`source_v5_build.py` is the preserved first-stage constructor. Its function definitions select state episodes, sample a shared rig and per-record clocks with explicit seeds, and forward-project known marker identities through the supplied kinematics and rolling-shutter camera. The constructor retains latent identities, nominal times and probe values rather than inferring truth from a solver. Public seeds are 106111/106102; fresh held-out base seeds are 681401/681402. `reproduce.py` invokes these functions without running the historical script's unrelated development-case entry points.
+
+`build.py` is the preserved second-stage constructor. It introduces an unlabelled mounting change on the dominant visible arm in selected records, creates coherent ghost observations from alternative mounts, adds Gaussian pixel noise, creates exact retransmissions, shuffles packets and writes CRC-protected binary records. Its known latent state supplies `answer.json` and `private.json`: packet labels, frame indices, clocks, clean pixels, ghost pixels, and static probes. Final seeds are 61101/61102 (public), 61901/61902 (held-out slips), and 61903 (no-slip control).
+
+For a true detection, projection is Y A_s(t, zeros_s) X_s p, with row-dependent exposure time. `clean_pixels` precede additive noise; ghost points use the alternate mount and receive null associations. Probe configurations perturb recorded joints and are projected from the same known transforms. The verifier checks estimated geometry on these configurations instead of requiring parameter equality. Inspect both constructors alongside environment/kinematics.py and environment/camera_model.py for exact formulas and sampling order.
+
+The original OpenHLM state data are real recordings; all optical observations, mount transforms and faults are synthetic. No real-camera or manufacturer-geometry claim is made. Bundled source snapshots and their original provenance are recorded in DATA_PROVENANCE.json. Generator seeds and private labels belong exclusively to author review; Docker COPY directives exclude this tools directory.

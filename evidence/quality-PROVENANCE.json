@@ -1,0 +1,11 @@
+{
+  "subject": "/Users/gonglishi/Documents/ChatGPT/口语练习台/submission-20260928/repository/tasks/g1-slip-calibration",
+  "reference_lines": 1770,
+  "model": "openai/gpt-6-sol",
+  "reasoning": "xhigh",
+  "rubric_commit": "4def1f367467b34b18e0dbdc086400ba71c3e037",
+  "adaptation": "Recruiter-specific scope clarification for this review (keep the rubric below otherwise unchanged):\nThe candidate explicitly disclosed an unmeasured 10–20 expert-hour estimate and asked whether that scope was acceptable. The recruiter replied: \"that is fine. Feel free to give me the github repo link. We will review it internally.\" The user supplied a screenshot of that exchange on 2026-09-29.\nFor this review, exceeding a few expert hours alone is an accepted exception and must not cause a failure. Still evaluate solvability, sufficient information, correctness, reviewability, honest effort estimates, and every other quality requirement normally. Do not waive an unsolvable or unfair task. If a criterion only concerns the few-hours limit, mark it not_applicable and explain the recruiter exception; for mixed criteria evaluate the remaining requirements and mention the exception. Do not invent a measured human completion time. Preserve all 35 verdict keys. This is a recruiter-adapted review, not an unmodified upstream pass.\n\n",
+  "version_warning": "Submission copy has documented text/entrypoint changes from the old frozen standard trials; historical six failures are not retests of this copy.",
+  "network": "review wrapper allow_internet=true; subject unchanged",
+  "exclusions": "Python bytecode caches excluded from review copy; source unchanged"
+}

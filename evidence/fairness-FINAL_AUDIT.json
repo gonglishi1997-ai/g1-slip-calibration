@@ -1,0 +1,19 @@
+{
+  "replay_campaign_count": 18,
+  "reference_passed": 8,
+  "mutation_checks_passed": 9,
+  "all_six_submissions_still_fail": true,
+  "per_agent_all_campaign_pass": {
+    "deepseek-3-replacement-1": false,
+    "gpt6-sol-1": false,
+    "deepseek-1": false,
+    "deepseek-2-replacement-1": false,
+    "gpt6-sol-2-repaired": false,
+    "gpt6-sol-3-repaired": false
+  },
+  "changed_files": [
+    "tests/check.py"
+  ],
+  "model_calls": 0,
+  "status": "completed_with_limitations"
+}

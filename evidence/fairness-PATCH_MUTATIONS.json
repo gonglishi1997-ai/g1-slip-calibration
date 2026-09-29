@@ -1,0 +1,65 @@
+[
+  {
+    "case": "held_a",
+    "mutation": "truth",
+    "accepted": true,
+    "expected": true,
+    "error": null
+  },
+  {
+    "case": "held_a",
+    "mutation": "unaffected_translation_1mm",
+    "accepted": false,
+    "expected": false,
+    "error": "unaffected arm mount changed"
+  },
+  {
+    "case": "held_a",
+    "mutation": "unaffected_rotation_1mrad",
+    "accepted": false,
+    "expected": false,
+    "error": "unaffected arm mount changed"
+  },
+  {
+    "case": "held_a",
+    "mutation": "roundoff_1e-7",
+    "accepted": true,
+    "expected": true,
+    "error": null
+  },
+  {
+    "case": "held_b",
+    "mutation": "truth",
+    "accepted": true,
+    "expected": true,
+    "error": null
+  },
+  {
+    "case": "held_b",
+    "mutation": "unaffected_translation_1mm",
+    "accepted": false,
+    "expected": false,
+    "error": "unaffected arm mount changed"
+  },
+  {
+    "case": "held_b",
+    "mutation": "unaffected_rotation_1mrad",
+    "accepted": false,
+    "expected": false,
+    "error": "unaffected arm mount changed"
+  },
+  {
+    "case": "held_b",
+    "mutation": "roundoff_1e-7",
+    "accepted": true,
+    "expected": true,
+    "error": null
+  },
+  {
+    "case": "held_no_slip",
+    "mutation": "truth",
+    "accepted": true,
+    "expected": true,
+    "error": null
+  }
+]

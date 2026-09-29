@@ -1,0 +1,158 @@
+[
+  {
+    "name": "gpt6-sol-1",
+    "source": "task-development-v6/formal/jobs/gpt6-sol-1/g1-slip-calibration__RaJ3q7S/artifacts/app/calibrate.py",
+    "sha256": "c5a6b0562b62e1a7aecc6d82f2faba03d92ed398b88ca8ef27f65ba3df96089f",
+    "derived_sha256": "ce01c2030646b274499e3242682232682e1927463cc7c7862e7a53d90010cebb",
+    "restored_digit1_count": 333,
+    "failures": [
+      {
+        "name": "held_a",
+        "status": "failed",
+        "duration": 131.43524522699954,
+        "message": "capture_84: regime 0 left projection error 165.225px"
+      },
+      {
+        "name": "held_b",
+        "status": "failed",
+        "duration": 127.59939830800067,
+        "message": "capture_84: regime 0 left projection error 146.516px"
+      }
+    ]
+  },
+  {
+    "name": "gpt6-sol-2-repaired",
+    "source": "task-development-v6/formal/jobs/gpt6-sol-2-repaired/g1-slip-calibration__E7LHpDG/artifacts/app/calibrate.py",
+    "sha256": "9b1003af23ec81b4440be08a3c03fff4b534393ea155da03e5bd2820fd1c6bdc",
+    "derived_sha256": "9b1003af23ec81b4440be08a3c03fff4b534393ea155da03e5bd2820fd1c6bdc",
+    "restored_digit1_count": 0,
+    "failures": [
+      {
+        "name": "held_a",
+        "status": "failed",
+        "duration": 64.37185711199709,
+        "message": "capture_84: regime 0 left projection error 119.254px"
+      },
+      {
+        "name": "held_b",
+        "status": "failed",
+        "duration": 63.80452265399799,
+        "message": "capture_84: regime 0 left projection error 116.421px"
+      },
+      {
+        "name": "held_no_slip",
+        "status": "failed",
+        "duration": 66.01080457200078,
+        "message": "capture_84: regime 0 left projection error 134.980px"
+      }
+    ]
+  },
+  {
+    "name": "gpt6-sol-3-repaired",
+    "source": "task-development-v6/formal/jobs/gpt6-sol-3-repaired/g1-slip-calibration__Ctbg8fh/artifacts/app/calibrate.py",
+    "sha256": "d3d289eab500e4575425ff6fa6235e3650c20ae40992f43a95f2998494eafda7",
+    "derived_sha256": "d3d289eab500e4575425ff6fa6235e3650c20ae40992f43a95f2998494eafda7",
+    "restored_digit1_count": 0,
+    "failures": [
+      {
+        "name": "held_a",
+        "status": "failed",
+        "duration": 76.67312870200112,
+        "message": "capture_84: incorrect number of mount regimes"
+      },
+      {
+        "name": "held_b",
+        "status": "failed",
+        "duration": 112.6270262170001,
+        "message": "capture_84: regime 0 left projection error 118.030px"
+      }
+    ]
+  },
+  {
+    "name": "deepseek-1",
+    "source": "deepseek-g1-ready/runs/deepseek-1/g1-slip-calibration__Ca2Eyqp/artifacts/app/calibrate.py",
+    "sha256": "d606bf268087af637df5bc10a783123339ed022c121a916d1cd7a9a1a8367264",
+    "derived_sha256": "d606bf268087af637df5bc10a783123339ed022c121a916d1cd7a9a1a8367264",
+    "restored_digit1_count": 0,
+    "failures": [
+      {
+        "name": "held_a",
+        "status": "failed",
+        "duration": 0.48793270900205243,
+        "message": "negative camera depth"
+      },
+      {
+        "name": "held_b",
+        "status": "failed",
+        "duration": 0.3651071670028614,
+        "message": "negative camera depth"
+      },
+      {
+        "name": "held_no_slip",
+        "status": "failed",
+        "duration": 0.3612809580008616,
+        "message": "negative camera depth"
+      }
+    ]
+  },
+  {
+    "name": "deepseek-2-replacement-1",
+    "source": "deepseek-g1-ready/runs/deepseek-2-replacement-1/g1-slip-calibration__H5ajzbj/artifacts/app/calibrate.py",
+    "sha256": "8259105d2007721369dab78bd5b15d41e492dc9bb241b802deabebf7caac5a38",
+    "derived_sha256": "8259105d2007721369dab78bd5b15d41e492dc9bb241b802deabebf7caac5a38",
+    "restored_digit1_count": 0,
+    "failures": [
+      {
+        "name": "held_a",
+        "status": "failed",
+        "duration": 78.15262003499083,
+        "message": "capture_84: regime 0 left projection error 238.871px"
+      },
+      {
+        "name": "held_b",
+        "status": "failed",
+        "duration": 50.06861256499542,
+        "message": "capture_84: regime 0 left projection error 383.069px"
+      },
+      {
+        "name": "held_no_slip",
+        "status": "failed",
+        "duration": 50.9359848969907,
+        "message": "capture_84: regime 0 left projection error 401.222px"
+      }
+    ]
+  },
+  {
+    "name": "deepseek-3-replacement-1",
+    "source": "deepseek-g1-ready/runs/deepseek-3-replacement-1/g1-slip-calibration__kSXSQAi/artifacts/app/calibrate.py",
+    "sha256": "6e61601e935d356ad5ccdb1932b1ee96346bedb269b05e84859792506058d48a",
+    "derived_sha256": "6e61601e935d356ad5ccdb1932b1ee96346bedb269b05e84859792506058d48a",
+    "restored_digit1_count": 0,
+    "failures": [
+      {
+        "name": "held_a",
+        "status": "failed",
+        "duration": 3.7683337930066045,
+        "message": ""
+      },
+      {
+        "name": "held_b",
+        "status": "failed",
+        "duration": 4.297752461017808,
+        "message": ""
+      },
+      {
+        "name": "held_no_slip",
+        "status": "failed",
+        "duration": 4.120498084987048,
+        "message": "capture_84: regime 0 left projection error 188.613px"
+      },
+      {
+        "name": "conflicting_duplicate",
+        "status": "failed",
+        "duration": 0,
+        "message": ""
+      }
+    ]
+  }
+]

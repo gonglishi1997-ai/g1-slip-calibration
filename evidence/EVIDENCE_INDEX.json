@@ -1,0 +1,2366 @@
+{
+  "files": [
+    {
+      "path": "formal/jobs/control-nop/config.json",
+      "original_sha256": "941cd649677dfa5abf48722da2bcfa7fee24eca78b2ba8ffd7090829a863160d",
+      "packaged_sha256": "941cd649677dfa5abf48722da2bcfa7fee24eca78b2ba8ffd7090829a863160d",
+      "redactions": 0,
+      "original_bytes": 402
+    },
+    {
+      "path": "formal/jobs/control-nop/g1-slip-calibration__xV378kU/artifacts/app/calibrate.py",
+      "original_sha256": "0fa61de561f5852e30483b998e33e6414b99dbeea0d381d66fb1e0af667f4fad",
+      "packaged_sha256": "0fa61de561f5852e30483b998e33e6414b99dbeea0d381d66fb1e0af667f4fad",
+      "redactions": 0,
+      "original_bytes": 130
+    },
+    {
+      "path": "formal/jobs/control-nop/g1-slip-calibration__xV378kU/artifacts/manifest.json",
+      "original_sha256": "66604beede61c3210566f13dad5002baf344e09932e2fbe682b5071a8b80bdf9",
+      "packaged_sha256": "66604beede61c3210566f13dad5002baf344e09932e2fbe682b5071a8b80bdf9",
+      "redactions": 0,
+      "original_bytes": 350
+    },
+    {
+      "path": "formal/jobs/control-nop/g1-slip-calibration__xV378kU/config.json",
+      "original_sha256": "8bfe8c3d7f7fd717a679c44ae9e74489097667b37c6ebd86913c92ee5e7813f3",
+      "packaged_sha256": "8bfe8c3d7f7fd717a679c44ae9e74489097667b37c6ebd86913c92ee5e7813f3",
+      "redactions": 0,
+      "original_bytes": 409
+    },
+    {
+      "path": "formal/jobs/control-nop/g1-slip-calibration__xV378kU/lock.json",
+      "original_sha256": "b54ba0dc5c8ecca0274a430eaa1319093e791f164c3f6a94e66be2b1d44e2f50",
+      "packaged_sha256": "b54ba0dc5c8ecca0274a430eaa1319093e791f164c3f6a94e66be2b1d44e2f50",
+      "redactions": 0,
+      "original_bytes": 1016
+    },
+    {
+      "path": "formal/jobs/control-nop/g1-slip-calibration__xV378kU/result.json",
+      "original_sha256": "b8638dcd2ffaa4ed00bc8b6f3bd13973c3b758235b7bd8778faa9d73777ad2d7",
+      "packaged_sha256": "b8638dcd2ffaa4ed00bc8b6f3bd13973c3b758235b7bd8778faa9d73777ad2d7",
+      "redactions": 0,
+      "original_bytes": 4059
+    },
+    {
+      "path": "formal/jobs/control-nop/g1-slip-calibration__xV378kU/trial.log",
+      "original_sha256": "cae57fd6e02543079d28c5c5ebe45c56487f0705a9e6d4ddabb5ae190c2693fb",
+      "packaged_sha256": "cae57fd6e02543079d28c5c5ebe45c56487f0705a9e6d4ddabb5ae190c2693fb",
+      "redactions": 0,
+      "original_bytes": 228
+    },
+    {
+      "path": "formal/jobs/control-nop/g1-slip-calibration__xV378kU/verifier/ctrf.json",
+      "original_sha256": "d0832f607c248176533750b8036b03a8630574afca3bcec7a99ded296f35be16",
+      "packaged_sha256": "d0832f607c248176533750b8036b03a8630574afca3bcec7a99ded296f35be16",
+      "redactions": 0,
+      "original_bytes": 1353
+    },
+    {
+      "path": "formal/jobs/control-nop/g1-slip-calibration__xV378kU/verifier/reward.txt",
+      "original_sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+      "packaged_sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+      "redactions": 0,
+      "original_bytes": 2
+    },
+    {
+      "path": "formal/jobs/control-nop/g1-slip-calibration__xV378kU/verifier/test-stdout.txt",
+      "original_sha256": "95c36d95b353635de0af83d7b6c2c1cfebfb69dbedbdcd8db118a82844141a55",
+      "packaged_sha256": "95c36d95b353635de0af83d7b6c2c1cfebfb69dbedbdcd8db118a82844141a55",
+      "redactions": 0,
+      "original_bytes": 646
+    },
+    {
+      "path": "formal/jobs/control-nop/job.log",
+      "original_sha256": "7a874c91e82f77eabd6751832676988864e48fb74c507577a524954432a69365",
+      "packaged_sha256": "7a874c91e82f77eabd6751832676988864e48fb74c507577a524954432a69365",
+      "redactions": 0,
+      "original_bytes": 303
+    },
+    {
+      "path": "formal/jobs/control-nop/lock.json",
+      "original_sha256": "60b49cebf03580eb010491740162e51b65e65ffc013fc49b6e5962ddc383d1a5",
+      "packaged_sha256": "60b49cebf03580eb010491740162e51b65e65ffc013fc49b6e5962ddc383d1a5",
+      "redactions": 0,
+      "original_bytes": 2042
+    },
+    {
+      "path": "formal/jobs/control-nop/result.json",
+      "original_sha256": "1572fa2da5477b4eb0e1fbe6a295c08fcb3373f9c80645eaa9c31a16e33b5446",
+      "packaged_sha256": "1572fa2da5477b4eb0e1fbe6a295c08fcb3373f9c80645eaa9c31a16e33b5446",
+      "redactions": 0,
+      "original_bytes": 1107
+    },
+    {
+      "path": "formal/jobs/control-oracle/config.json",
+      "original_sha256": "73d58ed3cb4b821875a0b67098611d71462338aed496f834688c013851f45258",
+      "packaged_sha256": "73d58ed3cb4b821875a0b67098611d71462338aed496f834688c013851f45258",
+      "redactions": 0,
+      "original_bytes": 336
+    },
+    {
+      "path": "formal/jobs/control-oracle/g1-slip-calibration__deHH9XW/agent/oracle.txt",
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "packaged_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "redactions": 0,
+      "original_bytes": 0
+    },
+    {
+      "path": "formal/jobs/control-oracle/g1-slip-calibration__deHH9XW/artifacts/app/calibrate.py",
+      "original_sha256": "5ae5742c50feda08fd3f2edd7630d5aa97ad18d0d44133503ed1d911818e4d08",
+      "packaged_sha256": "5ae5742c50feda08fd3f2edd7630d5aa97ad18d0d44133503ed1d911818e4d08",
+      "redactions": 0,
+      "original_bytes": 94284
+    },
+    {
+      "path": "formal/jobs/control-oracle/g1-slip-calibration__deHH9XW/artifacts/manifest.json",
+      "original_sha256": "66604beede61c3210566f13dad5002baf344e09932e2fbe682b5071a8b80bdf9",
+      "packaged_sha256": "66604beede61c3210566f13dad5002baf344e09932e2fbe682b5071a8b80bdf9",
+      "redactions": 0,
+      "original_bytes": 350
+    },
+    {
+      "path": "formal/jobs/control-oracle/g1-slip-calibration__deHH9XW/config.json",
+      "original_sha256": "328d357619711fd9b2cd3be2a6a53c21a79710ac26d30d5ad2e82d2e04e4c368",
+      "packaged_sha256": "328d357619711fd9b2cd3be2a6a53c21a79710ac26d30d5ad2e82d2e04e4c368",
+      "redactions": 0,
+      "original_bytes": 368
+    },
+    {
+      "path": "formal/jobs/control-oracle/g1-slip-calibration__deHH9XW/lock.json",
+      "original_sha256": "7511e4d1aa4f45eb46387ef32cb7655083b1d3486a1d79c2ee17b4a02e1b67a1",
+      "packaged_sha256": "7511e4d1aa4f45eb46387ef32cb7655083b1d3486a1d79c2ee17b4a02e1b67a1",
+      "redactions": 0,
+      "original_bytes": 1019
+    },
+    {
+      "path": "formal/jobs/control-oracle/g1-slip-calibration__deHH9XW/result.json",
+      "original_sha256": "5bdb93e2577d900f223ea71858003eeabebc05db90f1d53637cc4e290c5a7dd2",
+      "packaged_sha256": "5bdb93e2577d900f223ea71858003eeabebc05db90f1d53637cc4e290c5a7dd2",
+      "redactions": 0,
+      "original_bytes": 4071
+    },
+    {
+      "path": "formal/jobs/control-oracle/g1-slip-calibration__deHH9XW/trial.log",
+      "original_sha256": "cae57fd6e02543079d28c5c5ebe45c56487f0705a9e6d4ddabb5ae190c2693fb",
+      "packaged_sha256": "cae57fd6e02543079d28c5c5ebe45c56487f0705a9e6d4ddabb5ae190c2693fb",
+      "redactions": 0,
+      "original_bytes": 228
+    },
+    {
+      "path": "formal/jobs/control-oracle/g1-slip-calibration__deHH9XW/verifier/ctrf.json",
+      "original_sha256": "d75a6a39da885833d059d9d464b11b6ff0c7a1bf1ba7cc04157947f12a2dd567",
+      "packaged_sha256": "d75a6a39da885833d059d9d464b11b6ff0c7a1bf1ba7cc04157947f12a2dd567",
+      "redactions": 0,
+      "original_bytes": 1118
+    },
+    {
+      "path": "formal/jobs/control-oracle/g1-slip-calibration__deHH9XW/verifier/reward.txt",
+      "original_sha256": "4355a46b19d348dc2f57c046f8ef63d4538ebb936000f3c9ee954a27460dd865",
+      "packaged_sha256": "4355a46b19d348dc2f57c046f8ef63d4538ebb936000f3c9ee954a27460dd865",
+      "redactions": 0,
+      "original_bytes": 2
+    },
+    {
+      "path": "formal/jobs/control-oracle/g1-slip-calibration__deHH9XW/verifier/test-stdout.txt",
+      "original_sha256": "e5bb84b89f53f70925dc96d94727fb08c446d9b0f69717c93fee6f450ec0a9c7",
+      "packaged_sha256": "e5bb84b89f53f70925dc96d94727fb08c446d9b0f69717c93fee6f450ec0a9c7",
+      "redactions": 0,
+      "original_bytes": 979
+    },
+    {
+      "path": "formal/jobs/control-oracle/job.log",
+      "original_sha256": "22d54716c1ab6c001483da9f9f570b12f6c81101e16150e72d8f4af264bd5f89",
+      "packaged_sha256": "22d54716c1ab6c001483da9f9f570b12f6c81101e16150e72d8f4af264bd5f89",
+      "redactions": 0,
+      "original_bytes": 306
+    },
+    {
+      "path": "formal/jobs/control-oracle/lock.json",
+      "original_sha256": "7c1702b13cc861e4f7cfa50691469376b6387cb787dd4ac3d5a454210b966351",
+      "packaged_sha256": "7c1702b13cc861e4f7cfa50691469376b6387cb787dd4ac3d5a454210b966351",
+      "redactions": 0,
+      "original_bytes": 2045
+    },
+    {
+      "path": "formal/jobs/control-oracle/result.json",
+      "original_sha256": "4fe9b76b0bf69a26dcaa24c216357ca3da014da4bd7eb03a0bf054b1f4b40669",
+      "packaged_sha256": "4fe9b76b0bf69a26dcaa24c216357ca3da014da4bd7eb03a0bf054b1f4b40669",
+      "redactions": 0,
+      "original_bytes": 1110
+    },
+    {
+      "path": "formal/jobs/gpt6-sol-1/config.json",
+      "original_sha256": "fa3e7fcd5deb1af6b9763086dd1a5ac4f81f81f22d822a3afb99844fae66be08",
+      "packaged_sha256": "fa3e7fcd5deb1af6b9763086dd1a5ac4f81f81f22d822a3afb99844fae66be08",
+      "redactions": 0,
+      "original_bytes": 616
+    },
+    {
+      "path": "formal/jobs/gpt6-sol-1/g1-slip-calibration__RaJ3q7S/agent/codex.txt",
+      "original_sha256": "bba9af88c889b5c24f839191278e6ffd464e110c394b6bd352cf83bed72b83c5",
+      "packaged_sha256": "bba9af88c889b5c24f839191278e6ffd464e110c394b6bd352cf83bed72b83c5",
+      "redactions": 0,
+      "original_bytes": 771095
+    },
+    {
+      "path": "formal/jobs/gpt6-sol-1/g1-slip-calibration__RaJ3q7S/agent/sessions/2026/09/26/rollout-2026-09-26T15-21-04-01a0de4e-3e4e-79e1-a1bb-b230993d9f35.jsonl",
+      "original_sha256": "846dc0744a7301a0ccbbda9c0ef2f6812118190fa83f1e9777fc5abc980e3ab3",
+      "packaged_sha256": "846dc0744a7301a0ccbbda9c0ef2f6812118190fa83f1e9777fc5abc980e3ab3",
+      "redactions": 0,
+      "original_bytes": 5499337
+    },
+    {
+      "path": "formal/jobs/gpt6-sol-1/g1-slip-calibration__RaJ3q7S/agent/trajectory.json",
+      "original_sha256": "f890ce4337c5628e590accd9e3a535241cdae1d0e32ec362e483664b92a8b7cc",
+      "packaged_sha256": "f890ce4337c5628e590accd9e3a535241cdae1d0e32ec362e483664b92a8b7cc",
+      "redactions": 0,
+      "original_bytes": 1487174
+    },
+    {
+      "path": "formal/jobs/gpt6-sol-1/g1-slip-calibration__RaJ3q7S/artifacts/app/calibrate.py",
+      "original_sha256": "c5a6b0562b62e1a7aecc6d82f2faba03d92ed398b88ca8ef27f65ba3df96089f",
+      "packaged_sha256": "c5a6b0562b62e1a7aecc6d82f2faba03d92ed398b88ca8ef27f65ba3df96089f",
+      "redactions": 0,
+      "original_bytes": 60546
+    },
+    {
+      "path": "formal/jobs/gpt6-sol-1/g1-slip-calibration__RaJ3q7S/artifacts/manifest.json",
+      "original_sha256": "66604beede61c3210566f13dad5002baf344e09932e2fbe682b5071a8b80bdf9",
+      "packaged_sha256": "66604beede61c3210566f13dad5002baf344e09932e2fbe682b5071a8b80bdf9",
+      "redactions": 0,
+      "original_bytes": 350
+    },
+    {
+      "path": "formal/jobs/gpt6-sol-1/g1-slip-calibration__RaJ3q7S/config.json",
+      "original_sha256": "9af3c5d42554a4f06942eafae50ca163a8dd03863a67a0f3e005625cb12c6b18",
+      "packaged_sha256": "9af3c5d42554a4f06942eafae50ca163a8dd03863a67a0f3e005625cb12c6b18",
+      "redactions": 0,
+      "original_bytes": 622
+    },
+    {
+      "path": "formal/jobs/gpt6-sol-1/g1-slip-calibration__RaJ3q7S/lock.json",
+      "original_sha256": "14a468c56e3afc505338740812b530a978a64399cc60c5362bebf3a687df4e24",
+      "packaged_sha256": "14a468c56e3afc505338740812b530a978a64399cc60c5362bebf3a687df4e24",
+      "redactions": 0,
+      "original_bytes": 1280
+    },
+    {
+      "path": "formal/jobs/gpt6-sol-1/g1-slip-calibration__RaJ3q7S/result.json",
+      "original_sha256": "439355716d4751cf6ebdda0403f47247a5f184d686347e61316b52a532533085",
+      "packaged_sha256": "439355716d4751cf6ebdda0403f47247a5f184d686347e61316b52a532533085",
+      "redactions": 0,
+      "original_bytes": 4890
+    },
+    {
+      "path": "formal/jobs/gpt6-sol-1/g1-slip-calibration__RaJ3q7S/trial.log",
+      "original_sha256": "58f4ec1db3e3ddca14c836387c142766503910c4a4874e4b116e0911d4a82e4f",
+      "packaged_sha256": "58f4ec1db3e3ddca14c836387c142766503910c4a4874e4b116e0911d4a82e4f",
+      "redactions": 0,
+      "original_bytes": 2551
+    },
+    {
+      "path": "formal/jobs/gpt6-sol-1/g1-slip-calibration__RaJ3q7S/verifier/ctrf.json",
+      "original_sha256": "b45c9fda298938b3e9ae870c88a3b8b53967966c3fa80bf390d112df53fcdbe7",
+      "packaged_sha256": "b45c9fda298938b3e9ae870c88a3b8b53967966c3fa80bf390d112df53fcdbe7",
+      "redactions": 0,
+      "original_bytes": 1368
+    },
+    {
+      "path": "formal/jobs/gpt6-sol-1/g1-slip-calibration__RaJ3q7S/verifier/reward.txt",
+      "original_sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+      "packaged_sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+      "redactions": 0,
+      "original_bytes": 2
+    },
+    {
+      "path": "formal/jobs/gpt6-sol-1/g1-slip-calibration__RaJ3q7S/verifier/test-stdout.txt",
+      "original_sha256": "c76baa60c1965cc024f327aaa91e1ac926d2afa70dde6f7a8535779e88da4f8f",
+      "packaged_sha256": "c76baa60c1965cc024f327aaa91e1ac926d2afa70dde6f7a8535779e88da4f8f",
+      "redactions": 0,
+      "original_bytes": 1077
+    },
+    {
+      "path": "formal/jobs/gpt6-sol-1/job.log",
+      "original_sha256": "82a33940d34e5b163eeff010742fa9fd5c10f7d31262397ba54b3d38f95b7f3e",
+      "packaged_sha256": "82a33940d34e5b163eeff010742fa9fd5c10f7d31262397ba54b3d38f95b7f3e",
+      "redactions": 0,
+      "original_bytes": 2479
+    },
+    {
+      "path": "formal/jobs/gpt6-sol-1/lock.json",
+      "original_sha256": "8fd8741ed327d9d1004bf60fedccff71e74425bd245658106eb6ebb96f67f3a5",
+      "packaged_sha256": "8fd8741ed327d9d1004bf60fedccff71e74425bd245658106eb6ebb96f67f3a5",
+      "redactions": 0,
+      "original_bytes": 2255
+    },
+    {
+      "path": "formal/jobs/gpt6-sol-1/result.json",
+      "original_sha256": "7dd57e91a2c697099c9e69735431675920b800e7f96e6019983b02460e5f7060",
+      "packaged_sha256": "7dd57e91a2c697099c9e69735431675920b800e7f96e6019983b02460e5f7060",
+      "redactions": 0,
+      "original_bytes": 1144
+    },
+    {
+      "path": "formal/jobs/gpt6-sol-2/config.json",
+      "original_sha256": "f17b33a81e4df44dd2bd6788ffde06e37dad88bbbb0ff5e6bb8098647d55c69f",
+      "packaged_sha256": "f17b33a81e4df44dd2bd6788ffde06e37dad88bbbb0ff5e6bb8098647d55c69f",
+      "redactions": 0,
+      "original_bytes": 616
+    },
+    {
+      "path": "formal/jobs/gpt6-sol-2/g1-slip-calibration__5GfFT7k/agent/codex.txt",
+      "original_sha256": "848f56c745561552f895e2379d5e4cf91ff414598bdff81dc4c735741caee06e",
+      "packaged_sha256": "848f56c745561552f895e2379d5e4cf91ff414598bdff81dc4c735741caee06e",
+      "redactions": 0,
+      "original_bytes": 3904
+    },
+    {
+      "path": "formal/jobs/gpt6-sol-2/g1-slip-calibration__5GfFT7k/agent/sessions/2026/09/26/rollout-2026-09-26T17-51-52-01a0ded8-4e5e-7600-8405-8a66042477b8.jsonl",
+      "original_sha256": "c7576791818338eb70579d9f49c04d42378ef7613664f0193879c8cfac0206f5",
+      "packaged_sha256": "c7576791818338eb70579d9f49c04d42378ef7613664f0193879c8cfac0206f5",
+      "redactions": 0,
+      "original_bytes": 117974
+    },
+    {
+      "path": "formal/jobs/gpt6-sol-2/g1-slip-calibration__5GfFT7k/agent/trajectory.json",
+      "original_sha256": "601e4bb07cf4601cf60cf4e6dc8cb3ce47caa236f2ccfbaa49f7841ff72ae20b",
+      "packaged_sha256": "601e4bb07cf4601cf60cf4e6dc8cb3ce47caa236f2ccfbaa49f7841ff72ae20b",
+      "redactions": 0,
+      "original_bytes": 36234
+    },
+    {
+      "path": "formal/jobs/gpt6-sol-2/g1-slip-calibration__5GfFT7k/artifacts/app/calibrate.py",
+      "original_sha256": "0fa61de561f5852e30483b998e33e6414b99dbeea0d381d66fb1e0af667f4fad",
+      "packaged_sha256": "0fa61de561f5852e30483b998e33e6414b99dbeea0d381d66fb1e0af667f4fad",
+      "redactions": 0,
+      "original_bytes": 130
+    },
+    {
+      "path": "formal/jobs/gpt6-sol-2/g1-slip-calibration__5GfFT7k/artifacts/manifest.json",
+      "original_sha256": "66604beede61c3210566f13dad5002baf344e09932e2fbe682b5071a8b80bdf9",
+      "packaged_sha256": "66604beede61c3210566f13dad5002baf344e09932e2fbe682b5071a8b80bdf9",
+      "redactions": 0,
+      "original_bytes": 350
+    },
+    {
+      "path": "formal/jobs/gpt6-sol-2/g1-slip-calibration__5GfFT7k/config.json",
+      "original_sha256": "723115525f0b5ae31248e1d4b70bb9204ea546b51a684183b8bef5034e061c1b",
+      "packaged_sha256": "723115525f0b5ae31248e1d4b70bb9204ea546b51a684183b8bef5034e061c1b",
+      "redactions": 0,
+      "original_bytes": 595
+    },
+    {
+      "path": "formal/jobs/gpt6-sol-2/g1-slip-calibration__5GfFT7k/lock.json",
+      "original_sha256": "2cf66789dc00b3b7b4354265c471ad3941097073afb073c253f111518610d587",
+      "packaged_sha256": "2cf66789dc00b3b7b4354265c471ad3941097073afb073c253f111518610d587",
+      "redactions": 0,
+      "original_bytes": 1181
+    },
+    {
+      "path": "formal/jobs/gpt6-sol-2/g1-slip-calibration__5GfFT7k/result.json",
+      "original_sha256": "e094223f1a75629059418505bb935bf089e9806892244e84541f16d203d4895a",
+      "packaged_sha256": "e094223f1a75629059418505bb935bf089e9806892244e84541f16d203d4895a",
+      "redactions": 0,
+      "original_bytes": 4518
+    },
+    {
+      "path": "formal/jobs/gpt6-sol-2/g1-slip-calibration__5GfFT7k/trial.log",
+      "original_sha256": "1b684d33a6acb3f87a1781844c93fabda8d9e2518b793a56e2657d10ba502192",
+      "packaged_sha256": "1b684d33a6acb3f87a1781844c93fabda8d9e2518b793a56e2657d10ba502192",
+      "redactions": 0,
+      "original_bytes": 2479
+    },
+    {
+      "path": "formal/jobs/gpt6-sol-2/g1-slip-calibration__5GfFT7k/verifier/ctrf.json",
+      "original_sha256": "7533f0dc9351dadcbc8fa9e1353186a10e2e4678f33784825fed255eb88de2e3",
+      "packaged_sha256": "7533f0dc9351dadcbc8fa9e1353186a10e2e4678f33784825fed255eb88de2e3",
+      "redactions": 0,
+      "original_bytes": 1353
+    },
+    {
+      "path": "formal/jobs/gpt6-sol-2/g1-slip-calibration__5GfFT7k/verifier/reward.txt",
+      "original_sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+      "packaged_sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+      "redactions": 0,
+      "original_bytes": 2
+    },
+    {
+      "path": "formal/jobs/gpt6-sol-2/g1-slip-calibration__5GfFT7k/verifier/test-stdout.txt",
+      "original_sha256": "95c36d95b353635de0af83d7b6c2c1cfebfb69dbedbdcd8db118a82844141a55",
+      "packaged_sha256": "95c36d95b353635de0af83d7b6c2c1cfebfb69dbedbdcd8db118a82844141a55",
+      "redactions": 0,
+      "original_bytes": 646
+    },
+    {
+      "path": "formal/jobs/gpt6-sol-2/job.log",
+      "original_sha256": "1b684d33a6acb3f87a1781844c93fabda8d9e2518b793a56e2657d10ba502192",
+      "packaged_sha256": "1b684d33a6acb3f87a1781844c93fabda8d9e2518b793a56e2657d10ba502192",
+      "redactions": 0,
+      "original_bytes": 2479
+    },
+    {
+      "path": "formal/jobs/gpt6-sol-2/lock.json",
+      "original_sha256": "8e8a2efde5284094b1daae92a22dd748f95a9450088064d7c387bf0c7fd54568",
+      "packaged_sha256": "8e8a2efde5284094b1daae92a22dd748f95a9450088064d7c387bf0c7fd54568",
+      "redactions": 0,
+      "original_bytes": 2255
+    },
+    {
+      "path": "formal/jobs/gpt6-sol-2/result.json",
+      "original_sha256": "b9080eba523155a495be5244f3eed220f1b18745f6fbcbf340f6e629f98ac408",
+      "packaged_sha256": "b9080eba523155a495be5244f3eed220f1b18745f6fbcbf340f6e629f98ac408",
+      "redactions": 0,
+      "original_bytes": 1129
+    },
+    {
+      "path": "formal/jobs/gpt6-sol-2-repaired/config.json",
+      "original_sha256": "17a5c02cd2d7dd3f6d8bc66fc3f93efef7db98fd0c43049b97aee6d655b837a1",
+      "packaged_sha256": "17a5c02cd2d7dd3f6d8bc66fc3f93efef7db98fd0c43049b97aee6d655b837a1",
+      "redactions": 0,
+      "original_bytes": 625
+    },
+    {
+      "path": "formal/jobs/gpt6-sol-2-repaired/g1-slip-calibration__E7LHpDG/agent/codex.txt",
+      "original_sha256": "4d5a1603cdf6510964871be401214d3aaa3e049931abe04547401535db5511de",
+      "packaged_sha256": "4d5a1603cdf6510964871be401214d3aaa3e049931abe04547401535db5511de",
+      "redactions": 0,
+      "original_bytes": 438225
+    },
+    {
+      "path": "formal/jobs/gpt6-sol-2-repaired/g1-slip-calibration__E7LHpDG/agent/sessions/2026/09/26/rollout-2026-09-26T18-37-56-01a0df02-77c3-7491-a4d1-10eed0050580.jsonl",
+      "original_sha256": "d375bb1fc66b0e8d215f148d31002e81713fd9cfcfd72af25e31d8207c576f6d",
+      "packaged_sha256": "d375bb1fc66b0e8d215f148d31002e81713fd9cfcfd72af25e31d8207c576f6d",
+      "redactions": 0,
+      "original_bytes": 2369467
+    },
+    {
+      "path": "formal/jobs/gpt6-sol-2-repaired/g1-slip-calibration__E7LHpDG/agent/trajectory.json",
+      "original_sha256": "ecf549f6d9c90a548398642770a8c74d647fab0ac4def405203304e4fab29a5f",
+      "packaged_sha256": "ecf549f6d9c90a548398642770a8c74d647fab0ac4def405203304e4fab29a5f",
+      "redactions": 0,
+      "original_bytes": 723815
+    },
+    {
+      "path": "formal/jobs/gpt6-sol-2-repaired/g1-slip-calibration__E7LHpDG/artifacts/app/calibrate.py",
+      "original_sha256": "9b1003af23ec81b4440be08a3c03fff4b534393ea155da03e5bd2820fd1c6bdc",
+      "packaged_sha256": "9b1003af23ec81b4440be08a3c03fff4b534393ea155da03e5bd2820fd1c6bdc",
+      "redactions": 0,
+      "original_bytes": 44950
+    },
+    {
+      "path": "formal/jobs/gpt6-sol-2-repaired/g1-slip-calibration__E7LHpDG/artifacts/manifest.json",
+      "original_sha256": "66604beede61c3210566f13dad5002baf344e09932e2fbe682b5071a8b80bdf9",
+      "packaged_sha256": "66604beede61c3210566f13dad5002baf344e09932e2fbe682b5071a8b80bdf9",
+      "redactions": 0,
+      "original_bytes": 350
+    },
+    {
+      "path": "formal/jobs/gpt6-sol-2-repaired/g1-slip-calibration__E7LHpDG/config.json",
+      "original_sha256": "cc74b3e85c2beef979baf98dd38c77a20fee7816d10e0e851731fb870a89aaf2",
+      "packaged_sha256": "cc74b3e85c2beef979baf98dd38c77a20fee7816d10e0e851731fb870a89aaf2",
+      "redactions": 0,
+      "original_bytes": 604
+    },
+    {
+      "path": "formal/jobs/gpt6-sol-2-repaired/g1-slip-calibration__E7LHpDG/lock.json",
+      "original_sha256": "dc47d997a7b2eb14d645dd216dfa2d51bef271a7c49b06cc9037816e131316b9",
+      "packaged_sha256": "dc47d997a7b2eb14d645dd216dfa2d51bef271a7c49b06cc9037816e131316b9",
+      "redactions": 0,
+      "original_bytes": 1181
+    },
+    {
+      "path": "formal/jobs/gpt6-sol-2-repaired/g1-slip-calibration__E7LHpDG/result.json",
+      "original_sha256": "65cd23527347db67cfb709bad04d0515b200ced56714a11bd67661ef78ddfd93",
+      "packaged_sha256": "65cd23527347db67cfb709bad04d0515b200ced56714a11bd67661ef78ddfd93",
+      "redactions": 0,
+      "original_bytes": 4564
+    },
+    {
+      "path": "formal/jobs/gpt6-sol-2-repaired/g1-slip-calibration__E7LHpDG/trial.log",
+      "original_sha256": "8b6bb0df18b6f1f20be319348bce7e32c6cec595d604c6f652c3563ec9570912",
+      "packaged_sha256": "8b6bb0df18b6f1f20be319348bce7e32c6cec595d604c6f652c3563ec9570912",
+      "redactions": 0,
+      "original_bytes": 2488
+    },
+    {
+      "path": "formal/jobs/gpt6-sol-2-repaired/g1-slip-calibration__E7LHpDG/verifier/ctrf.json",
+      "original_sha256": "d0ae3e520de5afbc9661eb9b01998f0ae780e1761e0f156419a70d16ef5f984f",
+      "packaged_sha256": "d0ae3e520de5afbc9661eb9b01998f0ae780e1761e0f156419a70d16ef5f984f",
+      "redactions": 0,
+      "original_bytes": 1342
+    },
+    {
+      "path": "formal/jobs/gpt6-sol-2-repaired/g1-slip-calibration__E7LHpDG/verifier/reward.txt",
+      "original_sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+      "packaged_sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+      "redactions": 0,
+      "original_bytes": 2
+    },
+    {
+      "path": "formal/jobs/gpt6-sol-2-repaired/g1-slip-calibration__E7LHpDG/verifier/test-stdout.txt",
+      "original_sha256": "9f4f70c1ce767a55c74ed0392c88ae510fc5c8c13f12f433dace22592c1f6919",
+      "packaged_sha256": "9f4f70c1ce767a55c74ed0392c88ae510fc5c8c13f12f433dace22592c1f6919",
+      "redactions": 0,
+      "original_bytes": 646
+    },
+    {
+      "path": "formal/jobs/gpt6-sol-2-repaired/job.log",
+      "original_sha256": "8b6bb0df18b6f1f20be319348bce7e32c6cec595d604c6f652c3563ec9570912",
+      "packaged_sha256": "8b6bb0df18b6f1f20be319348bce7e32c6cec595d604c6f652c3563ec9570912",
+      "redactions": 0,
+      "original_bytes": 2488
+    },
+    {
+      "path": "formal/jobs/gpt6-sol-2-repaired/lock.json",
+      "original_sha256": "f5c829968ae55440138770abdf07ff47634077755041dd8b67daba5f11bf9392",
+      "packaged_sha256": "f5c829968ae55440138770abdf07ff47634077755041dd8b67daba5f11bf9392",
+      "redactions": 0,
+      "original_bytes": 2255
+    },
+    {
+      "path": "formal/jobs/gpt6-sol-2-repaired/result.json",
+      "original_sha256": "78ec307b6b9bf068ba72b8b3c8412ceb024f19a38bf55bda7e383919d6f72222",
+      "packaged_sha256": "78ec307b6b9bf068ba72b8b3c8412ceb024f19a38bf55bda7e383919d6f72222",
+      "redactions": 0,
+      "original_bytes": 1143
+    },
+    {
+      "path": "formal/jobs/gpt6-sol-3/config.json",
+      "original_sha256": "e7822856f79ae6117570df40cbf7b87506028dac74e6f6ebe2e616b2813c1999",
+      "packaged_sha256": "e7822856f79ae6117570df40cbf7b87506028dac74e6f6ebe2e616b2813c1999",
+      "redactions": 0,
+      "original_bytes": 616
+    },
+    {
+      "path": "formal/jobs/gpt6-sol-3/g1-slip-calibration__3cw2hAV/agent/codex.txt",
+      "original_sha256": "10cebca1f0dc493472f9ee438906bf7e8d05dfd1725989477b69af3faf33a9e4",
+      "packaged_sha256": "10cebca1f0dc493472f9ee438906bf7e8d05dfd1725989477b69af3faf33a9e4",
+      "redactions": 0,
+      "original_bytes": 3475
+    },
+    {
+      "path": "formal/jobs/gpt6-sol-3/g1-slip-calibration__3cw2hAV/agent/sessions/2026/09/26/rollout-2026-09-26T17-58-43-01a0dede-9366-7aa3-9103-e67ed9da52c1.jsonl",
+      "original_sha256": "604f31d29ed2ba276880a8ee3cbb2bd6281b8d1d0ad719d5e70fb0e02e7f720f",
+      "packaged_sha256": "604f31d29ed2ba276880a8ee3cbb2bd6281b8d1d0ad719d5e70fb0e02e7f720f",
+      "redactions": 0,
+      "original_bytes": 108319
+    },
+    {
+      "path": "formal/jobs/gpt6-sol-3/g1-slip-calibration__3cw2hAV/agent/trajectory.json",
+      "original_sha256": "a8ec5c61965a6d6a84cc13906bb652bdae7383f59d0f1c10b07cc33b3354d9e2",
+      "packaged_sha256": "a8ec5c61965a6d6a84cc13906bb652bdae7383f59d0f1c10b07cc33b3354d9e2",
+      "redactions": 0,
+      "original_bytes": 33130
+    },
+    {
+      "path": "formal/jobs/gpt6-sol-3/g1-slip-calibration__3cw2hAV/artifacts/app/calibrate.py",
+      "original_sha256": "0fa61de561f5852e30483b998e33e6414b99dbeea0d381d66fb1e0af667f4fad",
+      "packaged_sha256": "0fa61de561f5852e30483b998e33e6414b99dbeea0d381d66fb1e0af667f4fad",
+      "redactions": 0,
+      "original_bytes": 130
+    },
+    {
+      "path": "formal/jobs/gpt6-sol-3/g1-slip-calibration__3cw2hAV/artifacts/manifest.json",
+      "original_sha256": "66604beede61c3210566f13dad5002baf344e09932e2fbe682b5071a8b80bdf9",
+      "packaged_sha256": "66604beede61c3210566f13dad5002baf344e09932e2fbe682b5071a8b80bdf9",
+      "redactions": 0,
+      "original_bytes": 350
+    },
+    {
+      "path": "formal/jobs/gpt6-sol-3/g1-slip-calibration__3cw2hAV/config.json",
+      "original_sha256": "8c3f329804e77a91bd340e2cfdf8b4aad5c9426ccd5275d7d643f56d622ea626",
+      "packaged_sha256": "8c3f329804e77a91bd340e2cfdf8b4aad5c9426ccd5275d7d643f56d622ea626",
+      "redactions": 0,
+      "original_bytes": 595
+    },
+    {
+      "path": "formal/jobs/gpt6-sol-3/g1-slip-calibration__3cw2hAV/lock.json",
+      "original_sha256": "2cf66789dc00b3b7b4354265c471ad3941097073afb073c253f111518610d587",
+      "packaged_sha256": "2cf66789dc00b3b7b4354265c471ad3941097073afb073c253f111518610d587",
+      "redactions": 0,
+      "original_bytes": 1181
+    },
+    {
+      "path": "formal/jobs/gpt6-sol-3/g1-slip-calibration__3cw2hAV/result.json",
+      "original_sha256": "39c682f7da43a62ff4658ac545eff286c03a56a2d8cb3e9acbfa5fcf3a0a355f",
+      "packaged_sha256": "39c682f7da43a62ff4658ac545eff286c03a56a2d8cb3e9acbfa5fcf3a0a355f",
+      "redactions": 0,
+      "original_bytes": 4518
+    },
+    {
+      "path": "formal/jobs/gpt6-sol-3/g1-slip-calibration__3cw2hAV/trial.log",
+      "original_sha256": "68eaa134f61c290d02e5a6536ee27aae2669f10b2a8b37a8ed7b5d16b2239d73",
+      "packaged_sha256": "68eaa134f61c290d02e5a6536ee27aae2669f10b2a8b37a8ed7b5d16b2239d73",
+      "redactions": 0,
+      "original_bytes": 2479
+    },
+    {
+      "path": "formal/jobs/gpt6-sol-3/g1-slip-calibration__3cw2hAV/verifier/ctrf.json",
+      "original_sha256": "c4bcc7cf9e1c266977d18a132faf132d8678959500ea89cacca446e21f645e24",
+      "packaged_sha256": "c4bcc7cf9e1c266977d18a132faf132d8678959500ea89cacca446e21f645e24",
+      "redactions": 0,
+      "original_bytes": 1354
+    },
+    {
+      "path": "formal/jobs/gpt6-sol-3/g1-slip-calibration__3cw2hAV/verifier/reward.txt",
+      "original_sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+      "packaged_sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+      "redactions": 0,
+      "original_bytes": 2
+    },
+    {
+      "path": "formal/jobs/gpt6-sol-3/g1-slip-calibration__3cw2hAV/verifier/test-stdout.txt",
+      "original_sha256": "95c36d95b353635de0af83d7b6c2c1cfebfb69dbedbdcd8db118a82844141a55",
+      "packaged_sha256": "95c36d95b353635de0af83d7b6c2c1cfebfb69dbedbdcd8db118a82844141a55",
+      "redactions": 0,
+      "original_bytes": 646
+    },
+    {
+      "path": "formal/jobs/gpt6-sol-3/job.log",
+      "original_sha256": "68eaa134f61c290d02e5a6536ee27aae2669f10b2a8b37a8ed7b5d16b2239d73",
+      "packaged_sha256": "68eaa134f61c290d02e5a6536ee27aae2669f10b2a8b37a8ed7b5d16b2239d73",
+      "redactions": 0,
+      "original_bytes": 2479
+    },
+    {
+      "path": "formal/jobs/gpt6-sol-3/lock.json",
+      "original_sha256": "8f858ce1157f2e3cc143a9affa0eb8dd8d246c160b337c237ef6a28eb4e12fd0",
+      "packaged_sha256": "8f858ce1157f2e3cc143a9affa0eb8dd8d246c160b337c237ef6a28eb4e12fd0",
+      "redactions": 0,
+      "original_bytes": 2255
+    },
+    {
+      "path": "formal/jobs/gpt6-sol-3/result.json",
+      "original_sha256": "5034a64febfdf68c929ce5ef71dbda3e5cbac0bd0b0a29837fb4708ed1e4ea85",
+      "packaged_sha256": "5034a64febfdf68c929ce5ef71dbda3e5cbac0bd0b0a29837fb4708ed1e4ea85",
+      "redactions": 0,
+      "original_bytes": 1129
+    },
+    {
+      "path": "formal/jobs/gpt6-sol-3-repaired/config.json",
+      "original_sha256": "49015f8978fa22d2d038c0d872d1a449f2dd193a2cf3cd622e4bd9b88db8b468",
+      "packaged_sha256": "49015f8978fa22d2d038c0d872d1a449f2dd193a2cf3cd622e4bd9b88db8b468",
+      "redactions": 0,
+      "original_bytes": 625
+    },
+    {
+      "path": "formal/jobs/gpt6-sol-3-repaired/g1-slip-calibration__Ctbg8fh/agent/codex.txt",
+      "original_sha256": "138890177356a3dda28fd05b1eddb71fedcc026e43d11a9265dc51bc472fc37d",
+      "packaged_sha256": "138890177356a3dda28fd05b1eddb71fedcc026e43d11a9265dc51bc472fc37d",
+      "redactions": 0,
+      "original_bytes": 249957
+    },
+    {
+      "path": "formal/jobs/gpt6-sol-3-repaired/g1-slip-calibration__Ctbg8fh/agent/sessions/2026/09/26/rollout-2026-09-26T19-44-23-01a0df3f-5013-7a40-8de2-ffcb86090e3d.jsonl",
+      "original_sha256": "dc8831a1705dbe7384e28146d168c3d00ef17a21b5117c7e59a6791f5d462bc8",
+      "packaged_sha256": "dc8831a1705dbe7384e28146d168c3d00ef17a21b5117c7e59a6791f5d462bc8",
+      "redactions": 0,
+      "original_bytes": 1899239
+    },
+    {
+      "path": "formal/jobs/gpt6-sol-3-repaired/g1-slip-calibration__Ctbg8fh/agent/trajectory.json",
+      "original_sha256": "1110100c0bcc4303ccdc763fcb75cea4541bdf911ecb6e39d7e09ac81edf724c",
+      "packaged_sha256": "1110100c0bcc4303ccdc763fcb75cea4541bdf911ecb6e39d7e09ac81edf724c",
+      "redactions": 0,
+      "original_bytes": 650934
+    },
+    {
+      "path": "formal/jobs/gpt6-sol-3-repaired/g1-slip-calibration__Ctbg8fh/artifacts/app/calibrate.py",
+      "original_sha256": "d3d289eab500e4575425ff6fa6235e3650c20ae40992f43a95f2998494eafda7",
+      "packaged_sha256": "d3d289eab500e4575425ff6fa6235e3650c20ae40992f43a95f2998494eafda7",
+      "redactions": 0,
+      "original_bytes": 46526
+    },
+    {
+      "path": "formal/jobs/gpt6-sol-3-repaired/g1-slip-calibration__Ctbg8fh/artifacts/manifest.json",
+      "original_sha256": "66604beede61c3210566f13dad5002baf344e09932e2fbe682b5071a8b80bdf9",
+      "packaged_sha256": "66604beede61c3210566f13dad5002baf344e09932e2fbe682b5071a8b80bdf9",
+      "redactions": 0,
+      "original_bytes": 350
+    },
+    {
+      "path": "formal/jobs/gpt6-sol-3-repaired/g1-slip-calibration__Ctbg8fh/config.json",
+      "original_sha256": "e95d93abd172c1b8525c754f97bd1cb8cd5313402ec6f674f2afac97ad097878",
+      "packaged_sha256": "e95d93abd172c1b8525c754f97bd1cb8cd5313402ec6f674f2afac97ad097878",
+      "redactions": 0,
+      "original_bytes": 604
+    },
+    {
+      "path": "formal/jobs/gpt6-sol-3-repaired/g1-slip-calibration__Ctbg8fh/lock.json",
+      "original_sha256": "dc47d997a7b2eb14d645dd216dfa2d51bef271a7c49b06cc9037816e131316b9",
+      "packaged_sha256": "dc47d997a7b2eb14d645dd216dfa2d51bef271a7c49b06cc9037816e131316b9",
+      "redactions": 0,
+      "original_bytes": 1181
+    },
+    {
+      "path": "formal/jobs/gpt6-sol-3-repaired/g1-slip-calibration__Ctbg8fh/result.json",
+      "original_sha256": "233901de2ae6fdb955df3668558024f0659df53bd743a7d2503b82190d9353b5",
+      "packaged_sha256": "233901de2ae6fdb955df3668558024f0659df53bd743a7d2503b82190d9353b5",
+      "redactions": 0,
+      "original_bytes": 4548
+    },
+    {
+      "path": "formal/jobs/gpt6-sol-3-repaired/g1-slip-calibration__Ctbg8fh/trial.log",
+      "original_sha256": "ee79f921485d8b0b6efa5561ec881e3b28566bfae205b2354d69dac5efb6e024",
+      "packaged_sha256": "ee79f921485d8b0b6efa5561ec881e3b28566bfae205b2354d69dac5efb6e024",
+      "redactions": 0,
+      "original_bytes": 2488
+    },
+    {
+      "path": "formal/jobs/gpt6-sol-3-repaired/g1-slip-calibration__Ctbg8fh/verifier/ctrf.json",
+      "original_sha256": "384ab40c7be1edc4f896bf3d5abf63064c382b77460386cd25a15ac9cd0f7526",
+      "packaged_sha256": "384ab40c7be1edc4f896bf3d5abf63064c382b77460386cd25a15ac9cd0f7526",
+      "redactions": 0,
+      "original_bytes": 1260
+    },
+    {
+      "path": "formal/jobs/gpt6-sol-3-repaired/g1-slip-calibration__Ctbg8fh/verifier/reward.txt",
+      "original_sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+      "packaged_sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+      "redactions": 0,
+      "original_bytes": 2
+    },
+    {
+      "path": "formal/jobs/gpt6-sol-3-repaired/g1-slip-calibration__Ctbg8fh/verifier/test-stdout.txt",
+      "original_sha256": "4f9d0e619917d5a181b8303a7cd63fcc36a6dfa49b5d847e3c52426f9cff584d",
+      "packaged_sha256": "4f9d0e619917d5a181b8303a7cd63fcc36a6dfa49b5d847e3c52426f9cff584d",
+      "redactions": 0,
+      "original_bytes": 872
+    },
+    {
+      "path": "formal/jobs/gpt6-sol-3-repaired/job.log",
+      "original_sha256": "ee79f921485d8b0b6efa5561ec881e3b28566bfae205b2354d69dac5efb6e024",
+      "packaged_sha256": "ee79f921485d8b0b6efa5561ec881e3b28566bfae205b2354d69dac5efb6e024",
+      "redactions": 0,
+      "original_bytes": 2488
+    },
+    {
+      "path": "formal/jobs/gpt6-sol-3-repaired/lock.json",
+      "original_sha256": "682951973172bf61a09322ea02d48f230d107d9d4fe7d1a98cbaeac2d8df8695",
+      "packaged_sha256": "682951973172bf61a09322ea02d48f230d107d9d4fe7d1a98cbaeac2d8df8695",
+      "redactions": 0,
+      "original_bytes": 2255
+    },
+    {
+      "path": "formal/jobs/gpt6-sol-3-repaired/result.json",
+      "original_sha256": "f9af0b34db631cb3346c118ae83fb8abfd9a135fd9af406706fd259937fb92c8",
+      "packaged_sha256": "f9af0b34db631cb3346c118ae83fb8abfd9a135fd9af406706fd259937fb92c8",
+      "redactions": 0,
+      "original_bytes": 1135
+    },
+    {
+      "path": "formal/jobs/gpt6-sol-cheat-1/config.json",
+      "original_sha256": "615f542658b83b856e936bb87eadc0cdc65b04d7c38d8e22ca33e20c942ed1b6",
+      "packaged_sha256": "615f542658b83b856e936bb87eadc0cdc65b04d7c38d8e22ca33e20c942ed1b6",
+      "redactions": 0,
+      "original_bytes": 793
+    },
+    {
+      "path": "formal/jobs/gpt6-sol-cheat-1/g1-slip-calibration__U4VGSqY/agent/codex.txt",
+      "original_sha256": "513d4f1a0513bb4c613d977942a0aa0c360aa88ac5f90acacd361a7d15d4305d",
+      "packaged_sha256": "513d4f1a0513bb4c613d977942a0aa0c360aa88ac5f90acacd361a7d15d4305d",
+      "redactions": 0,
+      "original_bytes": 1020
+    },
+    {
+      "path": "formal/jobs/gpt6-sol-cheat-1/g1-slip-calibration__U4VGSqY/agent/sessions/2026/09/26/rollout-2026-09-26T21-11-38-01a0df8f-2f2e-7902-981a-1111c2109e33.jsonl",
+      "original_sha256": "5dcd0fc66ce076cda2d9019c464b65cab1446094d69fb859c8d5d36f5fbd1bbe",
+      "packaged_sha256": "5dcd0fc66ce076cda2d9019c464b65cab1446094d69fb859c8d5d36f5fbd1bbe",
+      "redactions": 0,
+      "original_bytes": 43873
+    },
+    {
+      "path": "formal/jobs/gpt6-sol-cheat-1/g1-slip-calibration__U4VGSqY/agent/trajectory.json",
+      "original_sha256": "41436b3ce52e296e531c6b4adc621ceb73cf8dafa06c2902b02d0b45494467ce",
+      "packaged_sha256": "41436b3ce52e296e531c6b4adc621ceb73cf8dafa06c2902b02d0b45494467ce",
+      "redactions": 0,
+      "original_bytes": 12681
+    },
+    {
+      "path": "formal/jobs/gpt6-sol-cheat-1/g1-slip-calibration__U4VGSqY/artifacts/app/calibrate.py",
+      "original_sha256": "0fa61de561f5852e30483b998e33e6414b99dbeea0d381d66fb1e0af667f4fad",
+      "packaged_sha256": "0fa61de561f5852e30483b998e33e6414b99dbeea0d381d66fb1e0af667f4fad",
+      "redactions": 0,
+      "original_bytes": 130
+    },
+    {
+      "path": "formal/jobs/gpt6-sol-cheat-1/g1-slip-calibration__U4VGSqY/artifacts/manifest.json",
+      "original_sha256": "66604beede61c3210566f13dad5002baf344e09932e2fbe682b5071a8b80bdf9",
+      "packaged_sha256": "66604beede61c3210566f13dad5002baf344e09932e2fbe682b5071a8b80bdf9",
+      "redactions": 0,
+      "original_bytes": 350
+    },
+    {
+      "path": "formal/jobs/gpt6-sol-cheat-1/g1-slip-calibration__U4VGSqY/config.json",
+      "original_sha256": "09ac02613e9fdc944bbe716194dabae27eb18607090508a3caa33601bc5c402e",
+      "packaged_sha256": "09ac02613e9fdc944bbe716194dabae27eb18607090508a3caa33601bc5c402e",
+      "redactions": 0,
+      "original_bytes": 772
+    },
+    {
+      "path": "formal/jobs/gpt6-sol-cheat-1/g1-slip-calibration__U4VGSqY/exception.txt",
+      "original_sha256": "801b8a38bc8fdf3a69e49e52b358bb519cd312c8256d8eaa6a0eab859efc0627",
+      "packaged_sha256": "801b8a38bc8fdf3a69e49e52b358bb519cd312c8256d8eaa6a0eab859efc0627",
+      "redactions": 0,
+      "original_bytes": 6934
+    },
+    {
+      "path": "formal/jobs/gpt6-sol-cheat-1/g1-slip-calibration__U4VGSqY/lock.json",
+      "original_sha256": "9438994ff7990e5da3da64499036092efcab9eecbd8510e98b96ce5ec37f50ea",
+      "packaged_sha256": "9438994ff7990e5da3da64499036092efcab9eecbd8510e98b96ce5ec37f50ea",
+      "redactions": 0,
+      "original_bytes": 1476
+    },
+    {
+      "path": "formal/jobs/gpt6-sol-cheat-1/g1-slip-calibration__U4VGSqY/result.json",
+      "original_sha256": "256c9be15cf92e520c9df4d889205c296f9a3d5951285999ee263a011ff09c6d",
+      "packaged_sha256": "256c9be15cf92e520c9df4d889205c296f9a3d5951285999ee263a011ff09c6d",
+      "redactions": 0,
+      "original_bytes": 17063
+    },
+    {
+      "path": "formal/jobs/gpt6-sol-cheat-1/g1-slip-calibration__U4VGSqY/trial.log",
+      "original_sha256": "a6db67ddc1287ae1c7871bb9072ff1a2f6eb6d60baeb35fc038748be84f5b73b",
+      "packaged_sha256": "a6db67ddc1287ae1c7871bb9072ff1a2f6eb6d60baeb35fc038748be84f5b73b",
+      "redactions": 0,
+      "original_bytes": 5842
+    },
+    {
+      "path": "formal/jobs/gpt6-sol-cheat-1/g1-slip-calibration__U4VGSqY/verifier/ctrf.json",
+      "original_sha256": "f8fe6dd90409eca4e3462b54a8dbf22437bdc3704efe042aaf0852ae2af8cc13",
+      "packaged_sha256": "f8fe6dd90409eca4e3462b54a8dbf22437bdc3704efe042aaf0852ae2af8cc13",
+      "redactions": 0,
+      "original_bytes": 1354
+    },
+    {
+      "path": "formal/jobs/gpt6-sol-cheat-1/g1-slip-calibration__U4VGSqY/verifier/reward.txt",
+      "original_sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+      "packaged_sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+      "redactions": 0,
+      "original_bytes": 2
+    },
+    {
+      "path": "formal/jobs/gpt6-sol-cheat-1/g1-slip-calibration__U4VGSqY/verifier/test-stdout.txt",
+      "original_sha256": "95c36d95b353635de0af83d7b6c2c1cfebfb69dbedbdcd8db118a82844141a55",
+      "packaged_sha256": "95c36d95b353635de0af83d7b6c2c1cfebfb69dbedbdcd8db118a82844141a55",
+      "redactions": 0,
+      "original_bytes": 646
+    },
+    {
+      "path": "formal/jobs/gpt6-sol-cheat-1/job.log",
+      "original_sha256": "eb64d10d02fdb7fde7feff02b1cac89cd76470bdd90955b23294acdb38587645",
+      "packaged_sha256": "eb64d10d02fdb7fde7feff02b1cac89cd76470bdd90955b23294acdb38587645",
+      "redactions": 0,
+      "original_bytes": 6035
+    },
+    {
+      "path": "formal/jobs/gpt6-sol-cheat-1/lock.json",
+      "original_sha256": "ae7b1ff669d1d72dcb90489da8ebc934986315c9ea63c8ecf6fc6486bce93116",
+      "packaged_sha256": "ae7b1ff669d1d72dcb90489da8ebc934986315c9ea63c8ecf6fc6486bce93116",
+      "redactions": 0,
+      "original_bytes": 2598
+    },
+    {
+      "path": "formal/jobs/gpt6-sol-cheat-1/result.json",
+      "original_sha256": "2c750452294a676fab4fcfc8a787a01e326aae40412d29c2854cb16b23a59064",
+      "packaged_sha256": "2c750452294a676fab4fcfc8a787a01e326aae40412d29c2854cb16b23a59064",
+      "redactions": 0,
+      "original_bytes": 1263
+    },
+    {
+      "path": "formal/jobs/gpt6-sol-cheat-2/config.json",
+      "original_sha256": "ea668aeefac65ea1899c21096b73e7e0ad6af7ba692eae79180132b1f3eb14c8",
+      "packaged_sha256": "ea668aeefac65ea1899c21096b73e7e0ad6af7ba692eae79180132b1f3eb14c8",
+      "redactions": 0,
+      "original_bytes": 793
+    },
+    {
+      "path": "formal/jobs/gpt6-sol-cheat-2/g1-slip-calibration__JxgTeab/agent/codex.txt",
+      "original_sha256": "1172288dc4b7bf453ebe50030998ec1512f6fe4f97c5d20c05a5ccc0a4870401",
+      "packaged_sha256": "1172288dc4b7bf453ebe50030998ec1512f6fe4f97c5d20c05a5ccc0a4870401",
+      "redactions": 0,
+      "original_bytes": 35218
+    },
+    {
+      "path": "formal/jobs/gpt6-sol-cheat-2/g1-slip-calibration__JxgTeab/agent/sessions/2026/09/27/rollout-2026-09-27T23-23-23-01a0e52e-2ae7-7ac3-ba99-d41ef9200511.jsonl",
+      "original_sha256": "66b60f245b5db7e019348fc4b46b0dbdfb6f59e5110924fb27d7677d76d87c74",
+      "packaged_sha256": "66b60f245b5db7e019348fc4b46b0dbdfb6f59e5110924fb27d7677d76d87c74",
+      "redactions": 0,
+      "original_bytes": 314316
+    },
+    {
+      "path": "formal/jobs/gpt6-sol-cheat-2/g1-slip-calibration__JxgTeab/agent/trajectory.json",
+      "original_sha256": "0e29f775dc2ebf2355ca53fd973317f8224b8ffff01b00a0977a85bcaa31b17f",
+      "packaged_sha256": "0e29f775dc2ebf2355ca53fd973317f8224b8ffff01b00a0977a85bcaa31b17f",
+      "redactions": 0,
+      "original_bytes": 73701
+    },
+    {
+      "path": "formal/jobs/gpt6-sol-cheat-2/g1-slip-calibration__JxgTeab/artifacts/app/calibrate.py",
+      "original_sha256": "e944d26970bebcac10942a0a0c206857440467ffb888a361309ebf533bb82a0b",
+      "packaged_sha256": "e944d26970bebcac10942a0a0c206857440467ffb888a361309ebf533bb82a0b",
+      "redactions": 0,
+      "original_bytes": 2904
+    },
+    {
+      "path": "formal/jobs/gpt6-sol-cheat-2/g1-slip-calibration__JxgTeab/artifacts/manifest.json",
+      "original_sha256": "66604beede61c3210566f13dad5002baf344e09932e2fbe682b5071a8b80bdf9",
+      "packaged_sha256": "66604beede61c3210566f13dad5002baf344e09932e2fbe682b5071a8b80bdf9",
+      "redactions": 0,
+      "original_bytes": 350
+    },
+    {
+      "path": "formal/jobs/gpt6-sol-cheat-2/g1-slip-calibration__JxgTeab/config.json",
+      "original_sha256": "7471e04d6856e1315939ff6b70e694b6e1dd8496dc6fa8034154a66d8e607d8f",
+      "packaged_sha256": "7471e04d6856e1315939ff6b70e694b6e1dd8496dc6fa8034154a66d8e607d8f",
+      "redactions": 0,
+      "original_bytes": 772
+    },
+    {
+      "path": "formal/jobs/gpt6-sol-cheat-2/g1-slip-calibration__JxgTeab/lock.json",
+      "original_sha256": "9438994ff7990e5da3da64499036092efcab9eecbd8510e98b96ce5ec37f50ea",
+      "packaged_sha256": "9438994ff7990e5da3da64499036092efcab9eecbd8510e98b96ce5ec37f50ea",
+      "redactions": 0,
+      "original_bytes": 1476
+    },
+    {
+      "path": "formal/jobs/gpt6-sol-cheat-2/g1-slip-calibration__JxgTeab/result.json",
+      "original_sha256": "ad7e1cfc861b52da3bb94d5671e36752dd9871bf5ce7a3b82770870a64585592",
+      "packaged_sha256": "ad7e1cfc861b52da3bb94d5671e36752dd9871bf5ce7a3b82770870a64585592",
+      "redactions": 0,
+      "original_bytes": 4676
+    },
+    {
+      "path": "formal/jobs/gpt6-sol-cheat-2/g1-slip-calibration__JxgTeab/trial.log",
+      "original_sha256": "069990902e6523558f54414e3555a73fc55ff92b56cd39eca1f1b5111e202231",
+      "packaged_sha256": "069990902e6523558f54414e3555a73fc55ff92b56cd39eca1f1b5111e202231",
+      "redactions": 0,
+      "original_bytes": 5246
+    },
+    {
+      "path": "formal/jobs/gpt6-sol-cheat-2/g1-slip-calibration__JxgTeab/verifier/ctrf.json",
+      "original_sha256": "168b4bbf78ba24544a53d0fe68165e3a048957f90b3e265066117056b1085872",
+      "packaged_sha256": "168b4bbf78ba24544a53d0fe68165e3a048957f90b3e265066117056b1085872",
+      "redactions": 0,
+      "original_bytes": 1420
+    },
+    {
+      "path": "formal/jobs/gpt6-sol-cheat-2/g1-slip-calibration__JxgTeab/verifier/reward.txt",
+      "original_sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+      "packaged_sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+      "redactions": 0,
+      "original_bytes": 2
+    },
+    {
+      "path": "formal/jobs/gpt6-sol-cheat-2/g1-slip-calibration__JxgTeab/verifier/test-stdout.txt",
+      "original_sha256": "b97cc77a62087c3c78cffe194a1b5bd283054bccc9f448e5bfbd8ed8b8666aa3",
+      "packaged_sha256": "b97cc77a62087c3c78cffe194a1b5bd283054bccc9f448e5bfbd8ed8b8666aa3",
+      "redactions": 0,
+      "original_bytes": 712
+    },
+    {
+      "path": "formal/jobs/gpt6-sol-cheat-2/job.log",
+      "original_sha256": "069990902e6523558f54414e3555a73fc55ff92b56cd39eca1f1b5111e202231",
+      "packaged_sha256": "069990902e6523558f54414e3555a73fc55ff92b56cd39eca1f1b5111e202231",
+      "redactions": 0,
+      "original_bytes": 5246
+    },
+    {
+      "path": "formal/jobs/gpt6-sol-cheat-2/lock.json",
+      "original_sha256": "9c9468bf6d44bf2ba20bb091f3a3ab70fbe3d41c97372c4ce27e964b5ac086ed",
+      "packaged_sha256": "9c9468bf6d44bf2ba20bb091f3a3ab70fbe3d41c97372c4ce27e964b5ac086ed",
+      "redactions": 0,
+      "original_bytes": 2598
+    },
+    {
+      "path": "formal/jobs/gpt6-sol-cheat-2/result.json",
+      "original_sha256": "8838d7a0c81b58ad5fffb7b739f80ad7be4ff48607060ddb2add3d952151f32f",
+      "packaged_sha256": "8838d7a0c81b58ad5fffb7b739f80ad7be4ff48607060ddb2add3d952151f32f",
+      "redactions": 0,
+      "original_bytes": 1130
+    },
+    {
+      "path": "formal/jobs/runtime-fixed-nop/config.json",
+      "original_sha256": "98f1023026b4e1bd1a1267c4713f1c121dae1f64c6b637187bbe579b15c74959",
+      "packaged_sha256": "98f1023026b4e1bd1a1267c4713f1c121dae1f64c6b637187bbe579b15c74959",
+      "redactions": 0,
+      "original_bytes": 408
+    },
+    {
+      "path": "formal/jobs/runtime-fixed-nop/g1-slip-calibration__JmBbk9a/artifacts/app/calibrate.py",
+      "original_sha256": "0fa61de561f5852e30483b998e33e6414b99dbeea0d381d66fb1e0af667f4fad",
+      "packaged_sha256": "0fa61de561f5852e30483b998e33e6414b99dbeea0d381d66fb1e0af667f4fad",
+      "redactions": 0,
+      "original_bytes": 130
+    },
+    {
+      "path": "formal/jobs/runtime-fixed-nop/g1-slip-calibration__JmBbk9a/artifacts/manifest.json",
+      "original_sha256": "66604beede61c3210566f13dad5002baf344e09932e2fbe682b5071a8b80bdf9",
+      "packaged_sha256": "66604beede61c3210566f13dad5002baf344e09932e2fbe682b5071a8b80bdf9",
+      "redactions": 0,
+      "original_bytes": 350
+    },
+    {
+      "path": "formal/jobs/runtime-fixed-nop/g1-slip-calibration__JmBbk9a/config.json",
+      "original_sha256": "5b5d3bba49248082aae6fcfd1be8ed4ce5c20f58dbcf7320dbd9300dca9379e0",
+      "packaged_sha256": "5b5d3bba49248082aae6fcfd1be8ed4ce5c20f58dbcf7320dbd9300dca9379e0",
+      "redactions": 0,
+      "original_bytes": 415
+    },
+    {
+      "path": "formal/jobs/runtime-fixed-nop/g1-slip-calibration__JmBbk9a/lock.json",
+      "original_sha256": "6359d2ae32d493f2af65c78c8eb700fa4d6d1505c3433a3d658c3b2d444698d7",
+      "packaged_sha256": "6359d2ae32d493f2af65c78c8eb700fa4d6d1505c3433a3d658c3b2d444698d7",
+      "redactions": 0,
+      "original_bytes": 1016
+    },
+    {
+      "path": "formal/jobs/runtime-fixed-nop/g1-slip-calibration__JmBbk9a/result.json",
+      "original_sha256": "a5d2c2bab3f14fc21bb79b10ea110c7b37c60b06f1fe624082e092e205ed6d4e",
+      "packaged_sha256": "a5d2c2bab3f14fc21bb79b10ea110c7b37c60b06f1fe624082e092e205ed6d4e",
+      "redactions": 0,
+      "original_bytes": 4071
+    },
+    {
+      "path": "formal/jobs/runtime-fixed-nop/g1-slip-calibration__JmBbk9a/trial.log",
+      "original_sha256": "8c5f66f2576ed21e5e6dcebb6ee6e520cfc346799d9039cf4d78eeeb9f1799bb",
+      "packaged_sha256": "8c5f66f2576ed21e5e6dcebb6ee6e520cfc346799d9039cf4d78eeeb9f1799bb",
+      "redactions": 0,
+      "original_bytes": 228
+    },
+    {
+      "path": "formal/jobs/runtime-fixed-nop/g1-slip-calibration__JmBbk9a/verifier/ctrf.json",
+      "original_sha256": "b38d4aef72e2bd793aa5c7ab88d35c4eb147bdb963c1a06df5b30b60683b9ba7",
+      "packaged_sha256": "b38d4aef72e2bd793aa5c7ab88d35c4eb147bdb963c1a06df5b30b60683b9ba7",
+      "redactions": 0,
+      "original_bytes": 1353
+    },
+    {
+      "path": "formal/jobs/runtime-fixed-nop/g1-slip-calibration__JmBbk9a/verifier/reward.txt",
+      "original_sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+      "packaged_sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+      "redactions": 0,
+      "original_bytes": 2
+    },
+    {
+      "path": "formal/jobs/runtime-fixed-nop/g1-slip-calibration__JmBbk9a/verifier/test-stdout.txt",
+      "original_sha256": "95c36d95b353635de0af83d7b6c2c1cfebfb69dbedbdcd8db118a82844141a55",
+      "packaged_sha256": "95c36d95b353635de0af83d7b6c2c1cfebfb69dbedbdcd8db118a82844141a55",
+      "redactions": 0,
+      "original_bytes": 646
+    },
+    {
+      "path": "formal/jobs/runtime-fixed-nop/job.log",
+      "original_sha256": "65ccc5c52d6035e681505cb01fca6d77f3d71c43c2a38d6dfa196befe67e7fde",
+      "packaged_sha256": "65ccc5c52d6035e681505cb01fca6d77f3d71c43c2a38d6dfa196befe67e7fde",
+      "redactions": 0,
+      "original_bytes": 303
+    },
+    {
+      "path": "formal/jobs/runtime-fixed-nop/lock.json",
+      "original_sha256": "717d06df72b38b3361fc8ca8d8fd5af3b42bc3799a9e39a62a948703a17d9795",
+      "packaged_sha256": "717d06df72b38b3361fc8ca8d8fd5af3b42bc3799a9e39a62a948703a17d9795",
+      "redactions": 0,
+      "original_bytes": 2042
+    },
+    {
+      "path": "formal/jobs/runtime-fixed-nop/result.json",
+      "original_sha256": "54b968bfb447b99d74939027f077950c3b0c3842e2205439017c1672b990ceb2",
+      "packaged_sha256": "54b968bfb447b99d74939027f077950c3b0c3842e2205439017c1672b990ceb2",
+      "redactions": 0,
+      "original_bytes": 1107
+    },
+    {
+      "path": "formal/jobs/runtime-fixed-oracle/config.json",
+      "original_sha256": "0d0773046ef4fdfed1bd1d0195a1ecf2b148230080fe54061f131e215bca64c6",
+      "packaged_sha256": "0d0773046ef4fdfed1bd1d0195a1ecf2b148230080fe54061f131e215bca64c6",
+      "redactions": 0,
+      "original_bytes": 342
+    },
+    {
+      "path": "formal/jobs/runtime-fixed-oracle/g1-slip-calibration__MxkyvtJ/agent/oracle.txt",
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "packaged_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "redactions": 0,
+      "original_bytes": 0
+    },
+    {
+      "path": "formal/jobs/runtime-fixed-oracle/g1-slip-calibration__MxkyvtJ/artifacts/app/calibrate.py",
+      "original_sha256": "5ae5742c50feda08fd3f2edd7630d5aa97ad18d0d44133503ed1d911818e4d08",
+      "packaged_sha256": "5ae5742c50feda08fd3f2edd7630d5aa97ad18d0d44133503ed1d911818e4d08",
+      "redactions": 0,
+      "original_bytes": 94284
+    },
+    {
+      "path": "formal/jobs/runtime-fixed-oracle/g1-slip-calibration__MxkyvtJ/artifacts/manifest.json",
+      "original_sha256": "66604beede61c3210566f13dad5002baf344e09932e2fbe682b5071a8b80bdf9",
+      "packaged_sha256": "66604beede61c3210566f13dad5002baf344e09932e2fbe682b5071a8b80bdf9",
+      "redactions": 0,
+      "original_bytes": 350
+    },
+    {
+      "path": "formal/jobs/runtime-fixed-oracle/g1-slip-calibration__MxkyvtJ/config.json",
+      "original_sha256": "e509c34b0afa60e1bbb0cacd267b7ad027d1fca59154d4475fb2ca89d9343e03",
+      "packaged_sha256": "e509c34b0afa60e1bbb0cacd267b7ad027d1fca59154d4475fb2ca89d9343e03",
+      "redactions": 0,
+      "original_bytes": 374
+    },
+    {
+      "path": "formal/jobs/runtime-fixed-oracle/g1-slip-calibration__MxkyvtJ/lock.json",
+      "original_sha256": "1240d88018eb7126cce8a9205febf7270225e01295aa047656e1948a5751530f",
+      "packaged_sha256": "1240d88018eb7126cce8a9205febf7270225e01295aa047656e1948a5751530f",
+      "redactions": 0,
+      "original_bytes": 1019
+    },
+    {
+      "path": "formal/jobs/runtime-fixed-oracle/g1-slip-calibration__MxkyvtJ/result.json",
+      "original_sha256": "d74faf166f10a31131be36dbb1ff96d020c83afeba25c634b3bb0ef75ff68ded",
+      "packaged_sha256": "d74faf166f10a31131be36dbb1ff96d020c83afeba25c634b3bb0ef75ff68ded",
+      "redactions": 0,
+      "original_bytes": 4083
+    },
+    {
+      "path": "formal/jobs/runtime-fixed-oracle/g1-slip-calibration__MxkyvtJ/trial.log",
+      "original_sha256": "8c5f66f2576ed21e5e6dcebb6ee6e520cfc346799d9039cf4d78eeeb9f1799bb",
+      "packaged_sha256": "8c5f66f2576ed21e5e6dcebb6ee6e520cfc346799d9039cf4d78eeeb9f1799bb",
+      "redactions": 0,
+      "original_bytes": 228
+    },
+    {
+      "path": "formal/jobs/runtime-fixed-oracle/g1-slip-calibration__MxkyvtJ/verifier/ctrf.json",
+      "original_sha256": "8f71abe0419df8ddc747e62b600985b439daa1f0a6de68496bff6c38a1de5575",
+      "packaged_sha256": "8f71abe0419df8ddc747e62b600985b439daa1f0a6de68496bff6c38a1de5575",
+      "redactions": 0,
+      "original_bytes": 1119
+    },
+    {
+      "path": "formal/jobs/runtime-fixed-oracle/g1-slip-calibration__MxkyvtJ/verifier/reward.txt",
+      "original_sha256": "4355a46b19d348dc2f57c046f8ef63d4538ebb936000f3c9ee954a27460dd865",
+      "packaged_sha256": "4355a46b19d348dc2f57c046f8ef63d4538ebb936000f3c9ee954a27460dd865",
+      "redactions": 0,
+      "original_bytes": 2
+    },
+    {
+      "path": "formal/jobs/runtime-fixed-oracle/g1-slip-calibration__MxkyvtJ/verifier/test-stdout.txt",
+      "original_sha256": "73483c446a0271e6d2064459b1182a0abf1a83748ecfa2d91952071d4fa46b47",
+      "packaged_sha256": "73483c446a0271e6d2064459b1182a0abf1a83748ecfa2d91952071d4fa46b47",
+      "redactions": 0,
+      "original_bytes": 980
+    },
+    {
+      "path": "formal/jobs/runtime-fixed-oracle/job.log",
+      "original_sha256": "be068ff8cadb45675784be2b33104f81086c9e8b730463b04b9cc8b9363cd97c",
+      "packaged_sha256": "be068ff8cadb45675784be2b33104f81086c9e8b730463b04b9cc8b9363cd97c",
+      "redactions": 0,
+      "original_bytes": 306
+    },
+    {
+      "path": "formal/jobs/runtime-fixed-oracle/lock.json",
+      "original_sha256": "dba9946ccc64a14368bef99433e0207ecb4255e6c1f0e9b061ab74d399d5b3f1",
+      "packaged_sha256": "dba9946ccc64a14368bef99433e0207ecb4255e6c1f0e9b061ab74d399d5b3f1",
+      "redactions": 0,
+      "original_bytes": 2045
+    },
+    {
+      "path": "formal/jobs/runtime-fixed-oracle/result.json",
+      "original_sha256": "3e463755475b9493960b81d871672af2832c2ecce45d787ccc8464e18104b241",
+      "packaged_sha256": "3e463755475b9493960b81d871672af2832c2ecce45d787ccc8464e18104b241",
+      "redactions": 0,
+      "original_bytes": 1110
+    },
+    {
+      "path": "deepseek/runs/cheat-driver.log",
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "packaged_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "redactions": 0,
+      "original_bytes": 0
+    },
+    {
+      "path": "deepseek/runs/deepseek-1/config.json",
+      "original_sha256": "3dcdc6b506f822faf3523786d75ce8bb9221fd9d27192f93102ea3d6fa645661",
+      "packaged_sha256": "3dcdc6b506f822faf3523786d75ce8bb9221fd9d27192f93102ea3d6fa645661",
+      "redactions": 0,
+      "original_bytes": 548
+    },
+    {
+      "path": "deepseek/runs/deepseek-1/g1-slip-calibration__Ca2Eyqp/agent/claude-code.txt",
+      "original_sha256": "26c707c05ce09b725f11563a5d80d680bbeb0c1fd1e8bbdae56e8f2b628f37b7",
+      "packaged_sha256": "26c707c05ce09b725f11563a5d80d680bbeb0c1fd1e8bbdae56e8f2b628f37b7",
+      "redactions": 0,
+      "original_bytes": 89737001
+    },
+    {
+      "path": "deepseek/runs/deepseek-1/g1-slip-calibration__Ca2Eyqp/agent/sessions/.claude.json",
+      "original_sha256": "9dc048fa89d02fc24666bef467542c0158dba76e4e6346eea95736063ae343dc",
+      "packaged_sha256": "9dc048fa89d02fc24666bef467542c0158dba76e4e6346eea95736063ae343dc",
+      "redactions": 0,
+      "original_bytes": 569
+    },
+    {
+      "path": "deepseek/runs/deepseek-1/g1-slip-calibration__Ca2Eyqp/agent/sessions/.last-cleanup",
+      "original_sha256": "8452215b9511ee9aec93c7810f30d65559d388434806dffb21d55dd6669500cc",
+      "packaged_sha256": "8452215b9511ee9aec93c7810f30d65559d388434806dffb21d55dd6669500cc",
+      "redactions": 0,
+      "original_bytes": 24
+    },
+    {
+      "path": "deepseek/runs/deepseek-1/g1-slip-calibration__Ca2Eyqp/agent/sessions/backups/.claude.json.backup.1790472665089",
+      "original_sha256": "6b857ed04a6acf665e9159ff76d30255408b3a5a96c46ab32289376e44a18bd8",
+      "packaged_sha256": "6b857ed04a6acf665e9159ff76d30255408b3a5a96c46ab32289376e44a18bd8",
+      "redactions": 0,
+      "original_bytes": 84
+    },
+    {
+      "path": "deepseek/runs/deepseek-1/g1-slip-calibration__Ca2Eyqp/agent/sessions/projects/-app/f6f8c5f2-7722-411f-a0fe-87cfbbf27252.jsonl",
+      "original_sha256": "5f377c9a6330e2255e831825dfd0a0e4cf429d0a76dacf1087927ae81f839786",
+      "packaged_sha256": "5f377c9a6330e2255e831825dfd0a0e4cf429d0a76dacf1087927ae81f839786",
+      "redactions": 0,
+      "original_bytes": 4088953
+    },
+    {
+      "path": "deepseek/runs/deepseek-1/g1-slip-calibration__Ca2Eyqp/agent/trajectory.json",
+      "original_sha256": "1b2718f4bd87b9920173d92fd42b4c7ca116dec2c4f61b05f31ad13fd18c5a73",
+      "packaged_sha256": "1b2718f4bd87b9920173d92fd42b4c7ca116dec2c4f61b05f31ad13fd18c5a73",
+      "redactions": 0,
+      "original_bytes": 3953177
+    },
+    {
+      "path": "deepseek/runs/deepseek-1/g1-slip-calibration__Ca2Eyqp/artifacts/app/calibrate.py",
+      "original_sha256": "d606bf268087af637df5bc10a783123339ed022c121a916d1cd7a9a1a8367264",
+      "packaged_sha256": "d606bf268087af637df5bc10a783123339ed022c121a916d1cd7a9a1a8367264",
+      "redactions": 0,
+      "original_bytes": 43816
+    },
+    {
+      "path": "deepseek/runs/deepseek-1/g1-slip-calibration__Ca2Eyqp/artifacts/manifest.json",
+      "original_sha256": "66604beede61c3210566f13dad5002baf344e09932e2fbe682b5071a8b80bdf9",
+      "packaged_sha256": "66604beede61c3210566f13dad5002baf344e09932e2fbe682b5071a8b80bdf9",
+      "redactions": 0,
+      "original_bytes": 350
+    },
+    {
+      "path": "deepseek/runs/deepseek-1/g1-slip-calibration__Ca2Eyqp/config.json",
+      "original_sha256": "ff5393f6e76881a64a248aac8393734888fc19f318e7fb54362075d045e046bd",
+      "packaged_sha256": "ff5393f6e76881a64a248aac8393734888fc19f318e7fb54362075d045e046bd",
+      "redactions": 0,
+      "original_bytes": 535
+    },
+    {
+      "path": "deepseek/runs/deepseek-1/g1-slip-calibration__Ca2Eyqp/lock.json",
+      "original_sha256": "41da92c73e3c345bbae21b9e4c24746754348e8b69db25780fc70b2dde4aedf8",
+      "packaged_sha256": "41da92c73e3c345bbae21b9e4c24746754348e8b69db25780fc70b2dde4aedf8",
+      "redactions": 0,
+      "original_bytes": 1130
+    },
+    {
+      "path": "deepseek/runs/deepseek-1/g1-slip-calibration__Ca2Eyqp/result.json",
+      "original_sha256": "5b9a8d2e465e5c1365a19c316ddcf22cb0be6d2a1e9655a5c63786fd1d21cce5",
+      "packaged_sha256": "5b9a8d2e465e5c1365a19c316ddcf22cb0be6d2a1e9655a5c63786fd1d21cce5",
+      "redactions": 0,
+      "original_bytes": 4454
+    },
+    {
+      "path": "deepseek/runs/deepseek-1/g1-slip-calibration__Ca2Eyqp/trial.log",
+      "original_sha256": "c40ba3fe7c016fc41a5f9cd019c769a48b3883c0847c061cca7a47510529e377",
+      "packaged_sha256": "c40ba3fe7c016fc41a5f9cd019c769a48b3883c0847c061cca7a47510529e377",
+      "redactions": 0,
+      "original_bytes": 70993
+    },
+    {
+      "path": "deepseek/runs/deepseek-1/g1-slip-calibration__Ca2Eyqp/verifier/ctrf.json",
+      "original_sha256": "9df361de42e6f2571896c57d1c2e083f8b7d7e1fa1548e3a3bec226d456618d7",
+      "packaged_sha256": "9df361de42e6f2571896c57d1c2e083f8b7d7e1fa1548e3a3bec226d456618d7",
+      "redactions": 0,
+      "original_bytes": 1253
+    },
+    {
+      "path": "deepseek/runs/deepseek-1/g1-slip-calibration__Ca2Eyqp/verifier/reward.txt",
+      "original_sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+      "packaged_sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+      "redactions": 0,
+      "original_bytes": 2
+    },
+    {
+      "path": "deepseek/runs/deepseek-1/g1-slip-calibration__Ca2Eyqp/verifier/test-stdout.txt",
+      "original_sha256": "a448ccec4743b6217439c7e8f9ffe49aa912b8c937677aee6e84bebdbc3cc00d",
+      "packaged_sha256": "a448ccec4743b6217439c7e8f9ffe49aa912b8c937677aee6e84bebdbc3cc00d",
+      "redactions": 0,
+      "original_bytes": 553
+    },
+    {
+      "path": "deepseek/runs/deepseek-1/job.log",
+      "original_sha256": "c40ba3fe7c016fc41a5f9cd019c769a48b3883c0847c061cca7a47510529e377",
+      "packaged_sha256": "c40ba3fe7c016fc41a5f9cd019c769a48b3883c0847c061cca7a47510529e377",
+      "redactions": 0,
+      "original_bytes": 70993
+    },
+    {
+      "path": "deepseek/runs/deepseek-1/lock.json",
+      "original_sha256": "f8b992d520d1bd6c67a1ddbd577b851d72be87ff4e2a860f04fffefc3520c05d",
+      "packaged_sha256": "f8b992d520d1bd6c67a1ddbd577b851d72be87ff4e2a860f04fffefc3520c05d",
+      "redactions": 0,
+      "original_bytes": 2188
+    },
+    {
+      "path": "deepseek/runs/deepseek-1/result.json",
+      "original_sha256": "68378ac18d21e1397796700cda20340dc564fe3ccc792f8c54ad98304b2a9593",
+      "packaged_sha256": "68378ac18d21e1397796700cda20340dc564fe3ccc792f8c54ad98304b2a9593",
+      "redactions": 0,
+      "original_bytes": 1155
+    },
+    {
+      "path": "deepseek/runs/deepseek-1.log",
+      "original_sha256": "412bf4ae1e241956267d069e51eb7f73e00057d6e00e30b81a75a28b7a66fcac",
+      "packaged_sha256": "412bf4ae1e241956267d069e51eb7f73e00057d6e00e30b81a75a28b7a66fcac",
+      "redactions": 0,
+      "original_bytes": 14433
+    },
+    {
+      "path": "deepseek/runs/deepseek-2/config.json",
+      "original_sha256": "654c2cb9ccb3958316d42c4f37d4f459021d7daf3eaca0b52257d3287fe7dad3",
+      "packaged_sha256": "654c2cb9ccb3958316d42c4f37d4f459021d7daf3eaca0b52257d3287fe7dad3",
+      "redactions": 0,
+      "original_bytes": 548
+    },
+    {
+      "path": "deepseek/runs/deepseek-2/g1-slip-calibration__UucxpQp/agent/claude-code.txt",
+      "original_sha256": "3ad708876f9eb66a3bafea86dfcba333176b459aebb6df84edc74069d06d7d70",
+      "packaged_sha256": "3ad708876f9eb66a3bafea86dfcba333176b459aebb6df84edc74069d06d7d70",
+      "redactions": 0,
+      "original_bytes": 218552417
+    },
+    {
+      "path": "deepseek/runs/deepseek-2/g1-slip-calibration__UucxpQp/agent/sessions/.claude.json",
+      "original_sha256": "9e4b28f19e7c6e44490b90cd04ed5e1979a04da9ebf381e85f3fe0cdd1e2251e",
+      "packaged_sha256": "9e4b28f19e7c6e44490b90cd04ed5e1979a04da9ebf381e85f3fe0cdd1e2251e",
+      "redactions": 0,
+      "original_bytes": 569
+    },
+    {
+      "path": "deepseek/runs/deepseek-2/g1-slip-calibration__UucxpQp/agent/sessions/.last-cleanup",
+      "original_sha256": "7d5b0c63d40404b1b8270615ae526ae92d93fca3ad614174b619074aec3e5662",
+      "packaged_sha256": "7d5b0c63d40404b1b8270615ae526ae92d93fca3ad614174b619074aec3e5662",
+      "redactions": 0,
+      "original_bytes": 24
+    },
+    {
+      "path": "deepseek/runs/deepseek-2/g1-slip-calibration__UucxpQp/agent/sessions/backups/.claude.json.backup.1790476764352",
+      "original_sha256": "841958a8f9fce4d6f479aa498277940e16ccdcf40a2001af3d8d14e87fab683b",
+      "packaged_sha256": "841958a8f9fce4d6f479aa498277940e16ccdcf40a2001af3d8d14e87fab683b",
+      "redactions": 0,
+      "original_bytes": 84
+    },
+    {
+      "path": "deepseek/runs/deepseek-2/g1-slip-calibration__UucxpQp/agent/sessions/projects/-app/c1535add-99d6-49d7-b87a-86b40c94a9de.jsonl",
+      "original_sha256": "641047b888a63b4a701c75817ff109ce0f00e858b3d7d9f0f249a25af8ebae9a",
+      "packaged_sha256": "641047b888a63b4a701c75817ff109ce0f00e858b3d7d9f0f249a25af8ebae9a",
+      "redactions": 0,
+      "original_bytes": 14163057
+    },
+    {
+      "path": "deepseek/runs/deepseek-2/g1-slip-calibration__UucxpQp/agent/trajectory.json",
+      "original_sha256": "bee027617c6db90b0c18d5b5c367b8d12bca201c0f1cc8f3c1151d9c5a1de71e",
+      "packaged_sha256": "bee027617c6db90b0c18d5b5c367b8d12bca201c0f1cc8f3c1151d9c5a1de71e",
+      "redactions": 0,
+      "original_bytes": 14754959
+    },
+    {
+      "path": "deepseek/runs/deepseek-2/g1-slip-calibration__UucxpQp/artifacts/app/calibrate.py",
+      "original_sha256": "152e1bb33abb47ef3baa2dbb6b13d0163fa414d779062a234d549046a49bfbb3",
+      "packaged_sha256": "152e1bb33abb47ef3baa2dbb6b13d0163fa414d779062a234d549046a49bfbb3",
+      "redactions": 0,
+      "original_bytes": 148292
+    },
+    {
+      "path": "deepseek/runs/deepseek-2/g1-slip-calibration__UucxpQp/artifacts/manifest.json",
+      "original_sha256": "66604beede61c3210566f13dad5002baf344e09932e2fbe682b5071a8b80bdf9",
+      "packaged_sha256": "66604beede61c3210566f13dad5002baf344e09932e2fbe682b5071a8b80bdf9",
+      "redactions": 0,
+      "original_bytes": 350
+    },
+    {
+      "path": "deepseek/runs/deepseek-2/g1-slip-calibration__UucxpQp/config.json",
+      "original_sha256": "e8ab605f74bce54c1f361b60d185b673a31c0748bedcc0100322ac39e5b09585",
+      "packaged_sha256": "e8ab605f74bce54c1f361b60d185b673a31c0748bedcc0100322ac39e5b09585",
+      "redactions": 0,
+      "original_bytes": 535
+    },
+    {
+      "path": "deepseek/runs/deepseek-2/g1-slip-calibration__UucxpQp/exception.txt",
+      "original_sha256": "3d51bf7ece269ff36cd170eda74b2ece228f11a1031bd566ea5e0008d893458c",
+      "packaged_sha256": "3d51bf7ece269ff36cd170eda74b2ece228f11a1031bd566ea5e0008d893458c",
+      "redactions": 0,
+      "original_bytes": 3186
+    },
+    {
+      "path": "deepseek/runs/deepseek-2/g1-slip-calibration__UucxpQp/lock.json",
+      "original_sha256": "41da92c73e3c345bbae21b9e4c24746754348e8b69db25780fc70b2dde4aedf8",
+      "packaged_sha256": "41da92c73e3c345bbae21b9e4c24746754348e8b69db25780fc70b2dde4aedf8",
+      "redactions": 0,
+      "original_bytes": 1130
+    },
+    {
+      "path": "deepseek/runs/deepseek-2/g1-slip-calibration__UucxpQp/result.json",
+      "original_sha256": "c56f98abd1aa19a865875cd59706123a04888f52c4641d94fc2d6449991a92d9",
+      "packaged_sha256": "c56f98abd1aa19a865875cd59706123a04888f52c4641d94fc2d6449991a92d9",
+      "redactions": 0,
+      "original_bytes": 9882
+    },
+    {
+      "path": "deepseek/runs/deepseek-2/g1-slip-calibration__UucxpQp/trial.log",
+      "original_sha256": "392062c809cec9638105dc57a82215e0686eb663a118aba4106fc2a7c23123e8",
+      "packaged_sha256": "392062c809cec9638105dc57a82215e0686eb663a118aba4106fc2a7c23123e8",
+      "redactions": 0,
+      "original_bytes": 342508
+    },
+    {
+      "path": "deepseek/runs/deepseek-2/g1-slip-calibration__UucxpQp/verifier/ctrf.json",
+      "original_sha256": "b590a8e1c3f37d0d99d8d57b2afeb942d300580591efc22e69a27894170378df",
+      "packaged_sha256": "b590a8e1c3f37d0d99d8d57b2afeb942d300580591efc22e69a27894170378df",
+      "redactions": 0,
+      "original_bytes": 1342
+    },
+    {
+      "path": "deepseek/runs/deepseek-2/g1-slip-calibration__UucxpQp/verifier/reward.txt",
+      "original_sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+      "packaged_sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+      "redactions": 0,
+      "original_bytes": 2
+    },
+    {
+      "path": "deepseek/runs/deepseek-2/g1-slip-calibration__UucxpQp/verifier/test-stdout.txt",
+      "original_sha256": "b9d8f502da2cd0e0b3bb390b2a79a99e7bcccfe53818fb02973d748755032542",
+      "packaged_sha256": "b9d8f502da2cd0e0b3bb390b2a79a99e7bcccfe53818fb02973d748755032542",
+      "redactions": 0,
+      "original_bytes": 644
+    },
+    {
+      "path": "deepseek/runs/deepseek-2/job.log",
+      "original_sha256": "2b0260b26ece7bfa48fce3331b65e453a464d41bea94a86fa94c6ac016ba9b30",
+      "packaged_sha256": "2b0260b26ece7bfa48fce3331b65e453a464d41bea94a86fa94c6ac016ba9b30",
+      "redactions": 0,
+      "original_bytes": 342582
+    },
+    {
+      "path": "deepseek/runs/deepseek-2/lock.json",
+      "original_sha256": "51f86a7c71c6edb2b9dff0dce04514206528fce6cd394caf18a577d13dec23c5",
+      "packaged_sha256": "51f86a7c71c6edb2b9dff0dce04514206528fce6cd394caf18a577d13dec23c5",
+      "redactions": 0,
+      "original_bytes": 2188
+    },
+    {
+      "path": "deepseek/runs/deepseek-2/result.json",
+      "original_sha256": "c4a95e76383ec94fa1dad9a91888d9953141bd1f40793d320f2f1ef0616dcce1",
+      "packaged_sha256": "c4a95e76383ec94fa1dad9a91888d9953141bd1f40793d320f2f1ef0616dcce1",
+      "redactions": 0,
+      "original_bytes": 1290
+    },
+    {
+      "path": "deepseek/runs/deepseek-2-replacement-1/config.json",
+      "original_sha256": "5d83ee0c5de92f4add6db97d51290b5f59143914a082332bcdba4d533e64c2ff",
+      "packaged_sha256": "5d83ee0c5de92f4add6db97d51290b5f59143914a082332bcdba4d533e64c2ff",
+      "redactions": 0,
+      "original_bytes": 562
+    },
+    {
+      "path": "deepseek/runs/deepseek-2-replacement-1/g1-slip-calibration__H5ajzbj/agent/claude-code.txt",
+      "original_sha256": "9236734c2a0b069ac392a200c58d5ff4318a900914a265e356b6dfe20aa81c1b",
+      "packaged_sha256": "9236734c2a0b069ac392a200c58d5ff4318a900914a265e356b6dfe20aa81c1b",
+      "redactions": 0,
+      "original_bytes": 301375271
+    },
+    {
+      "path": "deepseek/runs/deepseek-2-replacement-1/g1-slip-calibration__H5ajzbj/agent/sessions/.claude.json",
+      "original_sha256": "24deac2aa53b59637fd0c006d66e05edb54ec45f8bc18948e816cf9c28af810a",
+      "packaged_sha256": "24deac2aa53b59637fd0c006d66e05edb54ec45f8bc18948e816cf9c28af810a",
+      "redactions": 0,
+      "original_bytes": 569
+    },
+    {
+      "path": "deepseek/runs/deepseek-2-replacement-1/g1-slip-calibration__H5ajzbj/agent/sessions/.last-cleanup",
+      "original_sha256": "ef228baddb15ac8e4fda00b2148c52574c6ee1af3f90f12679fa8dfd4372f375",
+      "packaged_sha256": "ef228baddb15ac8e4fda00b2148c52574c6ee1af3f90f12679fa8dfd4372f375",
+      "redactions": 0,
+      "original_bytes": 24
+    },
+    {
+      "path": "deepseek/runs/deepseek-2-replacement-1/g1-slip-calibration__H5ajzbj/agent/sessions/backups/.claude.json.backup.1790497709921",
+      "original_sha256": "1dec0aba3b749077bee8fa49e114c69499902108f09f7c5e52e2a09bc2f4fa5c",
+      "packaged_sha256": "1dec0aba3b749077bee8fa49e114c69499902108f09f7c5e52e2a09bc2f4fa5c",
+      "redactions": 0,
+      "original_bytes": 84
+    },
+    {
+      "path": "deepseek/runs/deepseek-2-replacement-1/g1-slip-calibration__H5ajzbj/agent/sessions/projects/-app/e7edd1e6-5b35-4407-becc-182510ce7eef/tool-results/b6iyodx70.txt",
+      "original_sha256": "923e004649accf852e377bffa9407ca709d5f064e538a6a34cccea88734b4466",
+      "packaged_sha256": "923e004649accf852e377bffa9407ca709d5f064e538a6a34cccea88734b4466",
+      "redactions": 0,
+      "original_bytes": 48730
+    },
+    {
+      "path": "deepseek/runs/deepseek-2-replacement-1/g1-slip-calibration__H5ajzbj/agent/sessions/projects/-app/e7edd1e6-5b35-4407-becc-182510ce7eef.jsonl",
+      "original_sha256": "543ecf486c3c7098d2d9a1a302de5e8876b4542b2b6f47dbb5a9a908a83f0126",
+      "packaged_sha256": "543ecf486c3c7098d2d9a1a302de5e8876b4542b2b6f47dbb5a9a908a83f0126",
+      "redactions": 0,
+      "original_bytes": 16329261
+    },
+    {
+      "path": "deepseek/runs/deepseek-2-replacement-1/g1-slip-calibration__H5ajzbj/agent/sessions/projects/-app/memory/MEMORY.md",
+      "original_sha256": "873d2e3086b83ab4aa3a1e594933650585a2e0e5372815b25c5d930b9f3ca239",
+      "packaged_sha256": "873d2e3086b83ab4aa3a1e594933650585a2e0e5372815b25c5d930b9f3ca239",
+      "redactions": 0,
+      "original_bytes": 460
+    },
+    {
+      "path": "deepseek/runs/deepseek-2-replacement-1/g1-slip-calibration__H5ajzbj/agent/sessions/projects/-app/memory/robot-calib-clock-estimation.md",
+      "original_sha256": "abdb82ff82afa0b0cc0bfd0593d31521be7b53f5ae30d42b15a4fe07c7a53327",
+      "packaged_sha256": "abdb82ff82afa0b0cc0bfd0593d31521be7b53f5ae30d42b15a4fe07c7a53327",
+      "redactions": 0,
+      "original_bytes": 3209
+    },
+    {
+      "path": "deepseek/runs/deepseek-2-replacement-1/g1-slip-calibration__H5ajzbj/agent/sessions/projects/-app/memory/robot-calib-geometry-unresolved.md",
+      "original_sha256": "4980f0b9fd8b279cb671904bef3534672b045f0d73bb82091f6a488d5b22efff",
+      "packaged_sha256": "4980f0b9fd8b279cb671904bef3534672b045f0d73bb82091f6a488d5b22efff",
+      "redactions": 0,
+      "original_bytes": 2798
+    },
+    {
+      "path": "deepseek/runs/deepseek-2-replacement-1/g1-slip-calibration__H5ajzbj/agent/trajectory.json",
+      "original_sha256": "0d2b8764d62379a30cd5eaaf7a9a59abfda44a98a5c2c053a0ab029102f6dc71",
+      "packaged_sha256": "0d2b8764d62379a30cd5eaaf7a9a59abfda44a98a5c2c053a0ab029102f6dc71",
+      "redactions": 0,
+      "original_bytes": 16396818
+    },
+    {
+      "path": "deepseek/runs/deepseek-2-replacement-1/g1-slip-calibration__H5ajzbj/artifacts/app/calibrate.py",
+      "original_sha256": "8259105d2007721369dab78bd5b15d41e492dc9bb241b802deabebf7caac5a38",
+      "packaged_sha256": "8259105d2007721369dab78bd5b15d41e492dc9bb241b802deabebf7caac5a38",
+      "redactions": 0,
+      "original_bytes": 41483
+    },
+    {
+      "path": "deepseek/runs/deepseek-2-replacement-1/g1-slip-calibration__H5ajzbj/artifacts/manifest.json",
+      "original_sha256": "66604beede61c3210566f13dad5002baf344e09932e2fbe682b5071a8b80bdf9",
+      "packaged_sha256": "66604beede61c3210566f13dad5002baf344e09932e2fbe682b5071a8b80bdf9",
+      "redactions": 0,
+      "original_bytes": 350
+    },
+    {
+      "path": "deepseek/runs/deepseek-2-replacement-1/g1-slip-calibration__H5ajzbj/config.json",
+      "original_sha256": "75f80e65ef9f21725a0f0040e12e6f562b5cc9c6a5dce8bff1285f64951ad636",
+      "packaged_sha256": "75f80e65ef9f21725a0f0040e12e6f562b5cc9c6a5dce8bff1285f64951ad636",
+      "redactions": 0,
+      "original_bytes": 549
+    },
+    {
+      "path": "deepseek/runs/deepseek-2-replacement-1/g1-slip-calibration__H5ajzbj/lock.json",
+      "original_sha256": "41da92c73e3c345bbae21b9e4c24746754348e8b69db25780fc70b2dde4aedf8",
+      "packaged_sha256": "41da92c73e3c345bbae21b9e4c24746754348e8b69db25780fc70b2dde4aedf8",
+      "redactions": 0,
+      "original_bytes": 1130
+    },
+    {
+      "path": "deepseek/runs/deepseek-2-replacement-1/g1-slip-calibration__H5ajzbj/result.json",
+      "original_sha256": "89b7d0301459c334f66128f71f1dcbb06d0a94efe6fe6cbb73a7d7747af45b2c",
+      "packaged_sha256": "89b7d0301459c334f66128f71f1dcbb06d0a94efe6fe6cbb73a7d7747af45b2c",
+      "redactions": 0,
+      "original_bytes": 4484
+    },
+    {
+      "path": "deepseek/runs/deepseek-2-replacement-1/g1-slip-calibration__H5ajzbj/trial.log",
+      "original_sha256": "9982ac3487439b207e4ad2b836378023f18afbf0d4e3f2eae13b7c8f409f81c9",
+      "packaged_sha256": "9982ac3487439b207e4ad2b836378023f18afbf0d4e3f2eae13b7c8f409f81c9",
+      "redactions": 0,
+      "original_bytes": 323755
+    },
+    {
+      "path": "deepseek/runs/deepseek-2-replacement-1/g1-slip-calibration__H5ajzbj/verifier/ctrf.json",
+      "original_sha256": "5d39d3a9f392aa4af59708512b4a053a242a986e15069369097679da55041dcb",
+      "packaged_sha256": "5d39d3a9f392aa4af59708512b4a053a242a986e15069369097679da55041dcb",
+      "redactions": 0,
+      "original_bytes": 1341
+    },
+    {
+      "path": "deepseek/runs/deepseek-2-replacement-1/g1-slip-calibration__H5ajzbj/verifier/reward.txt",
+      "original_sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+      "packaged_sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+      "redactions": 0,
+      "original_bytes": 2
+    },
+    {
+      "path": "deepseek/runs/deepseek-2-replacement-1/g1-slip-calibration__H5ajzbj/verifier/test-stdout.txt",
+      "original_sha256": "0495814d7a311fafd998afda27dc6f219e16332cd843a71e99a411315b1277e6",
+      "packaged_sha256": "0495814d7a311fafd998afda27dc6f219e16332cd843a71e99a411315b1277e6",
+      "redactions": 0,
+      "original_bytes": 646
+    },
+    {
+      "path": "deepseek/runs/deepseek-2-replacement-1/job.log",
+      "original_sha256": "9982ac3487439b207e4ad2b836378023f18afbf0d4e3f2eae13b7c8f409f81c9",
+      "packaged_sha256": "9982ac3487439b207e4ad2b836378023f18afbf0d4e3f2eae13b7c8f409f81c9",
+      "redactions": 0,
+      "original_bytes": 323755
+    },
+    {
+      "path": "deepseek/runs/deepseek-2-replacement-1/lock.json",
+      "original_sha256": "a09e247a9a2db43aeaef8027c6d2f612ee3d8249d8abb704ab5b71046202f12d",
+      "packaged_sha256": "a09e247a9a2db43aeaef8027c6d2f612ee3d8249d8abb704ab5b71046202f12d",
+      "redactions": 0,
+      "original_bytes": 2188
+    },
+    {
+      "path": "deepseek/runs/deepseek-2-replacement-1/result.json",
+      "original_sha256": "b9b536acd509c0d09502488ed50a5032339e023a284db5d5b1786ab6e3790105",
+      "packaged_sha256": "b9b536acd509c0d09502488ed50a5032339e023a284db5d5b1786ab6e3790105",
+      "redactions": 0,
+      "original_bytes": 1156
+    },
+    {
+      "path": "deepseek/runs/deepseek-2-replacement-1.log",
+      "original_sha256": "7f81fa3aebdc41844c22cd461afd9095817223eb42722e0d80fca2a16c91fa4e",
+      "packaged_sha256": "7f81fa3aebdc41844c22cd461afd9095817223eb42722e0d80fca2a16c91fa4e",
+      "redactions": 0,
+      "original_bytes": 62438
+    },
+    {
+      "path": "deepseek/runs/deepseek-2.log",
+      "original_sha256": "6faa0c6c68d6252623ab509344aaa961c1316149a9be900f0b7251e854e3b853",
+      "packaged_sha256": "6faa0c6c68d6252623ab509344aaa961c1316149a9be900f0b7251e854e3b853",
+      "redactions": 0,
+      "original_bytes": 66272
+    },
+    {
+      "path": "deepseek/runs/deepseek-3/config.json",
+      "original_sha256": "76fb8f6e4101319d8bf005e80f7c0442c9d106c09d54cca0828312a6cdac82c6",
+      "packaged_sha256": "76fb8f6e4101319d8bf005e80f7c0442c9d106c09d54cca0828312a6cdac82c6",
+      "redactions": 0,
+      "original_bytes": 548
+    },
+    {
+      "path": "deepseek/runs/deepseek-3/g1-slip-calibration__Ztm2rF8/agent/claude-code.txt",
+      "original_sha256": "afd8b0f8246f87acdb7ee28423d9e6e30dce4c6a026b99d1d418b07149f50283",
+      "packaged_sha256": "afd8b0f8246f87acdb7ee28423d9e6e30dce4c6a026b99d1d418b07149f50283",
+      "redactions": 0,
+      "original_bytes": 435402008
+    },
+    {
+      "path": "deepseek/runs/deepseek-3/g1-slip-calibration__Ztm2rF8/agent/sessions/.claude.json",
+      "original_sha256": "f7979d767707d4004ed74a788886797fd7039864bb97c17216b9dd21ab0d82ea",
+      "packaged_sha256": "f7979d767707d4004ed74a788886797fd7039864bb97c17216b9dd21ab0d82ea",
+      "redactions": 0,
+      "original_bytes": 569
+    },
+    {
+      "path": "deepseek/runs/deepseek-3/g1-slip-calibration__Ztm2rF8/agent/sessions/.last-cleanup",
+      "original_sha256": "d21bf919638a8a379651580f5784b8019bafa2714419113fdb59e36f022a551e",
+      "packaged_sha256": "d21bf919638a8a379651580f5784b8019bafa2714419113fdb59e36f022a551e",
+      "redactions": 0,
+      "original_bytes": 24
+    },
+    {
+      "path": "deepseek/runs/deepseek-3/g1-slip-calibration__Ztm2rF8/agent/sessions/backups/.claude.json.backup.1790522289539",
+      "original_sha256": "3dde903d36768b7b74c0abb745c25c600bf11b048303135f658a6c16c75626ed",
+      "packaged_sha256": "3dde903d36768b7b74c0abb745c25c600bf11b048303135f658a6c16c75626ed",
+      "redactions": 0,
+      "original_bytes": 84
+    },
+    {
+      "path": "deepseek/runs/deepseek-3/g1-slip-calibration__Ztm2rF8/agent/sessions/projects/-app/b3cb1484-b9fe-404a-be0e-15209dc252a2.jsonl",
+      "original_sha256": "844c32aeda14cd3d5eff229cd4648d9dfb9c91e60075ebe7dcf5e737b06bcf8c",
+      "packaged_sha256": "844c32aeda14cd3d5eff229cd4648d9dfb9c91e60075ebe7dcf5e737b06bcf8c",
+      "redactions": 0,
+      "original_bytes": 25123594
+    },
+    {
+      "path": "deepseek/runs/deepseek-3/g1-slip-calibration__Ztm2rF8/agent/sessions/sessions/41.json",
+      "original_sha256": "0220bb34cd28c38f227fc937ef60bf78bf5119f8989515e9cf60947273761be7",
+      "packaged_sha256": "0220bb34cd28c38f227fc937ef60bf78bf5119f8989515e9cf60947273761be7",
+      "redactions": 0,
+      "original_bytes": 502
+    },
+    {
+      "path": "deepseek/runs/deepseek-3/g1-slip-calibration__Ztm2rF8/agent/sessions/shell-snapshots/snapshot-bash-1790522290678-pidcik.sh",
+      "original_sha256": "ad898e649e3680fca97c54382f0e5c27a65049f0f7c179f291450d6d20da0a00",
+      "packaged_sha256": "ad898e649e3680fca97c54382f0e5c27a65049f0f7c179f291450d6d20da0a00",
+      "redactions": 0,
+      "original_bytes": 4851
+    },
+    {
+      "path": "deepseek/runs/deepseek-3/g1-slip-calibration__Ztm2rF8/agent/trajectory.json",
+      "original_sha256": "8e6e0abe94348d434e7fc2cf800732fd53bd1da030735b1f999fd5040f3e82f0",
+      "packaged_sha256": "8e6e0abe94348d434e7fc2cf800732fd53bd1da030735b1f999fd5040f3e82f0",
+      "redactions": 0,
+      "original_bytes": 25938691
+    },
+    {
+      "path": "deepseek/runs/deepseek-3/g1-slip-calibration__Ztm2rF8/artifacts/app/calibrate.py",
+      "original_sha256": "6b6db1f52575e7ee1fd4d46d2253d1df1a161c473441093542d5afd89f93e881",
+      "packaged_sha256": "6b6db1f52575e7ee1fd4d46d2253d1df1a161c473441093542d5afd89f93e881",
+      "redactions": 0,
+      "original_bytes": 216455
+    },
+    {
+      "path": "deepseek/runs/deepseek-3/g1-slip-calibration__Ztm2rF8/artifacts/manifest.json",
+      "original_sha256": "66604beede61c3210566f13dad5002baf344e09932e2fbe682b5071a8b80bdf9",
+      "packaged_sha256": "66604beede61c3210566f13dad5002baf344e09932e2fbe682b5071a8b80bdf9",
+      "redactions": 0,
+      "original_bytes": 350
+    },
+    {
+      "path": "deepseek/runs/deepseek-3/g1-slip-calibration__Ztm2rF8/config.json",
+      "original_sha256": "dd3b68b802dfd708fd3da0db3e775dd730da52277eaddf22c8fe5d2272265777",
+      "packaged_sha256": "dd3b68b802dfd708fd3da0db3e775dd730da52277eaddf22c8fe5d2272265777",
+      "redactions": 0,
+      "original_bytes": 535
+    },
+    {
+      "path": "deepseek/runs/deepseek-3/g1-slip-calibration__Ztm2rF8/exception.txt",
+      "original_sha256": "3d70a9c6491239f545332f2b8dce9850ec7c51284a9ac1229ad9a48fd5f0b274",
+      "packaged_sha256": "3d70a9c6491239f545332f2b8dce9850ec7c51284a9ac1229ad9a48fd5f0b274",
+      "redactions": 0,
+      "original_bytes": 4469
+    },
+    {
+      "path": "deepseek/runs/deepseek-3/g1-slip-calibration__Ztm2rF8/lock.json",
+      "original_sha256": "41da92c73e3c345bbae21b9e4c24746754348e8b69db25780fc70b2dde4aedf8",
+      "packaged_sha256": "41da92c73e3c345bbae21b9e4c24746754348e8b69db25780fc70b2dde4aedf8",
+      "redactions": 0,
+      "original_bytes": 1130
+    },
+    {
+      "path": "deepseek/runs/deepseek-3/g1-slip-calibration__Ztm2rF8/result.json",
+      "original_sha256": "792353669289167f55200736a23d29906bb84cd4ba60dace1ac3a5b971014954",
+      "packaged_sha256": "792353669289167f55200736a23d29906bb84cd4ba60dace1ac3a5b971014954",
+      "redactions": 0,
+      "original_bytes": 9259
+    },
+    {
+      "path": "deepseek/runs/deepseek-3/g1-slip-calibration__Ztm2rF8/trial.log",
+      "original_sha256": "653b594c073ed45dadfa6efe856f1bf6fe7de6c94d5b852b191e6b3770a7ed83",
+      "packaged_sha256": "653b594c073ed45dadfa6efe856f1bf6fe7de6c94d5b852b191e6b3770a7ed83",
+      "redactions": 0,
+      "original_bytes": 552813
+    },
+    {
+      "path": "deepseek/runs/deepseek-3/g1-slip-calibration__Ztm2rF8/verifier/ctrf.json",
+      "original_sha256": "2a7752f78faf43abc438f079b497497a862cb7713b65f5346ee87dde2479664c",
+      "packaged_sha256": "2a7752f78faf43abc438f079b497497a862cb7713b65f5346ee87dde2479664c",
+      "redactions": 0,
+      "original_bytes": 1251
+    },
+    {
+      "path": "deepseek/runs/deepseek-3/g1-slip-calibration__Ztm2rF8/verifier/reward.txt",
+      "original_sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+      "packaged_sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+      "redactions": 0,
+      "original_bytes": 2
+    },
+    {
+      "path": "deepseek/runs/deepseek-3/g1-slip-calibration__Ztm2rF8/verifier/test-stdout.txt",
+      "original_sha256": "a448ccec4743b6217439c7e8f9ffe49aa912b8c937677aee6e84bebdbc3cc00d",
+      "packaged_sha256": "a448ccec4743b6217439c7e8f9ffe49aa912b8c937677aee6e84bebdbc3cc00d",
+      "redactions": 0,
+      "original_bytes": 553
+    },
+    {
+      "path": "deepseek/runs/deepseek-3/job.log",
+      "original_sha256": "84bbd28ce43ebad5309fd71a173a611110987509def72dca57c44fb0e9eb6179",
+      "packaged_sha256": "84bbd28ce43ebad5309fd71a173a611110987509def72dca57c44fb0e9eb6179",
+      "redactions": 0,
+      "original_bytes": 553000
+    },
+    {
+      "path": "deepseek/runs/deepseek-3/lock.json",
+      "original_sha256": "3df3a47395c06b47545fd75648cc7d8ed67fb915499e7f87bf981fdfe161b3bc",
+      "packaged_sha256": "3df3a47395c06b47545fd75648cc7d8ed67fb915499e7f87bf981fdfe161b3bc",
+      "redactions": 0,
+      "original_bytes": 2188
+    },
+    {
+      "path": "deepseek/runs/deepseek-3/result.json",
+      "original_sha256": "4e4708f70a4f0d6c622836015aaeac09c989846d76c6cb6779296c8582eba75e",
+      "packaged_sha256": "4e4708f70a4f0d6c622836015aaeac09c989846d76c6cb6779296c8582eba75e",
+      "redactions": 0,
+      "original_bytes": 1281
+    },
+    {
+      "path": "deepseek/runs/deepseek-3-replacement-1/config.json",
+      "original_sha256": "bbfedd6e40b2b2c66360127fe71ef8e8588c1b8749184d9d754cb54f117b28ce",
+      "packaged_sha256": "bbfedd6e40b2b2c66360127fe71ef8e8588c1b8749184d9d754cb54f117b28ce",
+      "redactions": 0,
+      "original_bytes": 562
+    },
+    {
+      "path": "deepseek/runs/deepseek-3-replacement-1/g1-slip-calibration__kSXSQAi/agent/claude-code.txt",
+      "original_sha256": "ccdafc594f69ddeccf6d06832d15df11adb4ed3b2b2de06dbdca510eb16aa532",
+      "packaged_sha256": "ccdafc594f69ddeccf6d06832d15df11adb4ed3b2b2de06dbdca510eb16aa532",
+      "redactions": 0,
+      "original_bytes": 61310256
+    },
+    {
+      "path": "deepseek/runs/deepseek-3-replacement-1/g1-slip-calibration__kSXSQAi/agent/sessions/.claude.json",
+      "original_sha256": "6cec5ee44e19d7d5e8e8eb7ffc8c79f8f0ed207342e5d68f16c42b27fb706a1d",
+      "packaged_sha256": "6cec5ee44e19d7d5e8e8eb7ffc8c79f8f0ed207342e5d68f16c42b27fb706a1d",
+      "redactions": 0,
+      "original_bytes": 569
+    },
+    {
+      "path": "deepseek/runs/deepseek-3-replacement-1/g1-slip-calibration__kSXSQAi/agent/sessions/.last-cleanup",
+      "original_sha256": "d82d8a62f2c23f128745ab4419cd6373796060bb3c0336eceb6cfc83f4932648",
+      "packaged_sha256": "d82d8a62f2c23f128745ab4419cd6373796060bb3c0336eceb6cfc83f4932648",
+      "redactions": 0,
+      "original_bytes": 24
+    },
+    {
+      "path": "deepseek/runs/deepseek-3-replacement-1/g1-slip-calibration__kSXSQAi/agent/sessions/backups/.claude.json.backup.1790556297584",
+      "original_sha256": "51b4fb0a995d714292ff4f543c81fb40a77fe8bb7786ae9c927c0edc8750d631",
+      "packaged_sha256": "51b4fb0a995d714292ff4f543c81fb40a77fe8bb7786ae9c927c0edc8750d631",
+      "redactions": 0,
+      "original_bytes": 84
+    },
+    {
+      "path": "deepseek/runs/deepseek-3-replacement-1/g1-slip-calibration__kSXSQAi/agent/sessions/projects/-app/fd9e0983-eb49-4e1f-8d64-4ef2e4efeb4c.jsonl",
+      "original_sha256": "77981139934a0ab8a8ad0f8baf299ddf3fa2b6a6a5e94801039f17f396c1fc8e",
+      "packaged_sha256": "77981139934a0ab8a8ad0f8baf299ddf3fa2b6a6a5e94801039f17f396c1fc8e",
+      "redactions": 0,
+      "original_bytes": 3191956
+    },
+    {
+      "path": "deepseek/runs/deepseek-3-replacement-1/g1-slip-calibration__kSXSQAi/agent/sessions/projects/-app/memory/MEMORY.md",
+      "original_sha256": "f56f4c2743fa41414dc255ef06432de79f894702248ea4b47b5a16675e4c5ab7",
+      "packaged_sha256": "f56f4c2743fa41414dc255ef06432de79f894702248ea4b47b5a16675e4c5ab7",
+      "redactions": 0,
+      "original_bytes": 192
+    },
+    {
+      "path": "deepseek/runs/deepseek-3-replacement-1/g1-slip-calibration__kSXSQAi/agent/sessions/projects/-app/memory/calibrate-task-findings.md",
+      "original_sha256": "7b0b6e07c31160ea68155f7e32455b7cfc9889ff7e469f37e0ef436a1957f290",
+      "packaged_sha256": "7b0b6e07c31160ea68155f7e32455b7cfc9889ff7e469f37e0ef436a1957f290",
+      "redactions": 0,
+      "original_bytes": 2551
+    },
+    {
+      "path": "deepseek/runs/deepseek-3-replacement-1/g1-slip-calibration__kSXSQAi/agent/trajectory.json",
+      "original_sha256": "f7f07f3b027c1fb13c0c56d006d0cd4ebe38d21be10b99997370760fa62ecd8e",
+      "packaged_sha256": "f7f07f3b027c1fb13c0c56d006d0cd4ebe38d21be10b99997370760fa62ecd8e",
+      "redactions": 0,
+      "original_bytes": 2970223
+    },
+    {
+      "path": "deepseek/runs/deepseek-3-replacement-1/g1-slip-calibration__kSXSQAi/artifacts/app/calibrate.py",
+      "original_sha256": "6e61601e935d356ad5ccdb1932b1ee96346bedb269b05e84859792506058d48a",
+      "packaged_sha256": "6e61601e935d356ad5ccdb1932b1ee96346bedb269b05e84859792506058d48a",
+      "redactions": 0,
+      "original_bytes": 38317
+    },
+    {
+      "path": "deepseek/runs/deepseek-3-replacement-1/g1-slip-calibration__kSXSQAi/artifacts/manifest.json",
+      "original_sha256": "66604beede61c3210566f13dad5002baf344e09932e2fbe682b5071a8b80bdf9",
+      "packaged_sha256": "66604beede61c3210566f13dad5002baf344e09932e2fbe682b5071a8b80bdf9",
+      "redactions": 0,
+      "original_bytes": 350
+    },
+    {
+      "path": "deepseek/runs/deepseek-3-replacement-1/g1-slip-calibration__kSXSQAi/config.json",
+      "original_sha256": "197706a2ed75e07027e54b19da3660051af63b94fc15bd201bf05e608781c76b",
+      "packaged_sha256": "197706a2ed75e07027e54b19da3660051af63b94fc15bd201bf05e608781c76b",
+      "redactions": 0,
+      "original_bytes": 549
+    },
+    {
+      "path": "deepseek/runs/deepseek-3-replacement-1/g1-slip-calibration__kSXSQAi/lock.json",
+      "original_sha256": "41da92c73e3c345bbae21b9e4c24746754348e8b69db25780fc70b2dde4aedf8",
+      "packaged_sha256": "41da92c73e3c345bbae21b9e4c24746754348e8b69db25780fc70b2dde4aedf8",
+      "redactions": 0,
+      "original_bytes": 1130
+    },
+    {
+      "path": "deepseek/runs/deepseek-3-replacement-1/g1-slip-calibration__kSXSQAi/result.json",
+      "original_sha256": "b0ca567aa2d938dc670c416ffc1737c842dac3197249dbe44db8dd4374403e06",
+      "packaged_sha256": "b0ca567aa2d938dc670c416ffc1737c842dac3197249dbe44db8dd4374403e06",
+      "redactions": 0,
+      "original_bytes": 4481
+    },
+    {
+      "path": "deepseek/runs/deepseek-3-replacement-1/g1-slip-calibration__kSXSQAi/trial.log",
+      "original_sha256": "a2e8957b4251d5a073d0de1ee8df9e755cdca4d28528ef7a1b7897dfb4a3d935",
+      "packaged_sha256": "a2e8957b4251d5a073d0de1ee8df9e755cdca4d28528ef7a1b7897dfb4a3d935",
+      "redactions": 0,
+      "original_bytes": 73125
+    },
+    {
+      "path": "deepseek/runs/deepseek-3-replacement-1/g1-slip-calibration__kSXSQAi/verifier/ctrf.json",
+      "original_sha256": "1996a41e364986926c3d3723adc71f104dff2f1a45e0af66ca46c18bef7a74cb",
+      "packaged_sha256": "1996a41e364986926c3d3723adc71f104dff2f1a45e0af66ca46c18bef7a74cb",
+      "redactions": 0,
+      "original_bytes": 1262
+    },
+    {
+      "path": "deepseek/runs/deepseek-3-replacement-1/g1-slip-calibration__kSXSQAi/verifier/reward.txt",
+      "original_sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+      "packaged_sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+      "redactions": 0,
+      "original_bytes": 2
+    },
+    {
+      "path": "deepseek/runs/deepseek-3-replacement-1/g1-slip-calibration__kSXSQAi/verifier/test-stdout.txt",
+      "original_sha256": "a8276efd1cb26a03cbb279949c73968931b5e64e4db6ce192c1394814eee3438",
+      "packaged_sha256": "a8276efd1cb26a03cbb279949c73968931b5e64e4db6ce192c1394814eee3438",
+      "redactions": 0,
+      "original_bytes": 543
+    },
+    {
+      "path": "deepseek/runs/deepseek-3-replacement-1/job.log",
+      "original_sha256": "a2e8957b4251d5a073d0de1ee8df9e755cdca4d28528ef7a1b7897dfb4a3d935",
+      "packaged_sha256": "a2e8957b4251d5a073d0de1ee8df9e755cdca4d28528ef7a1b7897dfb4a3d935",
+      "redactions": 0,
+      "original_bytes": 73125
+    },
+    {
+      "path": "deepseek/runs/deepseek-3-replacement-1/lock.json",
+      "original_sha256": "68cd69ad4a9a3a07050aa8fcb9c715a147a0d18114ac2ce3727dab29719727df",
+      "packaged_sha256": "68cd69ad4a9a3a07050aa8fcb9c715a147a0d18114ac2ce3727dab29719727df",
+      "redactions": 0,
+      "original_bytes": 2188
+    },
+    {
+      "path": "deepseek/runs/deepseek-3-replacement-1/result.json",
+      "original_sha256": "96eabe8e081ddff1519f339ac474b78ff8ee2fbae30300d5a6166e3952e5c9aa",
+      "packaged_sha256": "96eabe8e081ddff1519f339ac474b78ff8ee2fbae30300d5a6166e3952e5c9aa",
+      "redactions": 0,
+      "original_bytes": 1154
+    },
+    {
+      "path": "deepseek/runs/deepseek-3-replacement-1.log",
+      "original_sha256": "4497644c973eb1c489f80549b418624e53914faab9ea617ed2a1064668fe2483",
+      "packaged_sha256": "4497644c973eb1c489f80549b418624e53914faab9ea617ed2a1064668fe2483",
+      "redactions": 0,
+      "original_bytes": 14869
+    },
+    {
+      "path": "deepseek/runs/deepseek-3.log",
+      "original_sha256": "3ae37a94aedfba48cb26e6efef38b964e985ec67d9b3714e4693ee50ad6657cb",
+      "packaged_sha256": "3ae37a94aedfba48cb26e6efef38b964e985ec67d9b3714e4693ee50ad6657cb",
+      "redactions": 0,
+      "original_bytes": 106229
+    },
+    {
+      "path": "deepseek/runs/deepseek-cheat-1/config.json",
+      "original_sha256": "6d79eca5a9824ea49b43255e15fcc5bb746574ee43419c2a9027600b4f710289",
+      "packaged_sha256": "6d79eca5a9824ea49b43255e15fcc5bb746574ee43419c2a9027600b4f710289",
+      "redactions": 0,
+      "original_bytes": 694
+    },
+    {
+      "path": "deepseek/runs/deepseek-cheat-1/g1-slip-calibration__aCkGsT4/agent/claude-code.txt",
+      "original_sha256": "4402ac9ff9e5ad3c691d459751f0aada19577478c826f37164241681435d3b62",
+      "packaged_sha256": "ed9dc0b27b7202d4853423387c7d9fec38b43fdac013377b48e6256a3b3a3b67",
+      "redactions": 2,
+      "original_bytes": 28794028
+    },
+    {
+      "path": "deepseek/runs/deepseek-cheat-1/g1-slip-calibration__aCkGsT4/agent/sessions/.claude.json",
+      "original_sha256": "f9541862fa6e94a4faea9ff388b2e66e90c99b58a0f66684560e59f4741fdf5b",
+      "packaged_sha256": "f9541862fa6e94a4faea9ff388b2e66e90c99b58a0f66684560e59f4741fdf5b",
+      "redactions": 0,
+      "original_bytes": 569
+    },
+    {
+      "path": "deepseek/runs/deepseek-cheat-1/g1-slip-calibration__aCkGsT4/agent/sessions/.last-cleanup",
+      "original_sha256": "14df81ed8b53909da5c12ec60f469989b039fd158009544581b78ab7f5de0432",
+      "packaged_sha256": "14df81ed8b53909da5c12ec60f469989b039fd158009544581b78ab7f5de0432",
+      "redactions": 0,
+      "original_bytes": 24
+    },
+    {
+      "path": "deepseek/runs/deepseek-cheat-1/g1-slip-calibration__aCkGsT4/agent/sessions/backups/.claude.json.backup.1790560543859",
+      "original_sha256": "9f25ff0a0425ccb6cc8d01a98e274f0564abaf713ab320b436c6faa452d0fd1b",
+      "packaged_sha256": "9f25ff0a0425ccb6cc8d01a98e274f0564abaf713ab320b436c6faa452d0fd1b",
+      "redactions": 0,
+      "original_bytes": 84
+    },
+    {
+      "path": "deepseek/runs/deepseek-cheat-1/g1-slip-calibration__aCkGsT4/agent/sessions/projects/-app/4012c026-d785-493a-8226-f9e0b7066721/tool-results/b2orge7id.txt",
+      "original_sha256": "00447ac8c5da31f1c714c99a908faa2d0e9be1a3c75381cf63631f47cee8f012",
+      "packaged_sha256": "00447ac8c5da31f1c714c99a908faa2d0e9be1a3c75381cf63631f47cee8f012",
+      "redactions": 0,
+      "original_bytes": 30451
+    },
+    {
+      "path": "deepseek/runs/deepseek-cheat-1/g1-slip-calibration__aCkGsT4/agent/sessions/projects/-app/4012c026-d785-493a-8226-f9e0b7066721/tool-results/b65httqvr.txt",
+      "original_sha256": "8966717222a5730dc4e504293a5ee8dd267f79418bbbff3a191a6820dcf1526b",
+      "packaged_sha256": "8966717222a5730dc4e504293a5ee8dd267f79418bbbff3a191a6820dcf1526b",
+      "redactions": 0,
+      "original_bytes": 38770
+    },
+    {
+      "path": "deepseek/runs/deepseek-cheat-1/g1-slip-calibration__aCkGsT4/agent/sessions/projects/-app/4012c026-d785-493a-8226-f9e0b7066721.jsonl",
+      "original_sha256": "10c71e138611ee189fae1b2fc91985474c7211164392d43ea327e9f7648f44fd",
+      "packaged_sha256": "a05a8cea0705e82c07d84e701b6b703443afb46ef26317b4168883d045cbd38b",
+      "redactions": 2,
+      "original_bytes": 2320057
+    },
+    {
+      "path": "deepseek/runs/deepseek-cheat-1/g1-slip-calibration__aCkGsT4/agent/sessions/projects/-app/memory/MEMORY.md",
+      "original_sha256": "4e8703b2c1477113e011010457813e9e96c2682cc1a9895e599197f841a7335f",
+      "packaged_sha256": "4e8703b2c1477113e011010457813e9e96c2682cc1a9895e599197f841a7335f",
+      "redactions": 0,
+      "original_bytes": 268
+    },
+    {
+      "path": "deepseek/runs/deepseek-cheat-1/g1-slip-calibration__aCkGsT4/agent/sessions/projects/-app/memory/calibrate-py-is-redteam-exploit.md",
+      "original_sha256": "da6a20d794c6b9788cb1f0ce691946dc41e1ee5c5febf75b600ce867d5bf25b0",
+      "packaged_sha256": "da6a20d794c6b9788cb1f0ce691946dc41e1ee5c5febf75b600ce867d5bf25b0",
+      "redactions": 0,
+      "original_bytes": 1233
+    },
+    {
+      "path": "deepseek/runs/deepseek-cheat-1/g1-slip-calibration__aCkGsT4/agent/sessions/projects/-app/memory/redteam-exploit-layers.md",
+      "original_sha256": "53aa5b17205d0849a45d234861d2b5742b4a42b0354ffa4d82f9367acba97811",
+      "packaged_sha256": "53aa5b17205d0849a45d234861d2b5742b4a42b0354ffa4d82f9367acba97811",
+      "redactions": 0,
+      "original_bytes": 1578
+    },
+    {
+      "path": "deepseek/runs/deepseek-cheat-1/g1-slip-calibration__aCkGsT4/agent/trajectory.json",
+      "original_sha256": "2be8544aff1ab91c05905c90015970a33e902237a9090303eaff8ad2f77dc2b2",
+      "packaged_sha256": "d475c2dc36d983f321a686fc202a9c3991555481bd37f6e1828f044d024dbe80",
+      "redactions": 4,
+      "original_bytes": 2647033
+    },
+    {
+      "path": "deepseek/runs/deepseek-cheat-1/g1-slip-calibration__aCkGsT4/artifacts/app/calibrate.py",
+      "original_sha256": "8cea3d57341cc71e70acbc90b173415c1aa7b8b552c106c4f2974ef11a372ff5",
+      "packaged_sha256": "8cea3d57341cc71e70acbc90b173415c1aa7b8b552c106c4f2974ef11a372ff5",
+      "redactions": 0,
+      "original_bytes": 52687
+    },
+    {
+      "path": "deepseek/runs/deepseek-cheat-1/g1-slip-calibration__aCkGsT4/artifacts/manifest.json",
+      "original_sha256": "66604beede61c3210566f13dad5002baf344e09932e2fbe682b5071a8b80bdf9",
+      "packaged_sha256": "66604beede61c3210566f13dad5002baf344e09932e2fbe682b5071a8b80bdf9",
+      "redactions": 0,
+      "original_bytes": 350
+    },
+    {
+      "path": "deepseek/runs/deepseek-cheat-1/g1-slip-calibration__aCkGsT4/config.json",
+      "original_sha256": "0ba159f46b89a26f6ba06456b2dd24bcce14d4a0521b46d44a315cfb84fa06d8",
+      "packaged_sha256": "0ba159f46b89a26f6ba06456b2dd24bcce14d4a0521b46d44a315cfb84fa06d8",
+      "redactions": 0,
+      "original_bytes": 681
+    },
+    {
+      "path": "deepseek/runs/deepseek-cheat-1/g1-slip-calibration__aCkGsT4/lock.json",
+      "original_sha256": "ad908d32115a3982dbfff110a54e0a37879c6f6947a7987b35a752bd29dae291",
+      "packaged_sha256": "ad908d32115a3982dbfff110a54e0a37879c6f6947a7987b35a752bd29dae291",
+      "redactions": 0,
+      "original_bytes": 1394
+    },
+    {
+      "path": "deepseek/runs/deepseek-cheat-1/g1-slip-calibration__aCkGsT4/result.json",
+      "original_sha256": "c3b12b9af95578b477d0ece856f503af2c239b046027c225cc005dcf30c0d942",
+      "packaged_sha256": "c3b12b9af95578b477d0ece856f503af2c239b046027c225cc005dcf30c0d942",
+      "redactions": 0,
+      "original_bytes": 4579
+    },
+    {
+      "path": "deepseek/runs/deepseek-cheat-1/g1-slip-calibration__aCkGsT4/trial.log",
+      "original_sha256": "a6f7223dbd94f4d64c1f7c5ce2b66c80d59f0345f5b0ac75f4571516a4720e97",
+      "packaged_sha256": "a6f7223dbd94f4d64c1f7c5ce2b66c80d59f0345f5b0ac75f4571516a4720e97",
+      "redactions": 0,
+      "original_bytes": 68175
+    },
+    {
+      "path": "deepseek/runs/deepseek-cheat-1/g1-slip-calibration__aCkGsT4/verifier/ctrf.json",
+      "original_sha256": "c14e14c40a030bebf97095c71ed9c31751bc4bed9a596427e3923ccb031cfef0",
+      "packaged_sha256": "c14e14c40a030bebf97095c71ed9c31751bc4bed9a596427e3923ccb031cfef0",
+      "redactions": 0,
+      "original_bytes": 1299
+    },
+    {
+      "path": "deepseek/runs/deepseek-cheat-1/g1-slip-calibration__aCkGsT4/verifier/reward.txt",
+      "original_sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+      "packaged_sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+      "redactions": 0,
+      "original_bytes": 2
+    },
+    {
+      "path": "deepseek/runs/deepseek-cheat-1/g1-slip-calibration__aCkGsT4/verifier/test-stdout.txt",
+      "original_sha256": "dcab25d3aff85a723cdb97ad580038c4f7c7b83c529ca7a6ebac751f0490b29d",
+      "packaged_sha256": "dcab25d3aff85a723cdb97ad580038c4f7c7b83c529ca7a6ebac751f0490b29d",
+      "redactions": 0,
+      "original_bytes": 597
+    },
+    {
+      "path": "deepseek/runs/deepseek-cheat-1/job.log",
+      "original_sha256": "a6f7223dbd94f4d64c1f7c5ce2b66c80d59f0345f5b0ac75f4571516a4720e97",
+      "packaged_sha256": "a6f7223dbd94f4d64c1f7c5ce2b66c80d59f0345f5b0ac75f4571516a4720e97",
+      "redactions": 0,
+      "original_bytes": 68175
+    },
+    {
+      "path": "deepseek/runs/deepseek-cheat-1/lock.json",
+      "original_sha256": "f8baed513bfcae3990df116b4ed881824ada63e65a41a057d54806bf361d2ed3",
+      "packaged_sha256": "f8baed513bfcae3990df116b4ed881824ada63e65a41a057d54806bf361d2ed3",
+      "redactions": 0,
+      "original_bytes": 2500
+    },
+    {
+      "path": "deepseek/runs/deepseek-cheat-1/result.json",
+      "original_sha256": "ca1a9d78c2d6fa51752278dd2f278e4e9b525bc6b22c0972b7ef0a9ea9b415e9",
+      "packaged_sha256": "ca1a9d78c2d6fa51752278dd2f278e4e9b525bc6b22c0972b7ef0a9ea9b415e9",
+      "redactions": 0,
+      "original_bytes": 1155
+    },
+    {
+      "path": "deepseek/runs/deepseek-cheat-1.log",
+      "original_sha256": "790ab86de4c603f1be459c509f7a7f3a4c1672a3cbeb31574cd3e35cfbd67126",
+      "packaged_sha256": "790ab86de4c603f1be459c509f7a7f3a4c1672a3cbeb31574cd3e35cfbd67126",
+      "redactions": 0,
+      "original_bytes": 13912
+    },
+    {
+      "path": "deepseek/runs/driver.log",
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "packaged_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "redactions": 0,
+      "original_bytes": 0
+    },
+    {
+      "path": "deepseek/runs/night-watch.log",
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "packaged_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "redactions": 0,
+      "original_bytes": 0
+    },
+    {
+      "path": "deepseek/runs/replacement-cheat-launch.log",
+      "original_sha256": "1a1edcb06f9ea4e712f447b21fe0f47d4d4272e18ea7c7ac6a39f24ff547928e",
+      "packaged_sha256": "1a1edcb06f9ea4e712f447b21fe0f47d4d4272e18ea7c7ac6a39f24ff547928e",
+      "redactions": 0,
+      "original_bytes": 375
+    },
+    {
+      "path": "deepseek/runs/replacement-driver.log",
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "packaged_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "redactions": 0,
+      "original_bytes": 0
+    },
+    {
+      "path": "deepseek/runs/replacement-watch.log",
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "packaged_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "redactions": 0,
+      "original_bytes": 0
+    },
+    {
+      "path": "deepseek/runs/third-driver.log",
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "packaged_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "redactions": 0,
+      "original_bytes": 0
+    },
+    {
+      "path": "deepseek/runs/third-replacement-driver.log",
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "packaged_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "redactions": 0,
+      "original_bytes": 0
+    },
+    {
+      "path": "deepseek/controls/nop/config.json",
+      "original_sha256": "3d31aeaf4eb421cf8d185058693ce3ea10bbe407de2c7ba4d21d19a1094b2978",
+      "packaged_sha256": "3d31aeaf4eb421cf8d185058693ce3ea10bbe407de2c7ba4d21d19a1094b2978",
+      "redactions": 0,
+      "original_bytes": 374
+    },
+    {
+      "path": "deepseek/controls/nop/g1-slip-calibration__FVogiHN/artifacts/app/calibrate.py",
+      "original_sha256": "0fa61de561f5852e30483b998e33e6414b99dbeea0d381d66fb1e0af667f4fad",
+      "packaged_sha256": "0fa61de561f5852e30483b998e33e6414b99dbeea0d381d66fb1e0af667f4fad",
+      "redactions": 0,
+      "original_bytes": 130
+    },
+    {
+      "path": "deepseek/controls/nop/g1-slip-calibration__FVogiHN/artifacts/manifest.json",
+      "original_sha256": "66604beede61c3210566f13dad5002baf344e09932e2fbe682b5071a8b80bdf9",
+      "packaged_sha256": "66604beede61c3210566f13dad5002baf344e09932e2fbe682b5071a8b80bdf9",
+      "redactions": 0,
+      "original_bytes": 350
+    },
+    {
+      "path": "deepseek/controls/nop/g1-slip-calibration__FVogiHN/config.json",
+      "original_sha256": "3f444316e87f6d3bc4a4b63dc159b0fa7fd682ddbdd26d1101ab90a2d9e5182a",
+      "packaged_sha256": "3f444316e87f6d3bc4a4b63dc159b0fa7fd682ddbdd26d1101ab90a2d9e5182a",
+      "redactions": 0,
+      "original_bytes": 381
+    },
+    {
+      "path": "deepseek/controls/nop/g1-slip-calibration__FVogiHN/lock.json",
+      "original_sha256": "cb4c10b2dd158fe6459194e6f1ca575a3bc0248e2a94e2d1a5613113a0d50281",
+      "packaged_sha256": "cb4c10b2dd158fe6459194e6f1ca575a3bc0248e2a94e2d1a5613113a0d50281",
+      "redactions": 0,
+      "original_bytes": 1001
+    },
+    {
+      "path": "deepseek/controls/nop/g1-slip-calibration__FVogiHN/result.json",
+      "original_sha256": "4d2cd9015b55c15c570953b8bff35ef75b145dcc9d50b0cd48346c377c44da75",
+      "packaged_sha256": "4d2cd9015b55c15c570953b8bff35ef75b145dcc9d50b0cd48346c377c44da75",
+      "redactions": 0,
+      "original_bytes": 4003
+    },
+    {
+      "path": "deepseek/controls/nop/g1-slip-calibration__FVogiHN/trial.log",
+      "original_sha256": "5868e519b78e4f2f267470e411fb5e62ab85729eb3642ffbddd64e569930f993",
+      "packaged_sha256": "5868e519b78e4f2f267470e411fb5e62ab85729eb3642ffbddd64e569930f993",
+      "redactions": 0,
+      "original_bytes": 34
+    },
+    {
+      "path": "deepseek/controls/nop/g1-slip-calibration__FVogiHN/verifier/ctrf.json",
+      "original_sha256": "4fba228d2c66de0c49b78b5c947b6d66819f3a6fb063b3d7921bc247345d9bd3",
+      "packaged_sha256": "4fba228d2c66de0c49b78b5c947b6d66819f3a6fb063b3d7921bc247345d9bd3",
+      "redactions": 0,
+      "original_bytes": 1354
+    },
+    {
+      "path": "deepseek/controls/nop/g1-slip-calibration__FVogiHN/verifier/reward.txt",
+      "original_sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+      "packaged_sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+      "redactions": 0,
+      "original_bytes": 2
+    },
+    {
+      "path": "deepseek/controls/nop/g1-slip-calibration__FVogiHN/verifier/test-stdout.txt",
+      "original_sha256": "95c36d95b353635de0af83d7b6c2c1cfebfb69dbedbdcd8db118a82844141a55",
+      "packaged_sha256": "95c36d95b353635de0af83d7b6c2c1cfebfb69dbedbdcd8db118a82844141a55",
+      "redactions": 0,
+      "original_bytes": 646
+    },
+    {
+      "path": "deepseek/controls/nop/job.log",
+      "original_sha256": "27645709b8dfe2c26fbdc8bfca9f0aa3dcf77d84005fb1db61a290fb23dd4259",
+      "packaged_sha256": "27645709b8dfe2c26fbdc8bfca9f0aa3dcf77d84005fb1db61a290fb23dd4259",
+      "redactions": 0,
+      "original_bytes": 109
+    },
+    {
+      "path": "deepseek/controls/nop/lock.json",
+      "original_sha256": "3e62b801881dce6a8e127d462849953f4d9da8c2f01e8dece62409a38e750aab",
+      "packaged_sha256": "3e62b801881dce6a8e127d462849953f4d9da8c2f01e8dece62409a38e750aab",
+      "redactions": 0,
+      "original_bytes": 2027
+    },
+    {
+      "path": "deepseek/controls/nop/result.json",
+      "original_sha256": "b3b8d32ea6f34045873827bc46b2d961c995862560148673d5b4aa1e3d021fec",
+      "packaged_sha256": "b3b8d32ea6f34045873827bc46b2d961c995862560148673d5b4aa1e3d021fec",
+      "redactions": 0,
+      "original_bytes": 1107
+    },
+    {
+      "path": "deepseek/controls/oracle/config.json",
+      "original_sha256": "4b10291006e2c3ef81d70eaf710f6083df0d7f9ea0e0aa7372e96e8ff19a4182",
+      "packaged_sha256": "4b10291006e2c3ef81d70eaf710f6083df0d7f9ea0e0aa7372e96e8ff19a4182",
+      "redactions": 0,
+      "original_bytes": 308
+    },
+    {
+      "path": "deepseek/controls/oracle/g1-slip-calibration__Mc8MiJy/agent/oracle.txt",
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "packaged_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "redactions": 0,
+      "original_bytes": 0
+    },
+    {
+      "path": "deepseek/controls/oracle/g1-slip-calibration__Mc8MiJy/artifacts/app/calibrate.py",
+      "original_sha256": "5ae5742c50feda08fd3f2edd7630d5aa97ad18d0d44133503ed1d911818e4d08",
+      "packaged_sha256": "5ae5742c50feda08fd3f2edd7630d5aa97ad18d0d44133503ed1d911818e4d08",
+      "redactions": 0,
+      "original_bytes": 94284
+    },
+    {
+      "path": "deepseek/controls/oracle/g1-slip-calibration__Mc8MiJy/artifacts/manifest.json",
+      "original_sha256": "66604beede61c3210566f13dad5002baf344e09932e2fbe682b5071a8b80bdf9",
+      "packaged_sha256": "66604beede61c3210566f13dad5002baf344e09932e2fbe682b5071a8b80bdf9",
+      "redactions": 0,
+      "original_bytes": 350
+    },
+    {
+      "path": "deepseek/controls/oracle/g1-slip-calibration__Mc8MiJy/config.json",
+      "original_sha256": "ef128128e13ee166bb5691ebc0e5f864dc38251446f8c37dbc64071fcf91fd80",
+      "packaged_sha256": "ef128128e13ee166bb5691ebc0e5f864dc38251446f8c37dbc64071fcf91fd80",
+      "redactions": 0,
+      "original_bytes": 340
+    },
+    {
+      "path": "deepseek/controls/oracle/g1-slip-calibration__Mc8MiJy/lock.json",
+      "original_sha256": "50b310199fedbc52b85240ffc0b0c141a3386c9925b6d6ff15f72b4a7184011c",
+      "packaged_sha256": "50b310199fedbc52b85240ffc0b0c141a3386c9925b6d6ff15f72b4a7184011c",
+      "redactions": 0,
+      "original_bytes": 1004
+    },
+    {
+      "path": "deepseek/controls/oracle/g1-slip-calibration__Mc8MiJy/result.json",
+      "original_sha256": "7ba4ed03d2bb681d2deb2ca53702b64943a5f9dc64d48d301882ec4fbd9b8fb7",
+      "packaged_sha256": "7ba4ed03d2bb681d2deb2ca53702b64943a5f9dc64d48d301882ec4fbd9b8fb7",
+      "redactions": 0,
+      "original_bytes": 4015
+    },
+    {
+      "path": "deepseek/controls/oracle/g1-slip-calibration__Mc8MiJy/trial.log",
+      "original_sha256": "5868e519b78e4f2f267470e411fb5e62ab85729eb3642ffbddd64e569930f993",
+      "packaged_sha256": "5868e519b78e4f2f267470e411fb5e62ab85729eb3642ffbddd64e569930f993",
+      "redactions": 0,
+      "original_bytes": 34
+    },
+    {
+      "path": "deepseek/controls/oracle/g1-slip-calibration__Mc8MiJy/verifier/ctrf.json",
+      "original_sha256": "606825f58b11507a6f5a14beaf4ccfbeed565e29f62c55b6d23b7558b18a10db",
+      "packaged_sha256": "606825f58b11507a6f5a14beaf4ccfbeed565e29f62c55b6d23b7558b18a10db",
+      "redactions": 0,
+      "original_bytes": 1120
+    },
+    {
+      "path": "deepseek/controls/oracle/g1-slip-calibration__Mc8MiJy/verifier/reward.txt",
+      "original_sha256": "4355a46b19d348dc2f57c046f8ef63d4538ebb936000f3c9ee954a27460dd865",
+      "packaged_sha256": "4355a46b19d348dc2f57c046f8ef63d4538ebb936000f3c9ee954a27460dd865",
+      "redactions": 0,
+      "original_bytes": 2
+    },
+    {
+      "path": "deepseek/controls/oracle/g1-slip-calibration__Mc8MiJy/verifier/test-stdout.txt",
+      "original_sha256": "0d10e33b8571595c862d165d11e2fcffc47e86a392749bd24fcfbb703ffea93e",
+      "packaged_sha256": "0d10e33b8571595c862d165d11e2fcffc47e86a392749bd24fcfbb703ffea93e",
+      "redactions": 0,
+      "original_bytes": 980
+    },
+    {
+      "path": "deepseek/controls/oracle/job.log",
+      "original_sha256": "bf29af3c977c2ccf0d3abae6e48b65e526c76e6174a82392398ca22f0599fed5",
+      "packaged_sha256": "bf29af3c977c2ccf0d3abae6e48b65e526c76e6174a82392398ca22f0599fed5",
+      "redactions": 0,
+      "original_bytes": 112
+    },
+    {
+      "path": "deepseek/controls/oracle/lock.json",
+      "original_sha256": "9c68dfe4e6460dbab31d36989809925da2a7fc9e868eec6d5438b8f8c9b8575a",
+      "packaged_sha256": "9c68dfe4e6460dbab31d36989809925da2a7fc9e868eec6d5438b8f8c9b8575a",
+      "redactions": 0,
+      "original_bytes": 2030
+    },
+    {
+      "path": "deepseek/controls/oracle/result.json",
+      "original_sha256": "ae8445d237bceca22944927e0baa33d1abd2f5a128ff85b152cb8072d8bc74ab",
+      "packaged_sha256": "ae8445d237bceca22944927e0baa33d1abd2f5a128ff85b152cb8072d8bc74ab",
+      "redactions": 0,
+      "original_bytes": 1110
+    }
+  ],
+  "excluded": [
+    "deepseek/runs/deepseek-3/g1-slip-calibration__Ztm2rF8/agent/sessions/sessions/41.5bbdb35730a314ad543133f44ffd309045d3c010cc29056473473b6d39578128.key"
+  ]
+}

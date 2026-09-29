@@ -1,0 +1,59 @@
+{
+  "results": {
+    "tool": {
+      "name": "g1-unlabeled-verifier"
+    },
+    "summary": {
+      "tests": 8,
+      "passed": 8,
+      "failed": 0,
+      "skipped": 0,
+      "pending": 0,
+      "other": 0,
+      "start": 1790646415599,
+      "stop": 1790646682013
+    },
+    "tests": [
+      {
+        "name": "held_a",
+        "status": "passed",
+        "duration": 61.14955927800003
+      },
+      {
+        "name": "held_b",
+        "status": "passed",
+        "duration": 72.62502474000001
+      },
+      {
+        "name": "held_no_slip",
+        "status": "passed",
+        "duration": 131.041893851
+      },
+      {
+        "name": "bad_magic",
+        "status": "passed",
+        "duration": 0
+      },
+      {
+        "name": "crc",
+        "status": "passed",
+        "duration": 0
+      },
+      {
+        "name": "conflicting_duplicate",
+        "status": "passed",
+        "duration": 0
+      },
+      {
+        "name": "truncated",
+        "status": "passed",
+        "duration": 0
+      },
+      {
+        "name": "nonfinite",
+        "status": "passed",
+        "duration": 0
+      }
+    ]
+  }
+}

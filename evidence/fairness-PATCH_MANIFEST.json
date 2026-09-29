@@ -1,0 +1,10 @@
+{
+  "changes": [
+    "tests/check.py"
+  ],
+  "instruction_unchanged": true,
+  "format_unchanged": true,
+  "original_check_sha256": "cce6fd0814615c37be30f288de241fb1c0600296a39c7482c3cb13d6153060ce",
+  "patched_check_sha256": "9529f81920e2cfc57d0ab9d729ff853b1cb234c111260101c3389aa20aa28db1",
+  "basis": "Original FORMAT already requires other arm unchanged; use existing1e-5 matrix numeric tolerance. No model rerun."
+}

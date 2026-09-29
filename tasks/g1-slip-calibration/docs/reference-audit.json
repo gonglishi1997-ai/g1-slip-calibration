@@ -1,0 +1,220 @@
+{
+  "sha256": "5ae5742c50feda08fd3f2edd7630d5aa97ad18d0d44133503ed1d911818e4d08",
+  "physical_lines": 1770,
+  "nonblank_noncomment_lines": 1615,
+  "function_definitions_including_nested": 79,
+  "top_level_functions": [
+    {
+      "name": "debug",
+      "line": 22,
+      "span_lines": 3,
+      "name_load_count": 23
+    },
+    {
+      "name": "read_packets",
+      "line": 27,
+      "span_lines": 19,
+      "name_load_count": 3
+    },
+    {
+      "name": "load",
+      "line": 48,
+      "span_lines": 19,
+      "name_load_count": 2
+    },
+    {
+      "name": "make_tracks",
+      "line": 69,
+      "span_lines": 48,
+      "name_load_count": 1
+    },
+    {
+      "name": "pose_guess",
+      "line": 119,
+      "span_lines": 14,
+      "name_load_count": 1
+    },
+    {
+      "name": "project_point",
+      "line": 135,
+      "span_lines": 6,
+      "name_load_count": 2
+    },
+    {
+      "name": "seed_track",
+      "line": 143,
+      "span_lines": 28,
+      "name_load_count": 1
+    },
+    {
+      "name": "fit_track_point",
+      "line": 173,
+      "span_lines": 30,
+      "name_load_count": 2
+    },
+    {
+      "name": "initialize",
+      "line": 205,
+      "span_lines": 33,
+      "name_load_count": 1
+    },
+    {
+      "name": "improve_points",
+      "line": 240,
+      "span_lines": 85,
+      "name_load_count": 1
+    },
+    {
+      "name": "rigid_match",
+      "line": 327,
+      "span_lines": 7,
+      "name_load_count": 2
+    },
+    {
+      "name": "match_mount",
+      "line": 336,
+      "span_lines": 42,
+      "name_load_count": 4
+    },
+    {
+      "name": "init_parameters",
+      "line": 380,
+      "span_lines": 23,
+      "name_load_count": 1
+    },
+    {
+      "name": "predictions",
+      "line": 405,
+      "span_lines": 36,
+      "name_load_count": 15
+    },
+    {
+      "name": "tracked_labels",
+      "line": 443,
+      "span_lines": 17,
+      "name_load_count": 3
+    },
+    {
+      "name": "fit_shared",
+      "line": 462,
+      "span_lines": 42,
+      "name_load_count": 4
+    },
+    {
+      "name": "associate",
+      "line": 506,
+      "span_lines": 17,
+      "name_load_count": 11
+    },
+    {
+      "name": "refine",
+      "line": 525,
+      "span_lines": 16,
+      "name_load_count": 3
+    },
+    {
+      "name": "to_transform",
+      "line": 543,
+      "span_lines": 9,
+      "name_load_count": 4
+    },
+    {
+      "name": "make_answer",
+      "line": 554,
+      "span_lines": 18,
+      "name_load_count": 3
+    },
+    {
+      "name": "projection_curve",
+      "line": 574,
+      "span_lines": 16,
+      "name_load_count": 1
+    },
+    {
+      "name": "triplet_mount_candidates",
+      "line": 592,
+      "span_lines": 106,
+      "name_load_count": 1
+    },
+    {
+      "name": "refine_unlabeled_secondary",
+      "line": 700,
+      "span_lines": 59,
+      "name_load_count": 1
+    },
+    {
+      "name": "recover_clocks",
+      "line": 761,
+      "span_lines": 45,
+      "name_load_count": 2
+    },
+    {
+      "name": "bootstrap_main",
+      "line": 808,
+      "span_lines": 139,
+      "name_load_count": 1
+    },
+    {
+      "name": "pack_parameters",
+      "line": 951,
+      "span_lines": 10,
+      "name_load_count": 2
+    },
+    {
+      "name": "frame_index",
+      "line": 962,
+      "span_lines": 4,
+      "name_load_count": 7
+    },
+    {
+      "name": "mount_curve",
+      "line": 967,
+      "span_lines": 12,
+      "name_load_count": 1
+    },
+    {
+      "name": "detect_event",
+      "line": 980,
+      "span_lines": 24,
+      "name_load_count": 1
+    },
+    {
+      "name": "piece_predictions",
+      "line": 1005,
+      "span_lines": 9,
+      "name_load_count": 3
+    },
+    {
+      "name": "piece_assign",
+      "line": 1015,
+      "span_lines": 11,
+      "name_load_count": 7
+    },
+    {
+      "name": "refine_piece",
+      "line": 1027,
+      "span_lines": 9,
+      "name_load_count": 3
+    },
+    {
+      "name": "solve_from_seed",
+      "line": 1037,
+      "span_lines": 48,
+      "name_load_count": 2
+    },
+    {
+      "name": "main",
+      "line": 1086,
+      "span_lines": 53,
+      "name_load_count": 2
+    },
+    {
+      "name": "legacy_bootstrap",
+      "line": 1140,
+      "span_lines": 624,
+      "name_load_count": 1
+    }
+  ],
+  "exact_duplicate_function_bodies": [],
+  "limitations": "Name loads are not a sound call graph; subprocess CLI dispatch and nested scopes require manual inspection."
+}

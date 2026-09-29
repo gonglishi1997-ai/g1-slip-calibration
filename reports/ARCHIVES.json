@@ -1,0 +1,15 @@
+{
+  "delivery": "Separate evidence attachments; upload destinations pending repository selection",
+  "archives": [
+    {
+      "file": "g1-latest-audit-evidence.zip",
+      "bytes": 23849805,
+      "sha256": "780d78d0214a577e96a8ecf88b022d20889041214261de25de3a805155c0cbf7"
+    },
+    {
+      "file": "g1-historical-log-evidence.zip",
+      "bytes": 225393436,
+      "sha256": "c900434a06cfa6c1573e6858b97500e670e9466094c38d8e26bc3aacd9ea082a"
+    }
+  ]
+}

@@ -1,0 +1,144 @@
+{
+  "checks": {
+    "verifiable": {
+      "outcome": "pass",
+      "explanation": "The verifier uses fixed, baked campaigns and programmatic checks with no verification-time install or live service. The reference passed all eight checks in the local run."
+    },
+    "solvable": {
+      "outcome": "pass",
+      "explanation": "The supplied solution passed all eight verifier checks locally, including three held-out campaigns. The recruiter accepted the disclosed 10\u201320 expert-hour scope exception; this verdict makes no claim of a measured human completion time."
+    },
+    "difficult": {
+      "outcome": "pass",
+      "explanation": "Unlabeled detections, independent clocks, shared geometry, coherent clutter, and unmarked mount slips require substantial robotics estimation and robust optimization expertise."
+    },
+    "interesting": {
+      "outcome": "pass",
+      "explanation": "Diagnosing calibration drift and target movement across robot recordings is a realistic robotics engineering problem, and the synthetic measurements preserve the relevant estimation challenge."
+    },
+    "outcome_verified": {
+      "outcome": "pass",
+      "explanation": "The instructions state the required calibration output, and the verifier grades projections, clocks, identities, regimes, and input rejection rather than a prescribed implementation method."
+    },
+    "anti_cheat_robustness": {
+      "outcome": "pass",
+      "explanation": "Only the submitted script transfers; hidden answers and probes stay in the root-only verifier image. The agent image contains public examples but no private truth or solution files."
+    },
+    "task_security": {
+      "outcome": "pass",
+      "explanation": "The Dockerfiles, scripts, data builders, and solution perform task setup, calibration, or local verification. I found no credential access, exfiltration, host escape, malicious payload, or unrelated destructive behavior."
+    },
+    "functional_verification": {
+      "outcome": "pass",
+      "explanation": "The checker executes the submitted CLI and evaluates held-out static and dynamic projections, clock values, packet labels, and malformed-input behavior rather than scanning source text."
+    },
+    "deterministic_reproducible": {
+      "outcome": "pass",
+      "explanation": "Cases and truth are fixed offline, runtime dependencies have explicit versions, and grading requires no mutable live service. The reference uses fixed random seeds and passed all baked cases in the local run."
+    },
+    "essential_difficulty": {
+      "outcome": "pass",
+      "explanation": "The main challenge is jointly resolving discrete identity and slip hypotheses with continuous camera, mount, encoder, and clock parameters; output formatting is a small part of the work."
+    },
+    "test_instruction_alignment": {
+      "outcome": "pass",
+      "explanation": "The checker covers the normative output schema, shared calibration, regimes, held-out geometry, clocks, associations, clutter, and malformed binary rejection described in the instruction and FORMAT.md. The checked bounds and filenames are documented there."
+    },
+    "novel": {
+      "outcome": "pass",
+      "explanation": "The campaign combines custom forward kinematics, real state trajectories, synthetic rolling-shutter observations, coherent clutter, and per-record slips; it is not a standard memorized exercise."
+    },
+    "agentic": {
+      "outcome": "pass",
+      "explanation": "Solving requires inspecting the supplied model and binary format, implementing a calibration program, and iterating against campaign data and runtime behavior."
+    },
+    "reviewable": {
+      "outcome": "pass",
+      "explanation": "The forward model, deterministic fixture constructors, provenance, and reviewer explanations make the specialized expected values auditable. The reproduction script regenerated all 64 shipped fixture files byte for byte."
+    },
+    "instruction_concision": {
+      "outcome": "pass",
+      "explanation": "The short instruction states the deliverable and uses absolute paths; FORMAT.md supplies the necessary mathematical and schema contract without prescribing an algorithm."
+    },
+    "solution_quality": {
+      "outcome": "pass",
+      "explanation": "solve.sh installs a separate 1,770-line Python implementation that parses each input and performs initialization, association, optimization, and slip refinement. It does not print precomputed answers."
+    },
+    "separate_verifier_configured": {
+      "outcome": "pass",
+      "explanation": "The verifier reads only the declared /app/calibrate.py artifact plus files baked into its image. NumPy and SciPy are preinstalled, and the duplicated forward-model modules match byte for byte."
+    },
+    "environment_hygiene": {
+      "outcome": "pass",
+      "explanation": "The agent image copies neither tests nor solution, while the verifier image owns private cases and its dependencies. Neither Dockerfile uses apt, and test.sh performs no runtime package installation."
+    },
+    "structured_data_schema": {
+      "outcome": "pass",
+      "explanation": "FORMAT.md explicitly declares exact keys at every JSON level, matrix and array shapes, allowed values, and record-local namespaces."
+    },
+    "typos": {
+      "outcome": "pass",
+      "explanation": "The reviewed paths, filenames, command entry points, schema keys, and variable references are consistent across the instruction, Dockerfiles, solution, and verifier."
+    },
+    "difficulty_explanation_quality": {
+      "outcome": "pass",
+      "explanation": "The README identifies the coupling among identity, clocks, geometry, occlusion, and slips, and explains the initialization and local-minimum challenge. It also states data provenance and the robotics engineer use case."
+    },
+    "solution_explanation_quality": {
+      "outcome": "pass",
+      "explanation": "The README explains the two initialization families, alternating assignment and fitting, piecewise comparison, and shared-record inference; these match the submitted implementation."
+    },
+    "verification_explanation_quality": {
+      "outcome": "pass",
+      "explanation": "The README describes each graded quantity and explains the numeric tolerances using noise, reference residuals, and negative controls. It explicitly discloses that an independent successful alternative solver has not yet validated the bounds."
+    },
+    "category_and_tags": {
+      "outcome": "pass",
+      "explanation": "Hardware / Robotics matches the primary calibration domain, and the tags identify robotics, data association, bundle adjustment, and state estimation."
+    },
+    "task_name": {
+      "outcome": "pass",
+      "explanation": "g1-slip-calibration is descriptive, specific, lowercase kebab-case, and three words long."
+    },
+    "resource_configuration": {
+      "outcome": "pass",
+      "explanation": "The 240-second campaign limit fits within the 1,000-second verifier timeout; the reference campaigns took about 57, 65, and 125 seconds. Two CPUs, 4 GB memory, and the eight-hour agent ceiling are proportionate to the estimation task and the approved scope."
+    },
+    "task_readme": {
+      "outcome": "pass",
+      "explanation": "The README includes all four required explanation and experience sections, relevant provenance and evaluation context, and an explicit account of the unmeasured effort estimate."
+    },
+    "expert_time_estimate": {
+      "outcome": "pass",
+      "explanation": "The nonzero 20-hour field is presented honestly as the upper end of an unmeasured 10\u201320 hour planning range and is consistent with the solution audit. The recruiter accepted this scope exception; no measured expert completion time is claimed."
+    },
+    "task_toml_schema": {
+      "outcome": "pass",
+      "explanation": "task.toml uses recognized task, metadata, verifier, agent, environment, and artifact fields without invented configuration keys."
+    },
+    "no_extraneous_files": {
+      "outcome": "pass",
+      "explanation": "The data, model, tests, and solution are used by the task, while the audit sources and supporting documents are referenced for reviewer reproducibility. No scratch, backup, or editor files were found."
+    },
+    "artifact_efficiency": {
+      "outcome": "not_applicable",
+      "explanation": "The sole artifact is the small agent-produced /app/calibrate.py answer; there is no fixed source tree or collect hook whose transfer can be optimized."
+    },
+    "verifier_execution_isolation": {
+      "outcome": "pass",
+      "explanation": "test.sh protects the reward directory before execution; the checker runs submitted code as UID/GID 65534 with output in temporary files and kills its process group. Root-only verifier code decides and writes the reward."
+    },
+    "ctrf_reporting": {
+      "outcome": "pass",
+      "explanation": "The checker writes /logs/verifier/ctrf.json with separate results for the three campaigns and five malformed-input cases; the local report recorded eight passed tests."
+    },
+    "do_not_modify_enforced": {
+      "outcome": "not_applicable",
+      "explanation": "The instruction does not protect a concrete artifact with a do-not-modify or preserve constraint; the standard anti-cheat sentence is outside this criterion."
+    },
+    "binary_reward": {
+      "outcome": "pass",
+      "explanation": "The only reward writes in test.sh are literal 1 on checker success and literal 0 on checker failure, with no partial-credit path."
+    }
+  }
+}

@@ -1,0 +1,182 @@
+[
+  {
+    "case": "held_a",
+    "mutation": "truth",
+    "accepted": true,
+    "metrics": {
+      "capture_84": {
+        "accuracy": 1.0,
+        "regimes": 1,
+        "dynamic_p95_px": 0.0
+      },
+      "capture_12": {
+        "accuracy": 1.0,
+        "regimes": 2,
+        "dynamic_p95_px": 4.260524049219633e-12
+      },
+      "capture_37": {
+        "accuracy": 1.0,
+        "regimes": 2,
+        "dynamic_p95_px": 9.962561889402095e-12
+      }
+    }
+  },
+  {
+    "case": "held_a",
+    "mutation": "zero_encoder_offsets",
+    "accepted": false,
+    "error": "capture_84: regime 0 left projection error 27.595px"
+  },
+  {
+    "case": "held_a",
+    "mutation": "all_clutter",
+    "accepted": false,
+    "error": "capture_84: association 0.0000"
+  },
+  {
+    "case": "held_a",
+    "mutation": "no_slips",
+    "accepted": false,
+    "error": "capture_12: incorrect number of mount regimes"
+  },
+  {
+    "case": "held_a",
+    "mutation": "unaffected_arm_1mm",
+    "accepted": true,
+    "metrics": {
+      "capture_84": {
+        "accuracy": 1.0,
+        "regimes": 1,
+        "dynamic_p95_px": 0.0
+      },
+      "capture_12": {
+        "accuracy": 1.0,
+        "regimes": 2,
+        "dynamic_p95_px": 4.260524049219633e-12
+      },
+      "capture_37": {
+        "accuracy": 1.0,
+        "regimes": 2,
+        "dynamic_p95_px": 9.962561889402095e-12
+      }
+    }
+  },
+  {
+    "case": "held_b",
+    "mutation": "truth",
+    "accepted": true,
+    "metrics": {
+      "capture_84": {
+        "accuracy": 1.0,
+        "regimes": 1,
+        "dynamic_p95_px": 1.094235313512268e-12
+      },
+      "capture_12": {
+        "accuracy": 1.0,
+        "regimes": 2,
+        "dynamic_p95_px": 1.146581471930616e-12
+      },
+      "capture_37": {
+        "accuracy": 1.0,
+        "regimes": 2,
+        "dynamic_p95_px": 4.013019303029637e-12
+      }
+    }
+  },
+  {
+    "case": "held_b",
+    "mutation": "zero_encoder_offsets",
+    "accepted": false,
+    "error": "capture_84: regime 0 left projection error 7.349px"
+  },
+  {
+    "case": "held_b",
+    "mutation": "all_clutter",
+    "accepted": false,
+    "error": "capture_84: association 0.0000"
+  },
+  {
+    "case": "held_b",
+    "mutation": "no_slips",
+    "accepted": false,
+    "error": "capture_12: incorrect number of mount regimes"
+  },
+  {
+    "case": "held_b",
+    "mutation": "unaffected_arm_1mm",
+    "accepted": true,
+    "metrics": {
+      "capture_84": {
+        "accuracy": 1.0,
+        "regimes": 1,
+        "dynamic_p95_px": 1.094235313512268e-12
+      },
+      "capture_12": {
+        "accuracy": 1.0,
+        "regimes": 2,
+        "dynamic_p95_px": 1.146581471930616e-12
+      },
+      "capture_37": {
+        "accuracy": 1.0,
+        "regimes": 2,
+        "dynamic_p95_px": 4.013019303029637e-12
+      }
+    }
+  },
+  {
+    "case": "held_no_slip",
+    "mutation": "truth",
+    "accepted": true,
+    "metrics": {
+      "capture_84": {
+        "accuracy": 1.0,
+        "regimes": 1,
+        "dynamic_p95_px": 1.094235313512268e-12
+      },
+      "capture_12": {
+        "accuracy": 1.0,
+        "regimes": 1,
+        "dynamic_p95_px": 1.231388967517487e-12
+      },
+      "capture_37": {
+        "accuracy": 1.0,
+        "regimes": 1,
+        "dynamic_p95_px": 1.7666219960174787e-12
+      }
+    }
+  },
+  {
+    "case": "held_no_slip",
+    "mutation": "zero_encoder_offsets",
+    "accepted": false,
+    "error": "capture_84: regime 0 left projection error 8.458px"
+  },
+  {
+    "case": "held_no_slip",
+    "mutation": "all_clutter",
+    "accepted": false,
+    "error": "capture_84: association 0.0000"
+  },
+  {
+    "case": "held_no_slip",
+    "mutation": "no_slips",
+    "accepted": true,
+    "metrics": {
+      "capture_84": {
+        "accuracy": 1.0,
+        "regimes": 1,
+        "dynamic_p95_px": 1.094235313512268e-12
+      },
+      "capture_12": {
+        "accuracy": 1.0,
+        "regimes": 1,
+        "dynamic_p95_px": 1.231388967517487e-12
+      },
+      "capture_37": {
+        "accuracy": 1.0,
+        "regimes": 1,
+        "dynamic_p95_px": 1.7666219960174787e-12
+      }
+    }
+  }
+]

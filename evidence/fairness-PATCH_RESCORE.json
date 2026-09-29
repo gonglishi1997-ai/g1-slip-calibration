@@ -1,0 +1,282 @@
+[
+  {
+    "agent": "gpt6-sol-1",
+    "case": "held_a",
+    "output_exists": true,
+    "original": {
+      "passed": false,
+      "error": "AssertionError: capture_84: regime 0 left projection error 165.225px"
+    },
+    "replay_exit_code": 0,
+    "patched_pass": false,
+    "patched_error": "AssertionError: capture_84: regime 0 left projection error 165.225px"
+  },
+  {
+    "agent": "gpt6-sol-1",
+    "case": "held_b",
+    "output_exists": true,
+    "original": {
+      "passed": false,
+      "error": "AssertionError: capture_84: regime 0 left projection error 146.516px"
+    },
+    "replay_exit_code": 0,
+    "patched_pass": false,
+    "patched_error": "AssertionError: capture_84: regime 0 left projection error 146.516px"
+  },
+  {
+    "agent": "gpt6-sol-1",
+    "case": "held_no_slip",
+    "output_exists": true,
+    "original": {
+      "passed": true,
+      "metrics": {
+        "capture_84": {
+          "accuracy": 1.0,
+          "regimes": 1,
+          "dynamic_p95_px": 0.061127309474686
+        },
+        "capture_12": {
+          "accuracy": 0.9976905311778291,
+          "regimes": 1,
+          "dynamic_p95_px": 0.04945645473625956
+        },
+        "capture_37": {
+          "accuracy": 0.9836734693877551,
+          "regimes": 1,
+          "dynamic_p95_px": 0.04194812538018254
+        }
+      }
+    },
+    "replay_exit_code": 0,
+    "metrics": {
+      "capture_84": {
+        "accuracy": 1.0,
+        "regimes": 1,
+        "dynamic_p95_px": 0.061127309474686
+      },
+      "capture_12": {
+        "accuracy": 0.9976905311778291,
+        "regimes": 1,
+        "dynamic_p95_px": 0.04945645473625956
+      },
+      "capture_37": {
+        "accuracy": 0.9836734693877551,
+        "regimes": 1,
+        "dynamic_p95_px": 0.04194812538018254
+      }
+    },
+    "patched_pass": true
+  },
+  {
+    "agent": "gpt6-sol-2-repaired",
+    "case": "held_a",
+    "output_exists": true,
+    "original": {
+      "passed": false,
+      "error": "AssertionError: capture_84: regime 0 left projection error 119.254px"
+    },
+    "replay_exit_code": 0,
+    "patched_pass": false,
+    "patched_error": "AssertionError: capture_84: regime 0 left projection error 119.254px"
+  },
+  {
+    "agent": "gpt6-sol-2-repaired",
+    "case": "held_b",
+    "output_exists": true,
+    "original": {
+      "passed": false,
+      "error": "AssertionError: capture_84: regime 0 left projection error 116.421px"
+    },
+    "replay_exit_code": 0,
+    "patched_pass": false,
+    "patched_error": "AssertionError: capture_84: regime 0 left projection error 116.421px"
+  },
+  {
+    "agent": "gpt6-sol-2-repaired",
+    "case": "held_no_slip",
+    "output_exists": true,
+    "original": {
+      "passed": false,
+      "error": "AssertionError: capture_84: regime 0 left projection error 134.980px"
+    },
+    "replay_exit_code": 0,
+    "patched_pass": false,
+    "patched_error": "AssertionError: capture_84: regime 0 left projection error 134.980px"
+  },
+  {
+    "agent": "gpt6-sol-3-repaired",
+    "case": "held_a",
+    "output_exists": true,
+    "original": {
+      "passed": false,
+      "error": "AssertionError: capture_84: incorrect number of mount regimes"
+    },
+    "replay_exit_code": 0,
+    "patched_pass": false,
+    "patched_error": "AssertionError: capture_84: incorrect number of mount regimes"
+  },
+  {
+    "agent": "gpt6-sol-3-repaired",
+    "case": "held_b",
+    "output_exists": true,
+    "original": {
+      "passed": false,
+      "error": "AssertionError: capture_84: regime 0 left projection error 118.030px"
+    },
+    "replay_exit_code": 0,
+    "patched_pass": false,
+    "patched_error": "AssertionError: capture_84: regime 0 left projection error 118.030px"
+  },
+  {
+    "agent": "gpt6-sol-3-repaired",
+    "case": "held_no_slip",
+    "output_exists": true,
+    "original": {
+      "passed": true,
+      "metrics": {
+        "capture_84": {
+          "accuracy": 1.0,
+          "regimes": 1,
+          "dynamic_p95_px": 0.07168880445909284
+        },
+        "capture_12": {
+          "accuracy": 1.0,
+          "regimes": 1,
+          "dynamic_p95_px": 0.06386553423731836
+        },
+        "capture_37": {
+          "accuracy": 1.0,
+          "regimes": 1,
+          "dynamic_p95_px": 0.049878287417918096
+        }
+      }
+    },
+    "replay_exit_code": 0,
+    "metrics": {
+      "capture_84": {
+        "accuracy": 1.0,
+        "regimes": 1,
+        "dynamic_p95_px": 0.07168880445909284
+      },
+      "capture_12": {
+        "accuracy": 1.0,
+        "regimes": 1,
+        "dynamic_p95_px": 0.06386553423731836
+      },
+      "capture_37": {
+        "accuracy": 1.0,
+        "regimes": 1,
+        "dynamic_p95_px": 0.049878287417918096
+      }
+    },
+    "patched_pass": true
+  },
+  {
+    "agent": "deepseek-1",
+    "case": "held_a",
+    "output_exists": true,
+    "original": {
+      "passed": false,
+      "error": "ValueError: negative camera depth"
+    },
+    "replay_exit_code": 0,
+    "patched_pass": false,
+    "patched_error": "ValueError: negative camera depth"
+  },
+  {
+    "agent": "deepseek-1",
+    "case": "held_b",
+    "output_exists": true,
+    "original": {
+      "passed": false,
+      "error": "ValueError: negative camera depth"
+    },
+    "replay_exit_code": 0,
+    "patched_pass": false,
+    "patched_error": "ValueError: negative camera depth"
+  },
+  {
+    "agent": "deepseek-1",
+    "case": "held_no_slip",
+    "output_exists": true,
+    "original": {
+      "passed": false,
+      "error": "ValueError: negative camera depth"
+    },
+    "replay_exit_code": 0,
+    "patched_pass": false,
+    "patched_error": "ValueError: negative camera depth"
+  },
+  {
+    "agent": "deepseek-2-replacement-1",
+    "case": "held_a",
+    "output_exists": true,
+    "original": {
+      "passed": false,
+      "error": "AssertionError: capture_84: regime 0 left projection error 238.871px"
+    },
+    "replay_exit_code": 0,
+    "patched_pass": false,
+    "patched_error": "AssertionError: capture_84: regime 0 left projection error 238.871px"
+  },
+  {
+    "agent": "deepseek-2-replacement-1",
+    "case": "held_b",
+    "output_exists": true,
+    "original": {
+      "passed": false,
+      "error": "AssertionError: capture_84: regime 0 left projection error 383.069px"
+    },
+    "replay_exit_code": 0,
+    "patched_pass": false,
+    "patched_error": "AssertionError: capture_84: regime 0 left projection error 383.069px"
+  },
+  {
+    "agent": "deepseek-2-replacement-1",
+    "case": "held_no_slip",
+    "output_exists": true,
+    "original": {
+      "passed": false,
+      "error": "AssertionError: capture_84: regime 0 left projection error 401.222px"
+    },
+    "replay_exit_code": 0,
+    "patched_pass": false,
+    "patched_error": "AssertionError: capture_84: regime 0 left projection error 401.222px"
+  },
+  {
+    "agent": "deepseek-3-replacement-1",
+    "case": "held_a",
+    "output_exists": true,
+    "original": {
+      "passed": false,
+      "error": "AssertionError: "
+    },
+    "replay_exit_code": 0,
+    "patched_pass": false,
+    "patched_error": "AssertionError: "
+  },
+  {
+    "agent": "deepseek-3-replacement-1",
+    "case": "held_b",
+    "output_exists": true,
+    "original": {
+      "passed": false,
+      "error": "AssertionError: "
+    },
+    "replay_exit_code": 0,
+    "patched_pass": false,
+    "patched_error": "AssertionError: "
+  },
+  {
+    "agent": "deepseek-3-replacement-1",
+    "case": "held_no_slip",
+    "output_exists": true,
+    "original": {
+      "passed": false,
+      "error": "AssertionError: capture_84: regime 0 left projection error 188.613px"
+    },
+    "replay_exit_code": 0,
+    "patched_pass": false,
+    "patched_error": "AssertionError: capture_84: regime 0 left projection error 188.613px"
+  }
+]

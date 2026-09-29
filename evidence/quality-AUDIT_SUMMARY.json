@@ -1,0 +1,17 @@
+{
+  "counts": {
+    "pass": 33,
+    "not_applicable": 2
+  },
+  "all_applicable_pass": true,
+  "normal_completion": true,
+  "exception": null,
+  "subject_unchanged": true,
+  "rubric_keys_verified": true,
+  "adapted_for_recruiter_workload_exception": true,
+  "verdict_path": "rubric-review-gpt-original-waiver/jobs/gpt6-sol-original-waiver-rubric-1/review-task__sXASiDZ/artifacts/app/verdicts.json",
+  "raw_events": [
+    "turn.completed"
+  ],
+  "finished_at": "2026-09-28T22:51:33.172242Z"
+}
