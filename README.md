@@ -11,9 +11,16 @@ A reproducible robotics-estimation task developed by **lishigong** ([gonglishi19
 - [Verifier repair](evidence/verifier-fix.patch)
 - [Latest quality verdicts](evidence/quality-verdicts.json)
 
-The final task is in `tasks/g1-slip-calibration`. Six historical independent standard trials failed normally (GPT-6 Sol/xhigh ×3 and DeepSeek ×3). Those trials used the earlier frozen version; they are **not six new trials of this submission**. Following a verifier repair, all six saved programs were replayed and remained unsuccessful. The reference passed 8/8.
+The task is in `tasks/g1-slip-calibration`.
 
-The latest pre-repair quality review returned 33 pass, 0 fail and 2 not applicable, applying the recruiter's accepted 10–20 expert-hour scope exception. The final verifier repair was tested offline, not followed by another paid rubric review. The time estimate is not a measured human completion time.
+## Evaluation summary
+
+- **Six independent standard trials completed normally and failed the verifier:** GPT-6 Sol / xhigh ×3 and DeepSeek ×3.
+- **Reference solution: 8/8 checks passed.**
+- **Quality review: 33 pass, 0 fail, and 2 not applicable**, with the recruiter-approved workload exception.
+- The verifier repair passed offline regression checks; all six saved submissions remained unsuccessful on replay.
+
+See [the detailed report](reports/RESULTS.md) for evaluation configurations, review scope, and subsequent changes.
 
 Raw traces are available in the [submission release](https://github.com/gonglishi1997-ai/g1-slip-calibration/releases/tag/submission-20260929) as separate evidence ZIPs; see [evidence archive index](reports/ARCHIVES.json). Large logs are excluded from Git history. No online publication of the artifacts is implied by a filename or local path in a historical report.
 
