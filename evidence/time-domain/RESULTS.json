@@ -1,0 +1,86 @@
+{
+  "boundary_controls": [
+    {
+      "name": "valid",
+      "accepted": true,
+      "expected": true,
+      "reason": "accepted"
+    },
+    {
+      "name": "exact_boundary",
+      "accepted": true,
+      "expected": true,
+      "reason": "accepted"
+    },
+    {
+      "name": "nominal_low_exposure_valid",
+      "accepted": false,
+      "expected": false,
+      "reason": "nominal time outside recorded states"
+    },
+    {
+      "name": "nominal_high_exposure_valid",
+      "accepted": false,
+      "expected": false,
+      "reason": "nominal time outside recorded states"
+    },
+    {
+      "name": "exposure_low",
+      "accepted": false,
+      "expected": false,
+      "reason": "exposure time outside recorded states"
+    },
+    {
+      "name": "exposure_high",
+      "accepted": false,
+      "expected": false,
+      "reason": "exposure time outside recorded states"
+    },
+    {
+      "name": "nonfinite",
+      "accepted": false,
+      "expected": false,
+      "reason": "invalid packet times or rows"
+    }
+  ],
+  "truth_campaigns_passed": 3,
+  "actual_campaign_mutations": [
+    {
+      "campaign": "held_a",
+      "mutation": "low",
+      "before": "rejected: clock error",
+      "after": "rejected: nominal time outside recorded states"
+    },
+    {
+      "campaign": "held_a",
+      "mutation": "high",
+      "before": "rejected: ",
+      "after": "rejected: "
+    },
+    {
+      "campaign": "held_b",
+      "mutation": "low",
+      "before": "rejected: ",
+      "after": "rejected: "
+    },
+    {
+      "campaign": "held_b",
+      "mutation": "high",
+      "before": "rejected: ",
+      "after": "rejected: "
+    },
+    {
+      "campaign": "held_no_slip",
+      "mutation": "low",
+      "before": "rejected: ",
+      "after": "rejected: "
+    },
+    {
+      "campaign": "held_no_slip",
+      "mutation": "high",
+      "before": "rejected: ",
+      "after": "rejected: "
+    }
+  ],
+  "note": "Synthetic boundary controls isolate time-domain validation; actual fixed-data mutations may already fail other original checks. No model calls."
+}

@@ -1,0 +1,8 @@
+PASS held_a {"capture_84": {"accuracy": 1.0, "regimes": 1, "dynamic_p95_px": 0.048800649342314206}, "capture_12": {"accuracy": 1.0, "regimes": 2, "dynamic_p95_px": 0.06772829883574469}, "capture_37": {"accuracy": 1.0, "regimes": 2, "dynamic_p95_px": 0.07112100441781662}} seconds 54.695597357999986
+PASS held_b {"capture_84": {"accuracy": 1.0, "regimes": 1, "dynamic_p95_px": 0.06691547196442656}, "capture_12": {"accuracy": 1.0, "regimes": 2, "dynamic_p95_px": 0.06274566171874363}, "capture_37": {"accuracy": 1.0, "regimes": 2, "dynamic_p95_px": 0.06531804154266982}} seconds 64.828467321
+PASS held_no_slip {"capture_84": {"accuracy": 1.0, "regimes": 1, "dynamic_p95_px": 0.07053673511100718}, "capture_12": {"accuracy": 1.0, "regimes": 1, "dynamic_p95_px": 0.05157989479995712}, "capture_37": {"accuracy": 1.0, "regimes": 1, "dynamic_p95_px": 0.04220788351951898}} seconds 126.32442972399997
+PASS bad_magic
+PASS crc
+PASS conflicting_duplicate
+PASS truncated
+PASS nonfinite

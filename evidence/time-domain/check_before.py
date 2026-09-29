@@ -16,13 +16,6 @@ def prepare(case,folder):
   for f in ['states.json','manifest.json','camera.bin']:shutil.copyfile(case/rec/f,inp/rec/f)
  return inp,folder/'output.json'
 
-def check_time_domain(times,rows,readout,lower,upper):
- times=np.asarray(times,float);rows=np.asarray(rows,float)
- assert times.shape==rows.shape and np.isfinite(times).all() and np.isfinite(rows).all(),'invalid packet times or rows'
- assert np.all((times>=lower)&(times<=upper)),'nominal time outside recorded states'
- exposure=times+readout*(rows/960-.5)
- assert np.isfinite(exposure).all() and np.all((exposure>=lower)&(exposure<=upper)),'exposure time outside recorded states'
-
 def grade_campaign(case,out):
  truth=json.loads((case/'answer.json').read_text());assert set(out)=={'shared','records'}
  assert set(out['shared'])=={'X_left','X_right','Y','zeros','camera'}
@@ -68,11 +61,6 @@ def grade_campaign(case,out):
    assert abs(c['offset']-boot['host_hint'])<=1.250001 and .9<=c['rate']<=1.1 and abs(c['curvature'])<=.003001
    cs=np.asarray(p['counters'])[np.array(p['boots'])==boot['id']]-boot['c0'];assert np.min(c['rate']+2*c['curvature']*cs)>0
   cal=shared|{'clocks':pred['clocks']};times=nominal_times(p['counters'],p['boots'],manifest,cal);e=times-p['times']
-  # Check every unique input packet, including clutter, using its observed row.
-  blob=(case/name/'camera.bin').read_bytes()
-  packet_rows={struct.unpack_from('<I',blob,pos)[0]:struct.unpack_from('<f',blob,pos+17)[0] for pos in range(8,len(blob),25)}
-  rows=np.array([packet_rows[int(pid)] for pid in p['ids']])
-  check_time_domain(times,rows,shared['camera']['readout'],traj.times[0],traj.times[-1])
   assert np.sqrt(np.mean(e*e))<=.06 and np.max(abs(e))<=.18,'clock error'
   # Dynamic validation at all true packets with independent clean projections.
   frames=np.array(p['frames']);ix=np.array([i for i,pid in enumerate(p['ids']) if a[str(pid)] is not None]);res=[]

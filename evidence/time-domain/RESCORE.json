@@ -1,0 +1,110 @@
+[
+  {
+    "agent": "deepseek-1",
+    "campaign": "held_a",
+    "passed": false,
+    "reason": "negative camera depth"
+  },
+  {
+    "agent": "deepseek-1",
+    "campaign": "held_b",
+    "passed": false,
+    "reason": "negative camera depth"
+  },
+  {
+    "agent": "deepseek-1",
+    "campaign": "held_no_slip",
+    "passed": false,
+    "reason": "negative camera depth"
+  },
+  {
+    "agent": "deepseek-2-replacement-1",
+    "campaign": "held_a",
+    "passed": false,
+    "reason": "capture_84: regime 0 left projection error 238.871px"
+  },
+  {
+    "agent": "deepseek-2-replacement-1",
+    "campaign": "held_b",
+    "passed": false,
+    "reason": "capture_84: regime 0 left projection error 383.069px"
+  },
+  {
+    "agent": "deepseek-2-replacement-1",
+    "campaign": "held_no_slip",
+    "passed": false,
+    "reason": "capture_84: regime 0 left projection error 401.222px"
+  },
+  {
+    "agent": "deepseek-3-replacement-1",
+    "campaign": "held_a",
+    "passed": false,
+    "reason": ""
+  },
+  {
+    "agent": "deepseek-3-replacement-1",
+    "campaign": "held_b",
+    "passed": false,
+    "reason": ""
+  },
+  {
+    "agent": "deepseek-3-replacement-1",
+    "campaign": "held_no_slip",
+    "passed": false,
+    "reason": "capture_84: regime 0 left projection error 188.613px"
+  },
+  {
+    "agent": "gpt6-sol-1",
+    "campaign": "held_a",
+    "passed": false,
+    "reason": "capture_84: regime 0 left projection error 165.225px"
+  },
+  {
+    "agent": "gpt6-sol-1",
+    "campaign": "held_b",
+    "passed": false,
+    "reason": "capture_84: regime 0 left projection error 146.516px"
+  },
+  {
+    "agent": "gpt6-sol-1",
+    "campaign": "held_no_slip",
+    "passed": true,
+    "reason": ""
+  },
+  {
+    "agent": "gpt6-sol-2-repaired",
+    "campaign": "held_a",
+    "passed": false,
+    "reason": "capture_84: regime 0 left projection error 119.254px"
+  },
+  {
+    "agent": "gpt6-sol-2-repaired",
+    "campaign": "held_b",
+    "passed": false,
+    "reason": "capture_84: regime 0 left projection error 116.421px"
+  },
+  {
+    "agent": "gpt6-sol-2-repaired",
+    "campaign": "held_no_slip",
+    "passed": false,
+    "reason": "capture_84: regime 0 left projection error 134.980px"
+  },
+  {
+    "agent": "gpt6-sol-3-repaired",
+    "campaign": "held_a",
+    "passed": false,
+    "reason": "capture_84: incorrect number of mount regimes"
+  },
+  {
+    "agent": "gpt6-sol-3-repaired",
+    "campaign": "held_b",
+    "passed": false,
+    "reason": "capture_84: regime 0 left projection error 118.030px"
+  },
+  {
+    "agent": "gpt6-sol-3-repaired",
+    "campaign": "held_no_slip",
+    "passed": true,
+    "reason": ""
+  }
+]

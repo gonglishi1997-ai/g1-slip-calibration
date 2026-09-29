@@ -12,7 +12,7 @@
   {
     "path": "docs/evaluation-summary.md",
     "evaluated_sha256": null,
-    "submission_sha256": "a764643a1d631a55b255295437d50923458f153fcd720ae8c4e70929b5791668"
+    "submission_sha256": "e4d78275b6feab7ebdf90ecb49c4c504945edb6f042464586f62af68a31a011c"
   },
   {
     "path": "docs/reference-audit.json",
@@ -27,7 +27,7 @@
   {
     "path": "docs/submission-changes.md",
     "evaluated_sha256": null,
-    "submission_sha256": "536b08e91e3cc7f11b3c3e1867a8bcbd88e3b8a1bcb53ac581e3691e6491fc79"
+    "submission_sha256": "40cd84817b71948f7fa0f052e5c20011daff8fd70add10ada65b6eec56632785"
   },
   {
     "path": "environment/FORMAT.md",
@@ -47,7 +47,7 @@
   {
     "path": "tests/check.py",
     "evaluated_sha256": "cce6fd0814615c37be30f288de241fb1c0600296a39c7482c3cb13d6153060ce",
-    "submission_sha256": "9529f81920e2cfc57d0ab9d729ff853b1cb234c111260101c3389aa20aa28db1"
+    "submission_sha256": "bc683a8887d71d91e52f721f021304423864492dac83748b7ccfaebe3f3a8d66"
   },
   {
     "path": "tests/single_grade.py",

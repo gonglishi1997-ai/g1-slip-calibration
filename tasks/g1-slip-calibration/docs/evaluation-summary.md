@@ -13,3 +13,5 @@ That review preceded the final verifier repair enforcing the unchanged arm's mou
 Review networking was adapted locally to avoid VPN/egress incompatibility. These results do not claim approval by Terminal-Bench maintainers or equivalence to every hosted deployment.
 
 Full configs and raw logs are provided separately in the submission evidence archives. They are not needed to understand the result summary above and are not copied into the solving environment. See [submission changes](submission-changes.md) and [reference audit](reference-audit.md).
+
+A further offline verifier update explicitly checks every unique input packet's nominal time and observed-row exposure time against the state time range, including clutter. Seven boundary controls passed; six actual-campaign clock mutations were rejected both before and after the update. Eighteen saved outputs were rescored, leaving the same two individual campaign passes and six overall failures. This update was not a new model trial or rubric review.

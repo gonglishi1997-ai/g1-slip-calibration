@@ -34,3 +34,9 @@ Six limited output-convention transformations did not rescue any failed campaign
 The unaffected-arm omission was a permissive false-acceptance issue, not the reason for the original model failures. Earlier quality-review failures remain historical evidence. Exploratory simplified versions v7–v15 were separate experiments, some passed by GPT, and are not counted as failures on this task. Repeated task development and selection limit generalization of the observed outcomes.
 
 Local model runtime and network adaptations are documented in the archived evidence; they should not be equated with every hosted deployment. One adversarial failure is not proof of exploit resistance. The publicly released reference solution and held-out labels make these particular cases unsuitable as future blind tests; new blind evaluations require fresh privately held cases.
+
+## Explicit time-domain checks
+
+A subsequent offline audit added direct checks that every unique packet's nominal time and row-adjusted exposure time lie within its state record. Observed rows are used, including clutter packets. Seven isolated boundary controls passed. Six clock-offset mutations on the existing campaigns were already rejected before this change; these experiments do not demonstrate a previously successful grading bypass. Rescoring 18 saved outputs preserved the same two individual campaign passes and six overall unsuccessful submissions. See [time-domain experiment results](../evidence/time-domain/RESULTS.json) and [rescoring](../evidence/time-domain/RESCORE.json). No model inference was performed.
+
+The full reference regression after this time-domain update passed **8/8** checks; [CTRF results](../evidence/time-domain/reference-ctrf.json) and [execution log](../evidence/time-domain/reference.log) are retained.
