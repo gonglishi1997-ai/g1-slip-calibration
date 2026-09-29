@@ -46,4 +46,4 @@ The `expert_time_estimate_hours` value of 20 is the upper end of the disclosed 1
 
 ## Submission status (2026-09-29)
 
-See the repository-level reports/RESULTS.md for version-specific results. The latest workload-exception quality review predates the subsequent verifier-only unchanged-arm invariant repair. That repair passed offline reference8/8 and nine mutation checks; six historical submissions remain overall failures on replay. No six new blind model trials were run for the final submission. Earlier references to unchanged verifier code describe the preceding submission stage.
+See the repository-level reports/RESULTS.md for version-specific results. The latest workload-exception quality review predates the subsequent verifier-only unchanged-arm invariant repair. That repair passed offline reference 8/8 and nine mutation checks; six historical submissions remain overall failures on replay. No six new blind model trials were run for the final submission. Earlier references to unchanged verifier code describe the preceding submission stage.

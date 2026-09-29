@@ -7,12 +7,12 @@
   {
     "path": "README.md",
     "evaluated_sha256": "8819b976a2f764365d386dd56d11ea52fab70b18ded0d43a886731503a389a67",
-    "submission_sha256": "de125f49526c257f73209d0111895bfd7b99d5fab7e3b8fce32b70bf1b47638f"
+    "submission_sha256": "3112921cda0033b55dc3120f23d8faabd83f7f443aa73403f41c49f9410b33c3"
   },
   {
     "path": "docs/evaluation-summary.md",
     "evaluated_sha256": null,
-    "submission_sha256": "7132b81a9c4836823e311fc6781c3f1cab6748c0e92842d01c7a1cc279ee076a"
+    "submission_sha256": "a764643a1d631a55b255295437d50923458f153fcd720ae8c4e70929b5791668"
   },
   {
     "path": "docs/reference-audit.json",
@@ -27,7 +27,7 @@
   {
     "path": "docs/submission-changes.md",
     "evaluated_sha256": null,
-    "submission_sha256": "dba1c586cc8285af986b141f5034bfc537db4c797314b565bca3bf552103085d"
+    "submission_sha256": "536b08e91e3cc7f11b3c3e1867a8bcbd88e3b8a1bcb53ac581e3691e6491fc79"
   },
   {
     "path": "environment/FORMAT.md",
@@ -57,7 +57,7 @@
   {
     "path": "tools/truth-audit/README.md",
     "evaluated_sha256": null,
-    "submission_sha256": "c9741684a36a09d0728f06c006a6cd4b2040d1b672e74fa8ef5e45907fa2f0bb"
+    "submission_sha256": "f3ea57650938f8a662e00e50e8f05171f8a8faa461f5769caa36acada8efc41b"
   },
   {
     "path": "tools/truth-audit/build.py",
