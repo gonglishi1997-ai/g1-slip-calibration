@@ -1,5 +1,6 @@
 {
-  "subject": "/Users/gonglishi/Documents/ChatGPT/口语练习台/submission-20260928/repository/tasks/g1-slip-calibration",
+  "subject": "tasks/g1-slip-calibration",
+  "subject_path_note": "The local absolute path was removed from this public repository copy; the original evidence archive remains unchanged.",
   "reference_lines": 1770,
   "model": "openai/gpt-6-sol",
   "reasoning": "xhigh",
