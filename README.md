@@ -15,7 +15,7 @@ The final task is in `tasks/g1-slip-calibration`. Six historical independent sta
 
 The latest pre-repair quality review returned 33 pass, 0 fail and 2 not applicable, applying the recruiter's accepted 10–20 expert-hour scope exception. The final verifier repair was tested offline, not followed by another paid rubric review. The time estimate is not a measured human completion time.
 
-Raw traces are distributed separately as evidence ZIPs; see [evidence archive index](reports/ARCHIVES.json). Large logs are excluded from Git history. No online publication of the artifacts is implied by a filename or local path in a historical report.
+Raw traces are available in the [submission release](https://github.com/gonglishi1997-ai/g1-slip-calibration/releases/tag/submission-20260929) as separate evidence ZIPs; see [evidence archive index](reports/ARCHIVES.json). Large logs are excluded from Git history. No online publication of the artifacts is implied by a filename or local path in a historical report.
 
 ## Reproduction
 
