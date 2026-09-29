@@ -32,17 +32,17 @@ My academic background is in Information and Computational Science and Mathemati
 
 ## Personal contribution
 
-I defined the task goals, requested design revisions, and coordinated local evaluation. During development, I explicitly required state data to participate meaningfully in solving the task and requested evaluation across different records and combinations of faults. These requirements were intended to test generalisation and increase difficulty beyond adding enumerable encoding transformations.
+I led the task's scope, acceptance criteria, and evaluation strategy. I required robot-state trajectories to be essential to the solution and chose to test calibration across multiple records and combinations of sensor faults. These decisions shaped the task around joint estimation and generalisation, with difficulty coming from the inference problem rather than additional encoding conventions.
 
-For evaluation, I configured API access, launched tests locally, monitored execution, and collected logs to support investigation of network interruptions, timeouts, and unsuccessful solutions. I also contacted the recruiter to confirm the permitted model substitutions for testing and quality review. The evaluation records retain invalid attempts and distinguish them from model failures after normal completion.
+I directed the iteration process through concrete evaluation requirements: independent model runs, explicit separation of infrastructure errors from solution failures, reference-solution validation, and adversarial testing. I used the observed outcomes to choose which designs to retain or revise. After receiving feedback about specification ambiguity, I initiated an audit of all six unsuccessful submissions and requested that a verifier gap be repaired and checked through offline regression tests.
 
-## AI assistance and contribution boundaries
+I configured API access, ran and monitored local evaluations, collected execution evidence, and coordinated model substitutions and scope expectations with the recruiter. I also determined what the final submission needed to demonstrate: a reproducible task, a working reference solution, traceable model results, and documented limitations.
 
-This task was developed with substantial assistance from AI coding tools. The assistants contributed to design refinement, implementation, reference-solution and verifier development, failure analysis, and report preparation. My principal contributions were defining requirements and acceptance constraints, choosing iteration directions, executing local evaluations, and coordinating the submission.
+## Use of AI tools
 
-I disclose this assistance explicitly and do not present AI-generated implementation as code I wrote independently. I also do not treat a model's claim of success as equivalent to passing the actual verifier. The submission reports results using reproducible run configurations, original logs, and verifier outputs.
+I used AI coding tools extensively as development collaborators for implementation, numerical solver development, verifier construction, debugging, and documentation. My role was to direct the problem design and evaluation process, set acceptance requirements, and make iteration and submission decisions. The implementation was AI-assisted rather than independently hand-written; reported outcomes are grounded in execution logs and verifier results, not model self-assessments.
 
-The scalar `expert_time_estimate_hours` in `task.toml` is 20, the conservative upper end of the unmeasured 10–20 hour planning range. It is not a measured completion time or a claim that the few-hours rubric is satisfied.
+The `expert_time_estimate_hours` value of 20 is the upper end of the disclosed 10–20 hour planning estimate. The recruiter accepted this scope; it has not been measured in a timed human study.
 
 ## Submission status (2026-09-29)
 
