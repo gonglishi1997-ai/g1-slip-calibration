@@ -1,0 +1,458 @@
+{
+  "frozen_hashes_verified": true,
+  "float_absolute_tolerance": 1e-10,
+  "relative_tolerance": 0,
+  "all_acceptable": true,
+  "all_byte_identical": true,
+  "files": [
+    {
+      "numerically_equivalent": true,
+      "path": "environment/public/example_a/answer.json",
+      "match": true,
+      "frozen_sha256": "e7e6f90c9554197584e380c674576730b20e761ce7caa0cc54f35ba01afbf938",
+      "generated_sha256": "e7e6f90c9554197584e380c674576730b20e761ce7caa0cc54f35ba01afbf938"
+    },
+    {
+      "numerically_equivalent": true,
+      "path": "environment/public/example_a/campaign.json",
+      "match": true,
+      "frozen_sha256": "92f4d8bdbdd8586c3a0cf46b8207db95f1c286b18fd4b48fec23472f3e24802e",
+      "generated_sha256": "92f4d8bdbdd8586c3a0cf46b8207db95f1c286b18fd4b48fec23472f3e24802e"
+    },
+    {
+      "numerically_equivalent": true,
+      "path": "environment/public/example_a/capture_12/camera.bin",
+      "match": true,
+      "frozen_sha256": "c688653f6b182a4ccf9d786b4046a59ad49cea2ea5e700d06810bdf154fa8fff",
+      "generated_sha256": "c688653f6b182a4ccf9d786b4046a59ad49cea2ea5e700d06810bdf154fa8fff"
+    },
+    {
+      "numerically_equivalent": true,
+      "path": "environment/public/example_a/capture_12/manifest.json",
+      "match": true,
+      "frozen_sha256": "581b66346b550ccccbce44d6916c2cd04a941d07b5d652f34a364668fe8ccc6e",
+      "generated_sha256": "581b66346b550ccccbce44d6916c2cd04a941d07b5d652f34a364668fe8ccc6e"
+    },
+    {
+      "numerically_equivalent": true,
+      "path": "environment/public/example_a/capture_12/states.json",
+      "match": true,
+      "frozen_sha256": "93e35d65245c5129c4eb069ee6c033df299b197bd051e743e2b669f5009843bb",
+      "generated_sha256": "93e35d65245c5129c4eb069ee6c033df299b197bd051e743e2b669f5009843bb"
+    },
+    {
+      "numerically_equivalent": true,
+      "path": "environment/public/example_a/capture_37/camera.bin",
+      "match": true,
+      "frozen_sha256": "e38ea0dab9c20985dc63414b4479703aa2ffff2d22be4b09d376728275545b41",
+      "generated_sha256": "e38ea0dab9c20985dc63414b4479703aa2ffff2d22be4b09d376728275545b41"
+    },
+    {
+      "numerically_equivalent": true,
+      "path": "environment/public/example_a/capture_37/manifest.json",
+      "match": true,
+      "frozen_sha256": "ccacc4c2a218d467d58e720119a6027367d0d571ee74037f115ad1c767a15ecc",
+      "generated_sha256": "ccacc4c2a218d467d58e720119a6027367d0d571ee74037f115ad1c767a15ecc"
+    },
+    {
+      "numerically_equivalent": true,
+      "path": "environment/public/example_a/capture_37/states.json",
+      "match": true,
+      "frozen_sha256": "93e35d65245c5129c4eb069ee6c033df299b197bd051e743e2b669f5009843bb",
+      "generated_sha256": "93e35d65245c5129c4eb069ee6c033df299b197bd051e743e2b669f5009843bb"
+    },
+    {
+      "numerically_equivalent": true,
+      "path": "environment/public/example_a/capture_84/camera.bin",
+      "match": true,
+      "frozen_sha256": "841d356bdd85779caae92483554d5141a9407cc5e90cdd0c1996d9ad80500d9e",
+      "generated_sha256": "841d356bdd85779caae92483554d5141a9407cc5e90cdd0c1996d9ad80500d9e"
+    },
+    {
+      "numerically_equivalent": true,
+      "path": "environment/public/example_a/capture_84/manifest.json",
+      "match": true,
+      "frozen_sha256": "4f4938d80008338205f5ed5af6bfadbb668dc6647257692fcdef2e0fa6deb6b4",
+      "generated_sha256": "4f4938d80008338205f5ed5af6bfadbb668dc6647257692fcdef2e0fa6deb6b4"
+    },
+    {
+      "numerically_equivalent": true,
+      "path": "environment/public/example_a/capture_84/states.json",
+      "match": true,
+      "frozen_sha256": "93e35d65245c5129c4eb069ee6c033df299b197bd051e743e2b669f5009843bb",
+      "generated_sha256": "93e35d65245c5129c4eb069ee6c033df299b197bd051e743e2b669f5009843bb"
+    },
+    {
+      "numerically_equivalent": true,
+      "path": "environment/public/example_b/answer.json",
+      "match": true,
+      "frozen_sha256": "00dcc3a2aa65a397be92cb946d484d3f62cb4a739a3bf085fc21f9265bb6b289",
+      "generated_sha256": "00dcc3a2aa65a397be92cb946d484d3f62cb4a739a3bf085fc21f9265bb6b289"
+    },
+    {
+      "numerically_equivalent": true,
+      "path": "environment/public/example_b/campaign.json",
+      "match": true,
+      "frozen_sha256": "92f4d8bdbdd8586c3a0cf46b8207db95f1c286b18fd4b48fec23472f3e24802e",
+      "generated_sha256": "92f4d8bdbdd8586c3a0cf46b8207db95f1c286b18fd4b48fec23472f3e24802e"
+    },
+    {
+      "numerically_equivalent": true,
+      "path": "environment/public/example_b/capture_12/camera.bin",
+      "match": true,
+      "frozen_sha256": "a47c50a8b1d52070cf443c05d7d317027bdd10dec66aa241dbb253abb99367a3",
+      "generated_sha256": "a47c50a8b1d52070cf443c05d7d317027bdd10dec66aa241dbb253abb99367a3"
+    },
+    {
+      "numerically_equivalent": true,
+      "path": "environment/public/example_b/capture_12/manifest.json",
+      "match": true,
+      "frozen_sha256": "001add660fd5fa9b0a3962eab03b447f3121eba9e28cd156b5f163c1c53977e9",
+      "generated_sha256": "001add660fd5fa9b0a3962eab03b447f3121eba9e28cd156b5f163c1c53977e9"
+    },
+    {
+      "numerically_equivalent": true,
+      "path": "environment/public/example_b/capture_12/states.json",
+      "match": true,
+      "frozen_sha256": "93e35d65245c5129c4eb069ee6c033df299b197bd051e743e2b669f5009843bb",
+      "generated_sha256": "93e35d65245c5129c4eb069ee6c033df299b197bd051e743e2b669f5009843bb"
+    },
+    {
+      "numerically_equivalent": true,
+      "path": "environment/public/example_b/capture_37/camera.bin",
+      "match": true,
+      "frozen_sha256": "85c081e613e76de3bfa1e231beac4ce80f9a1aae9e7a237769b7c0d5dc2542e2",
+      "generated_sha256": "85c081e613e76de3bfa1e231beac4ce80f9a1aae9e7a237769b7c0d5dc2542e2"
+    },
+    {
+      "numerically_equivalent": true,
+      "path": "environment/public/example_b/capture_37/manifest.json",
+      "match": true,
+      "frozen_sha256": "e0a9b074878938e3261e855402496bab81707dfdf104c32d9932df71cdda11f4",
+      "generated_sha256": "e0a9b074878938e3261e855402496bab81707dfdf104c32d9932df71cdda11f4"
+    },
+    {
+      "numerically_equivalent": true,
+      "path": "environment/public/example_b/capture_37/states.json",
+      "match": true,
+      "frozen_sha256": "93e35d65245c5129c4eb069ee6c033df299b197bd051e743e2b669f5009843bb",
+      "generated_sha256": "93e35d65245c5129c4eb069ee6c033df299b197bd051e743e2b669f5009843bb"
+    },
+    {
+      "numerically_equivalent": true,
+      "path": "environment/public/example_b/capture_84/camera.bin",
+      "match": true,
+      "frozen_sha256": "b7e64b50ec255ed2f43df4eb7c798fdf76005f27136fe330a1f62320946aeb75",
+      "generated_sha256": "b7e64b50ec255ed2f43df4eb7c798fdf76005f27136fe330a1f62320946aeb75"
+    },
+    {
+      "numerically_equivalent": true,
+      "path": "environment/public/example_b/capture_84/manifest.json",
+      "match": true,
+      "frozen_sha256": "7644094d941dc52ea2d56a25a899e1a51529c569899dcf293e1d89272c5b835a",
+      "generated_sha256": "7644094d941dc52ea2d56a25a899e1a51529c569899dcf293e1d89272c5b835a"
+    },
+    {
+      "numerically_equivalent": true,
+      "path": "environment/public/example_b/capture_84/states.json",
+      "match": true,
+      "frozen_sha256": "93e35d65245c5129c4eb069ee6c033df299b197bd051e743e2b669f5009843bb",
+      "generated_sha256": "93e35d65245c5129c4eb069ee6c033df299b197bd051e743e2b669f5009843bb"
+    },
+    {
+      "numerically_equivalent": true,
+      "path": "tests/cases/held_a/answer.json",
+      "match": true,
+      "frozen_sha256": "deab7e135dbbb5abc71c0bdb9650c62ee28713122cd55b1370777e808e1cbafe",
+      "generated_sha256": "deab7e135dbbb5abc71c0bdb9650c62ee28713122cd55b1370777e808e1cbafe"
+    },
+    {
+      "numerically_equivalent": true,
+      "path": "tests/cases/held_a/campaign.json",
+      "match": true,
+      "frozen_sha256": "92f4d8bdbdd8586c3a0cf46b8207db95f1c286b18fd4b48fec23472f3e24802e",
+      "generated_sha256": "92f4d8bdbdd8586c3a0cf46b8207db95f1c286b18fd4b48fec23472f3e24802e"
+    },
+    {
+      "numerically_equivalent": true,
+      "path": "tests/cases/held_a/capture_12/camera.bin",
+      "match": true,
+      "frozen_sha256": "fd36c760e4b3b6ef4303b149a42428d48b296d29f48d445ecb11a48b5a6c4c3e",
+      "generated_sha256": "fd36c760e4b3b6ef4303b149a42428d48b296d29f48d445ecb11a48b5a6c4c3e"
+    },
+    {
+      "numerically_equivalent": true,
+      "path": "tests/cases/held_a/capture_12/manifest.json",
+      "match": true,
+      "frozen_sha256": "e67b6bfca6acce768b4dd7657967abf0eabf0ad3a9c8828a40574b6a0e425e78",
+      "generated_sha256": "e67b6bfca6acce768b4dd7657967abf0eabf0ad3a9c8828a40574b6a0e425e78"
+    },
+    {
+      "numerically_equivalent": true,
+      "path": "tests/cases/held_a/capture_12/private.json",
+      "match": true,
+      "frozen_sha256": "94bd1e928b9ba3446a6816ddf6909b8b49e7730a4ba4474ed66ec2b4ece8a981",
+      "generated_sha256": "94bd1e928b9ba3446a6816ddf6909b8b49e7730a4ba4474ed66ec2b4ece8a981"
+    },
+    {
+      "numerically_equivalent": true,
+      "path": "tests/cases/held_a/capture_12/states.json",
+      "match": true,
+      "frozen_sha256": "e4f91cec4e6aa8422bc564438b3855c37519fed2febdd564a8a9987d0840dc8e",
+      "generated_sha256": "e4f91cec4e6aa8422bc564438b3855c37519fed2febdd564a8a9987d0840dc8e"
+    },
+    {
+      "numerically_equivalent": true,
+      "path": "tests/cases/held_a/capture_37/camera.bin",
+      "match": true,
+      "frozen_sha256": "7cb9203fe09b45158e5e69b9fa75998ad538901687f6f056c8025ce08f1a8bb9",
+      "generated_sha256": "7cb9203fe09b45158e5e69b9fa75998ad538901687f6f056c8025ce08f1a8bb9"
+    },
+    {
+      "numerically_equivalent": true,
+      "path": "tests/cases/held_a/capture_37/manifest.json",
+      "match": true,
+      "frozen_sha256": "277f959ec99c480841ffb663c6583ea654506fd1c6d72bf015b3129a9ec4c69f",
+      "generated_sha256": "277f959ec99c480841ffb663c6583ea654506fd1c6d72bf015b3129a9ec4c69f"
+    },
+    {
+      "numerically_equivalent": true,
+      "path": "tests/cases/held_a/capture_37/private.json",
+      "match": true,
+      "frozen_sha256": "122a5e0185079a0be1a04d59a8d9d7d346d1b86a87a74218e3ee6b64d536d1cf",
+      "generated_sha256": "122a5e0185079a0be1a04d59a8d9d7d346d1b86a87a74218e3ee6b64d536d1cf"
+    },
+    {
+      "numerically_equivalent": true,
+      "path": "tests/cases/held_a/capture_37/states.json",
+      "match": true,
+      "frozen_sha256": "1be9acc013ccd1027b41ac1b07115737f6cd7634207a04df9f5b6ff00f70f764",
+      "generated_sha256": "1be9acc013ccd1027b41ac1b07115737f6cd7634207a04df9f5b6ff00f70f764"
+    },
+    {
+      "numerically_equivalent": true,
+      "path": "tests/cases/held_a/capture_84/camera.bin",
+      "match": true,
+      "frozen_sha256": "93ba426b023c17ea0f62973c86abaf4feac0539dc89aa9a2cecbaa42c30f1796",
+      "generated_sha256": "93ba426b023c17ea0f62973c86abaf4feac0539dc89aa9a2cecbaa42c30f1796"
+    },
+    {
+      "numerically_equivalent": true,
+      "path": "tests/cases/held_a/capture_84/manifest.json",
+      "match": true,
+      "frozen_sha256": "3383c3ac0754af24a8271783be7cd4b84759b46a8926dd78e00ae3b607309ab5",
+      "generated_sha256": "3383c3ac0754af24a8271783be7cd4b84759b46a8926dd78e00ae3b607309ab5"
+    },
+    {
+      "numerically_equivalent": true,
+      "path": "tests/cases/held_a/capture_84/private.json",
+      "match": true,
+      "frozen_sha256": "a39023efae7bbeacadf7d1fdb7b9667371ab7d213824d76992d028dc42495417",
+      "generated_sha256": "a39023efae7bbeacadf7d1fdb7b9667371ab7d213824d76992d028dc42495417"
+    },
+    {
+      "numerically_equivalent": true,
+      "path": "tests/cases/held_a/capture_84/states.json",
+      "match": true,
+      "frozen_sha256": "37cd3515e871d54731a1d785b74b5bf5b31f2f9b8b6dc6c53f92f9b347ec8fa6",
+      "generated_sha256": "37cd3515e871d54731a1d785b74b5bf5b31f2f9b8b6dc6c53f92f9b347ec8fa6"
+    },
+    {
+      "numerically_equivalent": true,
+      "path": "tests/cases/held_b/answer.json",
+      "match": true,
+      "frozen_sha256": "51edd53c5197290f779eed1b3e36dc1edc74968b87a228c6bb637461f8e092ae",
+      "generated_sha256": "51edd53c5197290f779eed1b3e36dc1edc74968b87a228c6bb637461f8e092ae"
+    },
+    {
+      "numerically_equivalent": true,
+      "path": "tests/cases/held_b/campaign.json",
+      "match": true,
+      "frozen_sha256": "92f4d8bdbdd8586c3a0cf46b8207db95f1c286b18fd4b48fec23472f3e24802e",
+      "generated_sha256": "92f4d8bdbdd8586c3a0cf46b8207db95f1c286b18fd4b48fec23472f3e24802e"
+    },
+    {
+      "numerically_equivalent": true,
+      "path": "tests/cases/held_b/capture_12/camera.bin",
+      "match": true,
+      "frozen_sha256": "163759ac3c23b0aecf0cf17ac95c4e9ecd10c6456e18828028fbd9e203cfb6be",
+      "generated_sha256": "163759ac3c23b0aecf0cf17ac95c4e9ecd10c6456e18828028fbd9e203cfb6be"
+    },
+    {
+      "numerically_equivalent": true,
+      "path": "tests/cases/held_b/capture_12/manifest.json",
+      "match": true,
+      "frozen_sha256": "775592f66f43f5393c6e714c81d858631cb4eca5cad2d3145c4fb5df5fe31a6b",
+      "generated_sha256": "775592f66f43f5393c6e714c81d858631cb4eca5cad2d3145c4fb5df5fe31a6b"
+    },
+    {
+      "numerically_equivalent": true,
+      "path": "tests/cases/held_b/capture_12/private.json",
+      "match": true,
+      "frozen_sha256": "caddad22f126bc4c5dccfaf3980b43e24bd89d9767732bcd4d717fdadefe8b27",
+      "generated_sha256": "caddad22f126bc4c5dccfaf3980b43e24bd89d9767732bcd4d717fdadefe8b27"
+    },
+    {
+      "numerically_equivalent": true,
+      "path": "tests/cases/held_b/capture_12/states.json",
+      "match": true,
+      "frozen_sha256": "1be9acc013ccd1027b41ac1b07115737f6cd7634207a04df9f5b6ff00f70f764",
+      "generated_sha256": "1be9acc013ccd1027b41ac1b07115737f6cd7634207a04df9f5b6ff00f70f764"
+    },
+    {
+      "numerically_equivalent": true,
+      "path": "tests/cases/held_b/capture_37/camera.bin",
+      "match": true,
+      "frozen_sha256": "f8eeb5ee1a3e934c69c2680ae62ac20088895f0671fa0987aff050dc00ebe145",
+      "generated_sha256": "f8eeb5ee1a3e934c69c2680ae62ac20088895f0671fa0987aff050dc00ebe145"
+    },
+    {
+      "numerically_equivalent": true,
+      "path": "tests/cases/held_b/capture_37/manifest.json",
+      "match": true,
+      "frozen_sha256": "aea6e378f4f983985645f9049389db51dc4c6057c20e179692d2577a2454b500",
+      "generated_sha256": "aea6e378f4f983985645f9049389db51dc4c6057c20e179692d2577a2454b500"
+    },
+    {
+      "numerically_equivalent": true,
+      "path": "tests/cases/held_b/capture_37/private.json",
+      "match": true,
+      "frozen_sha256": "4ff8f449d63df6623cd2b80dabf0663864c0a39dca056789798a92ed103e5ccd",
+      "generated_sha256": "4ff8f449d63df6623cd2b80dabf0663864c0a39dca056789798a92ed103e5ccd"
+    },
+    {
+      "numerically_equivalent": true,
+      "path": "tests/cases/held_b/capture_37/states.json",
+      "match": true,
+      "frozen_sha256": "37cd3515e871d54731a1d785b74b5bf5b31f2f9b8b6dc6c53f92f9b347ec8fa6",
+      "generated_sha256": "37cd3515e871d54731a1d785b74b5bf5b31f2f9b8b6dc6c53f92f9b347ec8fa6"
+    },
+    {
+      "numerically_equivalent": true,
+      "path": "tests/cases/held_b/capture_84/camera.bin",
+      "match": true,
+      "frozen_sha256": "ac528624de03aec9c1e3bb381594b19e67840c25234bb03771993e8d1f569fe5",
+      "generated_sha256": "ac528624de03aec9c1e3bb381594b19e67840c25234bb03771993e8d1f569fe5"
+    },
+    {
+      "numerically_equivalent": true,
+      "path": "tests/cases/held_b/capture_84/manifest.json",
+      "match": true,
+      "frozen_sha256": "216976d34e3a7bf5da4a13107549e94c1c9a6b26267406784db521c17e01626f",
+      "generated_sha256": "216976d34e3a7bf5da4a13107549e94c1c9a6b26267406784db521c17e01626f"
+    },
+    {
+      "numerically_equivalent": true,
+      "path": "tests/cases/held_b/capture_84/private.json",
+      "match": true,
+      "frozen_sha256": "e4e8519d1e8c8a805802b85d3b5fe7f4fc276bf6ee751b3c37c2edd415721b95",
+      "generated_sha256": "e4e8519d1e8c8a805802b85d3b5fe7f4fc276bf6ee751b3c37c2edd415721b95"
+    },
+    {
+      "numerically_equivalent": true,
+      "path": "tests/cases/held_b/capture_84/states.json",
+      "match": true,
+      "frozen_sha256": "e4f91cec4e6aa8422bc564438b3855c37519fed2febdd564a8a9987d0840dc8e",
+      "generated_sha256": "e4f91cec4e6aa8422bc564438b3855c37519fed2febdd564a8a9987d0840dc8e"
+    },
+    {
+      "numerically_equivalent": true,
+      "path": "tests/cases/held_no_slip/answer.json",
+      "match": true,
+      "frozen_sha256": "0b36792e043ff47f3a33e833eef124c70f807048d220d937545f0ca261899d6d",
+      "generated_sha256": "0b36792e043ff47f3a33e833eef124c70f807048d220d937545f0ca261899d6d"
+    },
+    {
+      "numerically_equivalent": true,
+      "path": "tests/cases/held_no_slip/campaign.json",
+      "match": true,
+      "frozen_sha256": "92f4d8bdbdd8586c3a0cf46b8207db95f1c286b18fd4b48fec23472f3e24802e",
+      "generated_sha256": "92f4d8bdbdd8586c3a0cf46b8207db95f1c286b18fd4b48fec23472f3e24802e"
+    },
+    {
+      "numerically_equivalent": true,
+      "path": "tests/cases/held_no_slip/capture_12/camera.bin",
+      "match": true,
+      "frozen_sha256": "21e93c89531eddefe1b3c650fad67480af3ebb436a9a93c087c74ef7ea586979",
+      "generated_sha256": "21e93c89531eddefe1b3c650fad67480af3ebb436a9a93c087c74ef7ea586979"
+    },
+    {
+      "numerically_equivalent": true,
+      "path": "tests/cases/held_no_slip/capture_12/manifest.json",
+      "match": true,
+      "frozen_sha256": "775592f66f43f5393c6e714c81d858631cb4eca5cad2d3145c4fb5df5fe31a6b",
+      "generated_sha256": "775592f66f43f5393c6e714c81d858631cb4eca5cad2d3145c4fb5df5fe31a6b"
+    },
+    {
+      "numerically_equivalent": true,
+      "path": "tests/cases/held_no_slip/capture_12/private.json",
+      "match": true,
+      "frozen_sha256": "c7d838177bfe37d82ac0baaf17ee351e8a4f452d1a58bc11aa13c6fa51ca9952",
+      "generated_sha256": "c7d838177bfe37d82ac0baaf17ee351e8a4f452d1a58bc11aa13c6fa51ca9952"
+    },
+    {
+      "numerically_equivalent": true,
+      "path": "tests/cases/held_no_slip/capture_12/states.json",
+      "match": true,
+      "frozen_sha256": "1be9acc013ccd1027b41ac1b07115737f6cd7634207a04df9f5b6ff00f70f764",
+      "generated_sha256": "1be9acc013ccd1027b41ac1b07115737f6cd7634207a04df9f5b6ff00f70f764"
+    },
+    {
+      "numerically_equivalent": true,
+      "path": "tests/cases/held_no_slip/capture_37/camera.bin",
+      "match": true,
+      "frozen_sha256": "6eb134a61e2634e5e326bbc2dc6d9cb8ff9cf799372cb469f4cdfd74257a9417",
+      "generated_sha256": "6eb134a61e2634e5e326bbc2dc6d9cb8ff9cf799372cb469f4cdfd74257a9417"
+    },
+    {
+      "numerically_equivalent": true,
+      "path": "tests/cases/held_no_slip/capture_37/manifest.json",
+      "match": true,
+      "frozen_sha256": "aea6e378f4f983985645f9049389db51dc4c6057c20e179692d2577a2454b500",
+      "generated_sha256": "aea6e378f4f983985645f9049389db51dc4c6057c20e179692d2577a2454b500"
+    },
+    {
+      "numerically_equivalent": true,
+      "path": "tests/cases/held_no_slip/capture_37/private.json",
+      "match": true,
+      "frozen_sha256": "ef6cdf80d4ad6d4839a659db62c2e4dc5207bc5bf0ca37841a2fa411dc2dcad1",
+      "generated_sha256": "ef6cdf80d4ad6d4839a659db62c2e4dc5207bc5bf0ca37841a2fa411dc2dcad1"
+    },
+    {
+      "numerically_equivalent": true,
+      "path": "tests/cases/held_no_slip/capture_37/states.json",
+      "match": true,
+      "frozen_sha256": "37cd3515e871d54731a1d785b74b5bf5b31f2f9b8b6dc6c53f92f9b347ec8fa6",
+      "generated_sha256": "37cd3515e871d54731a1d785b74b5bf5b31f2f9b8b6dc6c53f92f9b347ec8fa6"
+    },
+    {
+      "numerically_equivalent": true,
+      "path": "tests/cases/held_no_slip/capture_84/camera.bin",
+      "match": true,
+      "frozen_sha256": "211cd99c48439aaa4bf15b03e132191f82b80f41d30312e5a4c999ff5bb0854e",
+      "generated_sha256": "211cd99c48439aaa4bf15b03e132191f82b80f41d30312e5a4c999ff5bb0854e"
+    },
+    {
+      "numerically_equivalent": true,
+      "path": "tests/cases/held_no_slip/capture_84/manifest.json",
+      "match": true,
+      "frozen_sha256": "216976d34e3a7bf5da4a13107549e94c1c9a6b26267406784db521c17e01626f",
+      "generated_sha256": "216976d34e3a7bf5da4a13107549e94c1c9a6b26267406784db521c17e01626f"
+    },
+    {
+      "numerically_equivalent": true,
+      "path": "tests/cases/held_no_slip/capture_84/private.json",
+      "match": true,
+      "frozen_sha256": "94b7fb3d510e1332c1bdfc61acc8ddab65ac721ca46a500f4534f53f26be7573",
+      "generated_sha256": "94b7fb3d510e1332c1bdfc61acc8ddab65ac721ca46a500f4534f53f26be7573"
+    },
+    {
+      "numerically_equivalent": true,
+      "path": "tests/cases/held_no_slip/capture_84/states.json",
+      "match": true,
+      "frozen_sha256": "e4f91cec4e6aa8422bc564438b3855c37519fed2febdd564a8a9987d0840dc8e",
+      "generated_sha256": "e4f91cec4e6aa8422bc564438b3855c37519fed2febdd564a8a9987d0840dc8e"
+    }
+  ],
+  "source_hashes_verified": true
+}

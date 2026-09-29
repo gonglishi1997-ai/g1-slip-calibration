@@ -1086,7 +1086,10 @@ def solve_from_seed(records,initial):
 def main():
     import tempfile,shutil
     from pathlib import Path
-    source,dest=map(Path,sys.argv[1:]);records=load(str(source))
+    source,dest=map(Path,sys.argv[1:])
+    dest.unlink(missing_ok=True)
+    Path(str(dest)+'.tmp').unlink(missing_ok=True)
+    records=load(str(source))
     # The public contract gives an initial stable interval; never access labels.
     with tempfile.TemporaryDirectory() as td:
         temp=Path(td);shutil.copy2(source/'campaign.json',temp/'campaign.json')

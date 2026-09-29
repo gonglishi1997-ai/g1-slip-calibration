@@ -1,0 +1,47 @@
+[
+  {
+    "name": "reported_roundoff",
+    "accepted": true,
+    "expected": true
+  },
+  {
+    "name": "above_tolerance",
+    "accepted": false,
+    "expected": false
+  },
+  {
+    "name": "integer_identity",
+    "accepted": false,
+    "expected": false
+  },
+  {
+    "name": "integer_vs_float",
+    "accepted": false,
+    "expected": false
+  },
+  {
+    "name": "boolean_vs_integer",
+    "accepted": false,
+    "expected": false
+  },
+  {
+    "name": "missing_key",
+    "accepted": false,
+    "expected": false
+  },
+  {
+    "name": "label_change",
+    "accepted": false,
+    "expected": false
+  },
+  {
+    "name": "reordered_array",
+    "accepted": false,
+    "expected": false
+  },
+  {
+    "name": "nonfinite",
+    "accepted": false,
+    "expected": false
+  }
+]

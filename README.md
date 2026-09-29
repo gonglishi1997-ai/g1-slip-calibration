@@ -25,7 +25,7 @@ The runnable Harbor task is in `tasks/g1-slip-calibration`.
 
 The final task also has model-visible documentation changes relative to the historical trials. See the [detailed change record](reports/RESULTS.md) for the scope of each result. These observations do not establish a general model failure rate or prove that the task has no ambiguity.
 
-Raw traces are in the [submission release](https://github.com/gonglishi1997-ai/g1-slip-calibration/releases/tag/submission-20260929); [archive names and checksums](reports/ARCHIVES.json) are listed separately. Large logs are excluded from Git history.
+Raw traces are in the [submission release](https://github.com/gonglishi1997-ai/g1-slip-calibration/releases/tag/submission-20260929-v2); [archive names and checksums](reports/ARCHIVES.json) are listed separately. Large logs are excluded from Git history.
 
 ## Reproduce the packaged controls
 

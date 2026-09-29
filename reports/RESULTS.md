@@ -40,3 +40,13 @@ Local model runtime and network adaptations are documented in the archived evide
 A subsequent offline audit added direct checks that every unique packet's nominal time and row-adjusted exposure time lie within its state record. Observed rows are used, including clutter packets. Seven isolated boundary controls passed. Six clock-offset mutations on the existing campaigns were already rejected before this change; these experiments do not demonstrate a previously successful grading bypass. Rescoring 18 saved outputs preserved the same two individual campaign passes and six overall unsuccessful submissions. See [time-domain experiment results](../evidence/time-domain/RESULTS.json) and [rescoring](../evidence/time-domain/RESCORE.json). No model inference was performed.
 
 The full reference regression after this time-domain update passed **8/8** checks; [CTRF results](../evidence/time-domain/reference-ctrf.json) and [execution log](../evidence/time-domain/reference.log) are retained.
+
+## Delivery follow-up
+
+The reference entry point now removes a pre-existing requested output before validating input, and each of the five malformed-input checks covers both a fresh output path and a stale output. FORMAT.md explicitly states this behavior. These changes postdate the historical trials and do not constitute new model evaluations. Numerical estimation code and all frozen fixtures remain unchanged.
+
+Truth regeneration first verifies the frozen fixtures against their strict hash manifest. Regenerated JSON floats allow absolute roundoff up to 1e-10 (no relative tolerance), with types, structure, integer identities and nonnumeric values checked exactly; binary files remain byte-exact. `--strict-bytes` retains the stronger reproduction mode.
+
+The new `submission-20260929-v2` release is pinned to its final repository commit; its uploaded task archive and GitHub-generated source archives describe the same source version. The earlier release remains as historical delivery evidence.
+
+The follow-up offline Docker regression passed **8/8** checks, including both fresh and stale-output invocations for all five malformed-input categories. [Evidence and comparison controls](../evidence/delivery-fixes/README.md) are included.

@@ -12,7 +12,7 @@
   {
     "path": "docs/evaluation-summary.md",
     "evaluated_sha256": null,
-    "submission_sha256": "e4d78275b6feab7ebdf90ecb49c4c504945edb6f042464586f62af68a31a011c"
+    "submission_sha256": "366a9a05eae5c11ed8df7b319316dff2d31fb2f8366752865d3a97d4aad79e61"
   },
   {
     "path": "docs/reference-audit.json",
@@ -22,22 +22,27 @@
   {
     "path": "docs/reference-audit.md",
     "evaluated_sha256": null,
-    "submission_sha256": "6b766764cd7e0841039b672abd988f3ccbfbbf2c7a9015aab91ce78256f6d48f"
+    "submission_sha256": "8addef9a5a74163431fd29e87a6db49c1fb9634b0933849531798c3bcb4639d2"
   },
   {
     "path": "docs/submission-changes.md",
     "evaluated_sha256": null,
-    "submission_sha256": "40cd84817b71948f7fa0f052e5c20011daff8fd70add10ada65b6eec56632785"
+    "submission_sha256": "277d958aed2b67c2e5e1bf32a84d123253640d58c6f70a2ce3281f5171bb812d"
   },
   {
     "path": "environment/FORMAT.md",
     "evaluated_sha256": "131180e8637a179b1b1fcf73f74378df4705f29f0618d7e4b186b0a531803778",
-    "submission_sha256": "b72954fff9541fc7b4c90848b0129c8765aeacb8cfc21986fdeac3b004110aba"
+    "submission_sha256": "845864be3c4c4b20fa9748af9320c8a770971f42407101ee2d01e72e7f717347"
   },
   {
     "path": "instruction.md",
     "evaluated_sha256": "4e4cebcd7c4416f96e8bb196b8a93f1071c65f33add3a4be60995e0cc5e52e69",
     "submission_sha256": "5444c3cdfa45ebeaaebbc2f1c7aebcbede6d9164caff87cdd4a9bdcb3921d0ef"
+  },
+  {
+    "path": "solution/calibrate.py",
+    "evaluated_sha256": "5ae5742c50feda08fd3f2edd7630d5aa97ad18d0d44133503ed1d911818e4d08",
+    "submission_sha256": "317a4fbfcdc97d3e6f551be7964e221f04d21176b1cdd4850c195169635c09ce"
   },
   {
     "path": "task.toml",
@@ -47,7 +52,7 @@
   {
     "path": "tests/check.py",
     "evaluated_sha256": "cce6fd0814615c37be30f288de241fb1c0600296a39c7482c3cb13d6153060ce",
-    "submission_sha256": "bc683a8887d71d91e52f721f021304423864492dac83748b7ccfaebe3f3a8d66"
+    "submission_sha256": "6685acf004880c0a10dd83c022b484ebe8053cebd88aaf692a7bff7ac831d8ba"
   },
   {
     "path": "tests/single_grade.py",
@@ -57,7 +62,7 @@
   {
     "path": "tools/truth-audit/README.md",
     "evaluated_sha256": null,
-    "submission_sha256": "f3ea57650938f8a662e00e50e8f05171f8a8faa461f5769caa36acada8efc41b"
+    "submission_sha256": "f1b373b9e0aaa3a7622840a69e42a30ea10888059c5db1a2bd82315188ee940e"
   },
   {
     "path": "tools/truth-audit/build.py",
@@ -65,9 +70,19 @@
     "submission_sha256": "7f12eb908241747303461b41af92ce0e54eae41b809e66470b3867cfa664a892"
   },
   {
+    "path": "tools/truth-audit/fixture-sha256.json",
+    "evaluated_sha256": null,
+    "submission_sha256": "39f26ca721cb220404926f4f7112e7b9ba8791ce2944254c0e019b2dd1a8c737"
+  },
+  {
+    "path": "tools/truth-audit/numeric_compare.py",
+    "evaluated_sha256": null,
+    "submission_sha256": "9a352cca2e66c6aee2a213a2ec4ed7adcc4466d808d51a08f04999e4fe5a5d79"
+  },
+  {
     "path": "tools/truth-audit/reproduce.py",
     "evaluated_sha256": null,
-    "submission_sha256": "fa096d818c4e768a2b81b1a5ba812c914f25adffcd211ad1f46587835718dec6"
+    "submission_sha256": "8f6c43b25c46bcb8ecb78234a776bca6f2986d929a3a659f8ce7a977d2fc4fa4"
   },
   {
     "path": "tools/truth-audit/source_v5_build.py",

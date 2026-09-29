@@ -2,7 +2,9 @@
 
 ## Scope and evidence
 
-This is a source inspection, not a timed expert implementation study. The reference was not changed. The companion JSON records its SHA256 and AST-derived measurements: 1,770 physical lines, 1,615 nonblank/noncomment lines, and 79 function definitions including nested functions. There are no exact duplicate function bodies under a normalization that ignores the function name and source locations. Similar mathematical operations can still be implemented differently. Name-load counts are not a complete call graph.
+This audit describes the preserved pre-cleanup reference (1,770 lines). The subsequent stale-output fix adds output-path cleanup before input loading; the numerical algorithm is unchanged. The companion JSON intentionally retains the historical source hash and measurements. Use the final task manifest for the current source hash.
+
+This is a source inspection, not a timed expert implementation study. The reference was not changed during that original audit. The companion JSON records its SHA256 and AST-derived measurements: 1,770 physical lines, 1,615 nonblank/noncomment lines, and 79 function definitions including nested functions. There are no exact duplicate function bodies under a normalization that ignores the function name and source locations. Similar mathematical operations can still be implemented differently. Name-load counts are not a complete call graph.
 
 ## Active structure
 

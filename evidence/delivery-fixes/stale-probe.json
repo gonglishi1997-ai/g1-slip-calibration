@@ -1,0 +1,12 @@
+[
+  {
+    "version": "before",
+    "exit_code": 1,
+    "stale_output_exists": true
+  },
+  {
+    "version": "after",
+    "exit_code": 1,
+    "stale_output_exists": false
+  }
+]

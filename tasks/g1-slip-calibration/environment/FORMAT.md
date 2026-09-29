@@ -47,7 +47,7 @@ The following key sets are mandatory and exact. Every listed key is required; ex
 
 The first segment starts at frame 0 and uses the shared initial mounts. For a record with a slip, the second segment starts at the first affected frame and specifies both post-event mounts. Segment count must match the number of physical regimes; the transition tolerance is 3 retained frames.
 
-Transforms must be proper rigid transforms to 1e-5 and satisfy the bounds above. Duplicate assigned identity within one local (boot,counter) is forbidden. Output must not exist if ANY record has malformed binary input, including a malformed last record.
+Transforms must be proper rigid transforms to 1e-5 and satisfy the bounds above. Duplicate assigned identity within one local (boot,counter) is forbidden. Output must not exist if ANY record has malformed binary input, including a malformed last record. If the requested output path already exists, remove the stale output before validation; a failed invocation must not leave it behind.
 
 Grading checks EVERY record with the ONE shared calibration: >=95% correct inlier identities; clutter rejection precision and recall >=0.90; static held-out projection error P95 <=2 pixels on each arm in each regime; dynamic held-out projection error P95 <=2 pixels; clock RMSE <=0.060s and maximum <=0.180s; positive clock derivative and valid exposure domain. Static probes use recorded configurations perturbed by <=0.15 radians. Parameter equality is not required. Hidden cases use different source episodes, clocks, camera orientations, visibility and clutter.
 
