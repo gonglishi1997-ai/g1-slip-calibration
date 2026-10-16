@@ -101,6 +101,6 @@ python tasks/g1-slip-calibration/generator/verify.py   # regenerate all cases an
 
 ## How I used AI
 
-Most of the code was written with coding agents: the reference solver, the verifier and the data generator. I defined the problem, the observation model, the faults, the checks and their thresholds; I ran the model evaluations, did the failure audit that found the verifier bug, and decided what to fix. The solver in particular is a long file I have documented but not rewritten.
+Some of the code was written with coding agents: the reference solver, the verifier and the data generator. I defined the problem, the observation model, the faults, the checks and their thresholds; I ran the model evaluations, did the failure audit that found the verifier bug, and decided what to fix. The solver in particular is a long file I have documented but not rewritten.
 
 Author: Lishi Gong · gonglishi1997@gmail.com · the files carry the Terminal-Bench canary string `harbor-canary GUID 26b5c67b-…` so that the task can be detected in training data.
