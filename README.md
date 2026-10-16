@@ -1,106 +1,106 @@
 # G1 slip calibration
 
-A Terminal-Bench task I built in September 2026. An AI coding agent gets joint-state recordings from a dual-arm robot and unlabeled bright-spot detections from a camera, and has to write a program that recovers the full calibration. It also has to notice whether a target on one arm slipped partway through a recording.
+A Terminal-Bench task that tests whether an AI coding agent can do multi-step physical inference, not just write code that runs.
 
-I built it to answer one question: can current coding agents do multi-step physical inference, not just write code that runs?
+The agent gets joint-state recordings from a dual-arm robot and unlabelled bright-spot detections from one camera. It has to write a program that recovers the full calibration of the rig, and notice whether a target on one arm slipped partway through a recording.
 
-## What the agent has to recover
+## The problem
 
-Each arm carries a target with 6 markers. One camera watches both arms. A marker at point `p` on the target shows up at pixel `u`:
+Each arm carries a target with 6 markers. A marker at point `p` on the target appears at pixel `u`:
 
 ```
 u = project( Y · FK(q(t) + δ) · X · p )
 ```
 
-| Symbol | Meaning | Known? |
+| Symbol | Meaning | Known to the agent |
 | --- | --- | --- |
 | `p` | marker position on the target | yes |
-| `X` | how each target is mounted on the arm's end flange | no |
-| `FK(q + δ)` | forward kinematics; `q` is the recorded joint angle, `δ` is an encoder zero offset | `q` yes, `δ` no |
+| `X` | mount of each target on its arm's end flange | no |
+| `FK(q + δ)` | forward kinematics of the recorded joints `q` plus encoder zero offsets `δ` | `q` yes, `δ` no |
 | `Y` | camera pose relative to the robot base | no |
-| `project` | pinhole projection with focal lengths `fx, fy` and radial distortion `k1, k2` | no |
-| `t` | exposure time of the pixel: a separate quadratic clock per recording, plus a rolling-shutter row delay | no |
+| `project` | pinhole camera with focal lengths `fx, fy` and radial distortion `k1, k2` | no |
+| `t` | exposure time: a quadratic clock per recording plus a rolling-shutter row delay | no |
 
-On top of that, I added five faults. Each one blocks a shortcut:
+Five faults are added, each blocking a shortcut:
 
-- **Unlabeled detections plus clutter.** The agent has to match spots to markers in every frame, including false targets that move with the arm.
-- **Unsynchronized clocks plus rolling shutter.** A wrong time picks the wrong joint angles.
-- **Mount slip.** In some recordings one target moves partway through. The agent has to say which arm and which frame.
-- **Encoder zero offsets.** These have to be estimated together with the camera pose.
-- **Corrupted input files.** These must be rejected without leaving any output behind.
+- **Unlabelled detections and clutter.** Spots have no identities, and about a quarter of them come from a ghost target that moves with the arm.
+- **Unsynchronised clocks and rolling shutter.** A wrong time picks the wrong joint angles.
+- **Mount slip.** In some recordings one target moves partway through; the agent must find which arm and which frame.
+- **Encoder zero offsets,** to be estimated together with the camera pose.
+- **Corrupted input files,** which must be rejected without writing any output.
 
-## How it is scored
+The joint angles are real G1 recordings (OpenHLM). The kinematic chain is a simplified 7-joint arm, and the camera detections are generated from the formula above, not rendered.
 
-I score behaviour, not parameters. The same observations can be explained by several equivalent parameter sets, so comparing `X` and `Y` directly would reject correct answers. The checks are:
+## Scoring
 
-- **Pose prediction:** projection error on held-out joint configurations, P95 ≤ 2 px. Observation noise is at most 0.3 px.
-- **Dynamic reprojection:** P95 ≤ 2 px.
-- **Marker identity:** at least 95% correct. Clutter rejection precision and recall at least 0.9.
-- **Slip:** the right number of segments, and the boundary within ±3 frames.
-- **Clock:** RMS error ≤ 0.06 s, max ≤ 0.18 s.
-- **Malformed input:** all five corrupted-file cases rejected.
+Behaviour is scored, not parameters: several parameter sets explain the same pixels, so comparing `X` and `Y` directly would reject correct answers. The verifier runs the submitted program on three hidden campaigns (three recordings each, one campaign without any slip) and checks:
 
-There are three hidden campaigns with three recordings each. One of them is a no-slip control. The agent and the verifier run in separate Docker images. Answers are readable only by the verifier.
+| Check | Threshold |
+| --- | --- |
+| Projection on held-out joint configurations, per arm and mount regime | P95 ≤ 2 px (noise is 0.2 px) |
+| Projection at the true detection times, using the submitted clocks | P95 ≤ 2 px |
+| Marker identities | ≥ 95 % correct |
+| Clutter rejection | precision and recall ≥ 0.9 |
+| Slip | right number of regimes, boundary within 3 frames, other arm unchanged |
+| Clock | RMS ≤ 0.06 s, max ≤ 0.18 s |
+| Corrupted inputs | all five rejected, no output left behind |
+
+The reward is 1 only if everything passes. The verifier also writes `scorecard.json` with every individual check, so a failure shows what went wrong and not just the first error.
 
 ## Results
 
-- **Reference solution:** passes 8/8 checks, with residuals below 0.1 px.
-- **GPT-6 Sol:** 3 standard runs and 1 adversarial run. All got reward 0.
-- **DeepSeek:** 3 standard runs and 1 adversarial run. All got reward 0.
+The reference solution passes, with residuals below 0.1 px. Eight model runs (GPT-6 Sol and DeepSeek, three standard and one adversarial run each) all got reward 0. The failures were not near misses: most were projection errors of 116–401 px against a 2 px threshold; others were negative camera depth, a mount outside its physical bound, and a wrong slip count.
 
-The failures were not near misses. Most were projection errors of 116–401 px against a 2 px threshold. Other failures were negative camera depth, a mount translation outside its physical bound, and a wrong slip count.
+To check that models were not failing on an ambiguous convention, I applied six common convention fixes to their outputs (negating or swapping the encoder offsets, inverting or transposing the camera and mount transforms). None turned a failure into a pass.
 
-Per-run details are in [reports/RESULTS.md](reports/RESULTS.md).
+Details: [docs/results.md](docs/results.md).
 
-To check that I wasn't failing models because of an ambiguous spec, I applied six common convention fixes to their outputs: flipping or swapping the encoder offset, and inverting or transposing the camera and mount transforms. None turned a failure into a pass.
+## Auditing the verifier
 
-## A bug I found in my own verifier
+A grader needs known-good and known-bad cases just like the thing it grades. While auditing I found that moving the mount of the arm that did **not** slip by 1 mm still passed, because the change stayed inside the pixel tolerance. I added a direct check, and the saved model programs still fail after re-scoring.
 
-While auditing, I found that moving the mount of the arm that did **not** slip by 1 mm still passed. The change was inside the pixel tolerance. I added a check that the unaffected arm's mount stays the same across segments, to within 1e-5.
-
-I then tested the check with known inputs:
-
-- **Should pass, and did:** the true answer; 1e-7 rounding noise.
-- **Should fail, and did:** a 1 mm shift; a 1 mrad rotation of the unaffected arm.
-
-The reference still passes 8/8. All six saved model programs still fail. This was offline re-scoring of the saved programs, not new model runs. The patch is in [evidence/verifier-fix.patch](evidence/verifier-fix.patch), and the full audit, in Chinese, is in [evidence/fairness-REPORT_中文.md](evidence/fairness-REPORT_中文.md).
-
-The main lesson for me: a grader has to be tested with known-good and known-bad cases, just like the thing it grades.
+`devtests/` now holds these controls as automated tests: the ground truth must pass, harmless rounding must pass, and 16 kinds of defect must each fail on the check meant to catch them. Other findings and their status are in [docs/audit.md](docs/audit.md).
 
 ## Limitations
 
-- **Simplified geometry.** The joint angles come from real G1 recordings (OpenHLM), but the kinematic chain in `kinematics.py` is a simplified 7-joint arm, not manufacturer geometry. The camera detections are generated from the formula above, not rendered. Nothing here has been tested on a physical robot or camera.
-- **Small sample.** Eight model runs on two model families can't support a general claim about model ability.
-- **Reruns.** The model runs used an earlier version of the task documentation. After the verifier fixes I re-scored the saved outputs but did not rerun the models.
-- **Not blind tests anymore.** The hidden cases and the reference solution are now public.
-
-## Next step
-
-Load the real G1 model in MuJoCo, render the markers with a simulated camera, detect them from images, and run the same pipeline. This would show how much error comes from detection, occlusion and motion blur, which the formula-based data leaves out.
-
-## How I used AI
-
-Most of the code was written with coding agents. That covers the reference solver (`solution/calibrate.py`, a long single file I haven't refactored), the verifier, and the data generators. I defined the problem, the observation model, the faults, the checks and their thresholds. I ran the model evaluations, and I did the failure audit that found the verifier bug.
+- **Small sample.** Eight runs on two model families cannot support a general claim about model ability.
+- **Simplified geometry, synthetic optics.** Nothing here has been tested on a physical robot or camera. A MuJoCo check with the real G1 model and rendered camera images ([sim/](sim/)) gave 93 % detection rate and 2.2 px P95 detection error, much worse than the 0.2 px noise assumed here.
+- **Not blind any more.** The hidden cases and the reference solution are public. A new evaluation needs freshly generated private cases (`generator/` can do this with new seeds).
+- **Runs predate later fixes.** The model runs used an earlier version of the task documentation. After the verifier fixes I re-scored the saved programs but did not rerun the models.
 
 ## Repository layout
 
 ```
 tasks/g1-slip-calibration/
-  instruction.md        what the agent sees
-  environment/          FORMAT.md, kinematics.py, camera_model.py, public examples
-  solution/             reference solver
-  tests/                verifier and hidden cases
-reports/RESULTS.md      detailed results and change history
-evidence/               audit records, verifier patch, raw-log indexes
+  instruction.md, task.toml   what the agent sees; task settings
+  environment/                agent image: FORMAT.md, forward model, two public examples
+  solution/calibrate.py       reference solver
+  tests/                      verifier: check.py (runner), grading.py (checks), hidden cases
+  generator/                  rebuilds every case from the joint-state recordings
+devtests/                     tests of the verifier, task files and corrupted-input handling
+sim/                          MuJoCo check: real G1 model, rendered camera, blob detection
+docs/                         results, audit notes, change history
+evidence/                     model-run summary, verifier patch, links to raw logs
 ```
 
-## Run it
+## Running it
 
-Requires Harbor `0.23.1.dev202609170426` and Docker. From the repository root:
+The task runs under Harbor (Terminal-Bench's runner) with Docker:
 
 ```sh
-harbor run -p tasks/g1-slip-calibration --agent oracle --env docker --yes   # reference, should pass
-harbor run -p tasks/g1-slip-calibration --agent nop --env docker --yes      # empty agent, should fail
+harbor run -p tasks/g1-slip-calibration --agent oracle --env docker --yes   # reference: reward 1
+harbor run -p tasks/g1-slip-calibration --agent nop --env docker --yes      # empty agent: reward 0
 ```
 
-Author: Lishi Gong · gonglishi1997@gmail.com
+Developer checks (Python 3.12, `pip install numpy==2.3.5 scipy==1.17.0 pytest`):
+
+```sh
+pytest devtests                                        # verifier controls, about 10 s
+python tasks/g1-slip-calibration/generator/verify.py   # regenerate all cases and compare, about 5 min
+```
+
+## How I used AI
+
+Most of the code was written with coding agents: the reference solver, the verifier and the data generator. I defined the problem, the observation model, the faults, the checks and their thresholds; I ran the model evaluations, did the failure audit that found the verifier bug, and decided what to fix. The solver in particular is a long file I have documented but not rewritten.
+
+Author: Lishi Gong · gonglishi1997@gmail.com · the files carry the Terminal-Bench canary string `harbor-canary GUID 26b5c67b-…` so that the task can be detected in training data.
