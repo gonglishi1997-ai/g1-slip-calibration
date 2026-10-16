@@ -1,7 +1,5 @@
 # G1 slip calibration
 
-A Terminal-Bench task: can AI coding agents calibrate a dual-arm robot from unlabelled camera detections?
-
 A Terminal-Bench task that tests whether an AI coding agent can do multi-step physical inference, not just write code that runs.
 
 The agent gets joint-state recordings from a dual-arm robot and unlabelled bright-spot detections from one camera. It has to write a program that recovers the full calibration of the rig, and notice whether a target on one arm slipped partway through a recording.
@@ -103,6 +101,6 @@ python tasks/g1-slip-calibration/generator/verify.py   # regenerate all cases an
 
 ## How I used AI
 
-Some of the code was written with coding agents: the reference solver, the verifier and the data generator. I defined the problem, the observation model, the faults, the checks and their thresholds; I ran the model evaluations, did the failure audit that found the verifier bug, and decided what to fix. The solver in particular is a long file I have documented but not rewritten.
+Most of the code was written with coding agents: the reference solver, the verifier and the data generator. I defined the problem, the observation model, the faults, the checks and their thresholds; I ran the model evaluations, did the failure audit that found the verifier bug, and decided what to fix. The solver in particular is a long file I have documented but not rewritten.
 
 Author: Lishi Gong · gonglishi1997@gmail.com · the files carry the Terminal-Bench canary string `harbor-canary GUID 26b5c67b-…` so that the task can be detected in training data.
