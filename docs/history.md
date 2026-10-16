@@ -20,4 +20,4 @@ The models were not rerun on this version; the saved programs were re-scored (se
 - Added `sim/`: a MuJoCo run of the real G1 model with rendered marker detection, to measure how far the formula-based observations are from rendered ones.
 - Corrupted-input checks now always use the first campaign in sorted order instead of filesystem order.
 
-The agent-facing files (`instruction.md`, `FORMAT.md`, the forward model, the public examples) and all hidden cases are unchanged, so earlier results still apply. Older audit files remain in the git history and in the release archives.
+The agent-facing files (`instruction.md`, `FORMAT.md`, the forward model, the public examples) and all hidden cases are unchanged, so earlier results still apply. Older audit files remain in the git history (commit 16cbab7); the raw agent logs are in the `logs-2026-09` release.
