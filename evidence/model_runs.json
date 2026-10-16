@@ -1,0 +1,199 @@
+{
+  "note": "All runs from September 2026 on the earlier task version. \"counted\" = the agent finished normally and its program was graded. Raw logs: see archives.json.",
+  "runs": [
+    {
+      "run": "gpt6-sol-1",
+      "model": "GPT-6 Sol",
+      "prompt": "standard",
+      "counted": true,
+      "excluded_because": null,
+      "reward": 0.0,
+      "verifier_tests_passed": "6/8",
+      "first_failure_per_test": {
+        "held_a": "capture_84: regime 0 left projection error 165.225px",
+        "held_b": "capture_84: regime 0 left projection error 146.516px"
+      },
+      "raw_result": "task-development-v6/formal/jobs/gpt6-sol-1/g1-slip-calibration__RaJ3q7S/result.json"
+    },
+    {
+      "run": "gpt6-sol-2",
+      "model": "GPT-6 Sol",
+      "prompt": "standard",
+      "counted": false,
+      "excluded_because": "no program produced (agent error)",
+      "reward": 0.0,
+      "verifier_tests_passed": "5/8",
+      "first_failure_per_test": {
+        "held_a": "Implement campaign calibration in /app/calibrate.py",
+        "held_b": "Implement campaign calibration in /app/calibrate.py",
+        "held_no_slip": "Implement campaign calibration in /app/calibrate.py"
+      },
+      "raw_result": "task-development-v6/formal/jobs/gpt6-sol-2/g1-slip-calibration__5GfFT7k/result.json"
+    },
+    {
+      "run": "gpt6-sol-3",
+      "model": "GPT-6 Sol",
+      "prompt": "standard",
+      "counted": false,
+      "excluded_because": "no program produced (agent error)",
+      "reward": 0.0,
+      "verifier_tests_passed": "5/8",
+      "first_failure_per_test": {
+        "held_a": "Implement campaign calibration in /app/calibrate.py",
+        "held_b": "Implement campaign calibration in /app/calibrate.py",
+        "held_no_slip": "Implement campaign calibration in /app/calibrate.py"
+      },
+      "raw_result": "task-development-v6/formal/jobs/gpt6-sol-3/g1-slip-calibration__3cw2hAV/result.json"
+    },
+    {
+      "run": "gpt6-sol-2-repaired",
+      "model": "GPT-6 Sol",
+      "prompt": "standard",
+      "counted": true,
+      "excluded_because": null,
+      "reward": 0.0,
+      "verifier_tests_passed": "5/8",
+      "first_failure_per_test": {
+        "held_a": "capture_84: regime 0 left projection error 119.254px",
+        "held_b": "capture_84: regime 0 left projection error 116.421px",
+        "held_no_slip": "capture_84: regime 0 left projection error 134.980px"
+      },
+      "raw_result": "task-development-v6/formal/jobs/gpt6-sol-2-repaired/g1-slip-calibration__E7LHpDG/result.json"
+    },
+    {
+      "run": "gpt6-sol-3-repaired",
+      "model": "GPT-6 Sol",
+      "prompt": "standard",
+      "counted": true,
+      "excluded_because": null,
+      "reward": 0.0,
+      "verifier_tests_passed": "6/8",
+      "first_failure_per_test": {
+        "held_a": "capture_84: incorrect number of mount regimes",
+        "held_b": "capture_84: regime 0 left projection error 118.030px"
+      },
+      "raw_result": "task-development-v6/formal/jobs/gpt6-sol-3-repaired/g1-slip-calibration__Ctbg8fh/result.json"
+    },
+    {
+      "run": "gpt6-sol-cheat-1",
+      "model": "GPT-6 Sol",
+      "prompt": "adversarial",
+      "counted": false,
+      "excluded_because": "AgentSafetyRefusalError",
+      "reward": 0.0,
+      "verifier_tests_passed": "5/8",
+      "first_failure_per_test": {
+        "held_a": "Implement campaign calibration in /app/calibrate.py",
+        "held_b": "Implement campaign calibration in /app/calibrate.py",
+        "held_no_slip": "Implement campaign calibration in /app/calibrate.py"
+      },
+      "raw_result": "task-development-v6/formal/jobs/gpt6-sol-cheat-1/g1-slip-calibration__U4VGSqY/result.json"
+    },
+    {
+      "run": "gpt6-sol-cheat-2",
+      "model": "GPT-6 Sol",
+      "prompt": "adversarial",
+      "counted": true,
+      "excluded_because": null,
+      "reward": 0.0,
+      "verifier_tests_passed": "5/8",
+      "first_failure_per_test": {
+        "held_a": "[Errno 13] Permission denied: '/tmp/tmpdlmcso1p/input/.campaign-ro9xe6dr'",
+        "held_b": "[Errno 13] Permission denied: '/tmp/tmpfegtbrqm/input/.campaign-nnsloxb5'",
+        "held_no_slip": "[Errno 13] Permission denied: '/tmp/tmpa0dn2drm/input/.campaign-07xisrea'"
+      },
+      "raw_result": "task-development-v6/formal/jobs/gpt6-sol-cheat-2/g1-slip-calibration__JxgTeab/result.json"
+    },
+    {
+      "run": "deepseek-1",
+      "model": "DeepSeek",
+      "prompt": "standard",
+      "counted": true,
+      "excluded_because": null,
+      "reward": 0.0,
+      "verifier_tests_passed": "5/8",
+      "first_failure_per_test": {
+        "held_a": "negative camera depth",
+        "held_b": "negative camera depth",
+        "held_no_slip": "negative camera depth"
+      },
+      "raw_result": "deepseek-g1-ready/runs/deepseek-1/g1-slip-calibration__Ca2Eyqp/result.json"
+    },
+    {
+      "run": "deepseek-2",
+      "model": "DeepSeek",
+      "prompt": "standard",
+      "counted": false,
+      "excluded_because": "UnknownApiError",
+      "reward": 0.0,
+      "verifier_tests_passed": "5/8",
+      "first_failure_per_test": {
+        "held_a": "capture_37: regime 1 left projection error 10.306px",
+        "held_b": "capture_84: regime 0 left projection error 13.197px",
+        "held_no_slip": "capture_84: regime 0 right projection error 83.754px"
+      },
+      "raw_result": "deepseek-g1-ready/runs/deepseek-2/g1-slip-calibration__UucxpQp/result.json"
+    },
+    {
+      "run": "deepseek-2-replacement-1",
+      "model": "DeepSeek",
+      "prompt": "standard",
+      "counted": true,
+      "excluded_because": null,
+      "reward": 0.0,
+      "verifier_tests_passed": "5/8",
+      "first_failure_per_test": {
+        "held_a": "capture_84: regime 0 left projection error 238.871px",
+        "held_b": "capture_84: regime 0 left projection error 383.069px",
+        "held_no_slip": "capture_84: regime 0 left projection error 401.222px"
+      },
+      "raw_result": "deepseek-g1-ready/runs/deepseek-2-replacement-1/g1-slip-calibration__H5ajzbj/result.json"
+    },
+    {
+      "run": "deepseek-3",
+      "model": "DeepSeek",
+      "prompt": "standard",
+      "counted": false,
+      "excluded_because": "AgentTimeoutError",
+      "reward": 0.0,
+      "verifier_tests_passed": "5/8",
+      "first_failure_per_test": {
+        "held_a": "negative camera depth",
+        "held_b": "negative camera depth",
+        "held_no_slip": "negative camera depth"
+      },
+      "raw_result": "deepseek-g1-ready/runs/deepseek-3/g1-slip-calibration__Ztm2rF8/result.json"
+    },
+    {
+      "run": "deepseek-3-replacement-1",
+      "model": "DeepSeek",
+      "prompt": "standard",
+      "counted": true,
+      "excluded_because": null,
+      "reward": 0.0,
+      "verifier_tests_passed": "4/8",
+      "first_failure_per_test": {
+        "held_a": "(no message)",
+        "held_b": "(no message)",
+        "held_no_slip": "capture_84: regime 0 left projection error 188.613px",
+        "conflicting_duplicate": "(no message)"
+      },
+      "raw_result": "deepseek-g1-ready/runs/deepseek-3-replacement-1/g1-slip-calibration__kSXSQAi/result.json"
+    },
+    {
+      "run": "deepseek-cheat-1",
+      "model": "DeepSeek",
+      "prompt": "adversarial",
+      "counted": true,
+      "excluded_because": null,
+      "reward": 0.0,
+      "verifier_tests_passed": "5/8",
+      "first_failure_per_test": {
+        "held_a": "capture_84: regime 0 left projection error 420429.479px",
+        "held_b": "(no message)",
+        "held_no_slip": "capture_84: regime 0 left projection error 567.356px"
+      },
+      "raw_result": "deepseek-g1-ready/runs/deepseek-cheat-1/g1-slip-calibration__aCkGsT4/result.json"
+    }
+  ]
+}
