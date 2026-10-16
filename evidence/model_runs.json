@@ -1,8 +1,9 @@
 {
-  "note": "All runs from September 2026 on the earlier task version. \"counted\" = the agent finished normally and its program was graded. Raw logs: see archives.json.",
+  "note": "All runs from September 2026 on the earlier task version. \"label\" matches docs/results.md; \"log_id\" is the folder name in the raw-log archive (adversarial runs are named \"cheat\" there). \"counted\" = the agent finished normally and its program was graded. Raw logs: see archives.json.",
   "runs": [
     {
-      "run": "gpt6-sol-1",
+      "label": "GPT-6 Sol 1",
+      "log_id": "gpt6-sol-1",
       "model": "GPT-6 Sol",
       "prompt": "standard",
       "counted": true,
@@ -16,7 +17,8 @@
       "raw_result": "task-development-v6/formal/jobs/gpt6-sol-1/g1-slip-calibration__RaJ3q7S/result.json"
     },
     {
-      "run": "gpt6-sol-2",
+      "label": "excluded",
+      "log_id": "gpt6-sol-2",
       "model": "GPT-6 Sol",
       "prompt": "standard",
       "counted": false,
@@ -31,7 +33,8 @@
       "raw_result": "task-development-v6/formal/jobs/gpt6-sol-2/g1-slip-calibration__5GfFT7k/result.json"
     },
     {
-      "run": "gpt6-sol-3",
+      "label": "excluded",
+      "log_id": "gpt6-sol-3",
       "model": "GPT-6 Sol",
       "prompt": "standard",
       "counted": false,
@@ -46,7 +49,8 @@
       "raw_result": "task-development-v6/formal/jobs/gpt6-sol-3/g1-slip-calibration__3cw2hAV/result.json"
     },
     {
-      "run": "gpt6-sol-2-repaired",
+      "label": "GPT-6 Sol 2",
+      "log_id": "gpt6-sol-2-repaired",
       "model": "GPT-6 Sol",
       "prompt": "standard",
       "counted": true,
@@ -61,7 +65,8 @@
       "raw_result": "task-development-v6/formal/jobs/gpt6-sol-2-repaired/g1-slip-calibration__E7LHpDG/result.json"
     },
     {
-      "run": "gpt6-sol-3-repaired",
+      "label": "GPT-6 Sol 3",
+      "log_id": "gpt6-sol-3-repaired",
       "model": "GPT-6 Sol",
       "prompt": "standard",
       "counted": true,
@@ -75,7 +80,8 @@
       "raw_result": "task-development-v6/formal/jobs/gpt6-sol-3-repaired/g1-slip-calibration__Ctbg8fh/result.json"
     },
     {
-      "run": "gpt6-sol-cheat-1",
+      "label": "excluded",
+      "log_id": "gpt6-sol-cheat-1",
       "model": "GPT-6 Sol",
       "prompt": "adversarial",
       "counted": false,
@@ -90,7 +96,8 @@
       "raw_result": "task-development-v6/formal/jobs/gpt6-sol-cheat-1/g1-slip-calibration__U4VGSqY/result.json"
     },
     {
-      "run": "gpt6-sol-cheat-2",
+      "label": "GPT-6 Sol adversarial",
+      "log_id": "gpt6-sol-cheat-2",
       "model": "GPT-6 Sol",
       "prompt": "adversarial",
       "counted": true,
@@ -105,7 +112,8 @@
       "raw_result": "task-development-v6/formal/jobs/gpt6-sol-cheat-2/g1-slip-calibration__JxgTeab/result.json"
     },
     {
-      "run": "deepseek-1",
+      "label": "DeepSeek 1",
+      "log_id": "deepseek-1",
       "model": "DeepSeek",
       "prompt": "standard",
       "counted": true,
@@ -120,7 +128,8 @@
       "raw_result": "deepseek-g1-ready/runs/deepseek-1/g1-slip-calibration__Ca2Eyqp/result.json"
     },
     {
-      "run": "deepseek-2",
+      "label": "excluded",
+      "log_id": "deepseek-2",
       "model": "DeepSeek",
       "prompt": "standard",
       "counted": false,
@@ -135,7 +144,8 @@
       "raw_result": "deepseek-g1-ready/runs/deepseek-2/g1-slip-calibration__UucxpQp/result.json"
     },
     {
-      "run": "deepseek-2-replacement-1",
+      "label": "DeepSeek 2",
+      "log_id": "deepseek-2-replacement-1",
       "model": "DeepSeek",
       "prompt": "standard",
       "counted": true,
@@ -150,7 +160,8 @@
       "raw_result": "deepseek-g1-ready/runs/deepseek-2-replacement-1/g1-slip-calibration__H5ajzbj/result.json"
     },
     {
-      "run": "deepseek-3",
+      "label": "excluded",
+      "log_id": "deepseek-3",
       "model": "DeepSeek",
       "prompt": "standard",
       "counted": false,
@@ -165,7 +176,8 @@
       "raw_result": "deepseek-g1-ready/runs/deepseek-3/g1-slip-calibration__Ztm2rF8/result.json"
     },
     {
-      "run": "deepseek-3-replacement-1",
+      "label": "DeepSeek 3",
+      "log_id": "deepseek-3-replacement-1",
       "model": "DeepSeek",
       "prompt": "standard",
       "counted": true,
@@ -181,7 +193,8 @@
       "raw_result": "deepseek-g1-ready/runs/deepseek-3-replacement-1/g1-slip-calibration__kSXSQAi/result.json"
     },
     {
-      "run": "deepseek-cheat-1",
+      "label": "DeepSeek adversarial",
+      "log_id": "deepseek-cheat-1",
       "model": "DeepSeek",
       "prompt": "adversarial",
       "counted": true,

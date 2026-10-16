@@ -31,5 +31,5 @@
       "role": "hidden"
     }
   ],
-  "tracker": "synthetic sparse 2D rolling-shutter camera observations, not captured camera detections"
+  "observations": "synthetic sparse 2D rolling-shutter camera observations, not captured camera detections"
 }
