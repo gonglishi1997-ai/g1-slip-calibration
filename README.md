@@ -1,5 +1,7 @@
 # G1 slip calibration
 
+A Terminal-Bench task: can AI coding agents calibrate a dual-arm robot from unlabelled camera detections?
+
 A Terminal-Bench task that tests whether an AI coding agent can do multi-step physical inference, not just write code that runs.
 
 The agent gets joint-state recordings from a dual-arm robot and unlabelled bright-spot detections from one camera. It has to write a program that recovers the full calibration of the rig, and notice whether a target on one arm slipped partway through a recording.
