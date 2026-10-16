@@ -1,0 +1,35 @@
+{
+  "dataset": "https://huggingface.co/datasets/OpenHLM/OpenHLM-data",
+  "fetch_method": "Hugging Face datasets-server rows API; numeric state fields only",
+  "episodes": [
+    {
+      "episode": 0,
+      "row_offset": 0,
+      "rows": 900,
+      "sha256": "17fe0a322333df58b87666be08e76e456b2135c5b046b6e1d00387cded03ebc7",
+      "role": "public"
+    },
+    {
+      "episode": 1,
+      "row_offset": 982,
+      "rows": 900,
+      "sha256": "a107a8d78a683d8dfa19dfbacbb902a94d40dac4c298646c8f563388ed1d267e",
+      "role": "hidden"
+    },
+    {
+      "episode": 2,
+      "row_offset": 1912,
+      "rows": 900,
+      "sha256": "d3688e79042614aa7954a8bf22223951c3e24672ce8979f279a54d776a487145",
+      "role": "hidden"
+    },
+    {
+      "episode": 3,
+      "row_offset": 2930,
+      "rows": 900,
+      "sha256": "068ae0614a6e766b6f51fc61031706050c3c2c4ea2479fc1d39dbbca52a0f374",
+      "role": "hidden"
+    }
+  ],
+  "tracker": "synthetic sparse 2D rolling-shutter camera observations, not captured camera detections"
+}
